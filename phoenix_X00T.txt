@@ -28,3 +28,16 @@ Device Changelog:
 ----------------
 - SE Linux Enforced
 - Kernel changes
+----------------
+
+
+Date - 27/03/2020
+=================
+
+Source Changelog:
+-----------------
+- Fixed Powermenu crash
+- Added some new headers
+- QS row customisations
+- Increased Incall vibration
+- Updater fixed (May be)
