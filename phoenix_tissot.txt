@@ -1,6 +1,18 @@
 Device: Xiaomi Mi A1
 Device maintainer: Jayant Deshmukh
 
+Date - 27/03/2020
+=================
+
+Source Changelog:
+----------------
+- Fixed Powermenu crash
+- Added some new headers
+- QS row customisations
+- Increased Incall vibration
+- Updater fixed (May b)
+
+
 Date - 25/03/2020
 =================
 
