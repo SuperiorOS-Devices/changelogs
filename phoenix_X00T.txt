@@ -1,6 +1,19 @@
 Device: ZenFone Max Pro M1(X00T)
 Device maintainer: Priyanshu
 
+
+Date - 27/03/2020
+=================
+
+Source Changelog:
+-----------------
+- Fixed Powermenu crash
+- Added some new headers
+- QS row customisations
+- Increased Incall vibration
+- Updater fixed (May be)
+
+-----------------
 Date - 25/03/2020
 =================
 
@@ -30,14 +43,3 @@ Device Changelog:
 - Kernel changes
 ----------------
 
-
-Date - 27/03/2020
-=================
-
-Source Changelog:
------------------
-- Fixed Powermenu crash
-- Added some new headers
-- QS row customisations
-- Increased Incall vibration
-- Updater fixed (May be)
