@@ -1,0 +1,36 @@
+Device: 
+Device maintainer: 
+
+Date - 25/03/2020
+=================
+
+Source Changelogs:
+------------------
+• March security patch (r_31).
+• Add OOS style QS tile layout.
+• Enable and fix QS detail view,.
+• Add Pulse and Ambient notification.
+• Brightness slider Visual Improvement.
+• Add vibration patterns from OOS.
+• Added  Smart Charging.
+• Added QS blur.
+• Add qs status bar header image .
+• Add back battery bar.
+• QS panel opacity.
+• Hide pill in full gestural nav mode.
+• Added DU themes.
+• Add RGB Accent Picker Support
+• Updated prebuilt apps.
+• Added lawnchair.
+• Source Improvement and Fixes.
+
+Device Changelogs:
+------------------
+- Merge Changes with latest zeelog's sources
+- Fix Dirac sound
+- Fixed audio recording issues
+- Switched to zeelog's goodix fix 
+- Some minor performance and Battery improvements
+- show battery icon & estimate in QS header
+- Added NotKernel by @livershit
+- many fixes done

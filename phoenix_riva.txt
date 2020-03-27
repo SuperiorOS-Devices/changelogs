@@ -1,0 +1,34 @@
+Device: Xiaomi Redmi 5A
+Device maintainer: Nick
+
+Date - 25/03/2020
+=================
+
+Source Changelog:
+-----------------
+• March security patch (r_31).
+• Add OOS style QS tile layout.
+• Enable and fix QS detail view,.
+• Add Pulse and Ambient notification.
+• Brightness slider Visual Improvement.
+• Add vibration patterns from OOS.
+• Added  Smart Charging.
+• Added QS blur.
+• Add qs status bar header image .
+• Add back battery bar.
+• QS panel opacity.
+• Hide pill in full gestural nav mode.
+• Added DU themes.
+• Add RGB Accent Picker Support
+• Updated prebuilt apps.
+• Added lawnchair.
+• Source Improvement and Fixes.
+
+Device Changelog:
+-----------------
+-fixed volit issues
+-updated few radio blobs from daisy Q
+-update dpm from daisy Q
+-update cne from daisy Q
+-updated peripheral blobs from daisy Q
+-some fixes here and there
