@@ -1,0 +1,21 @@
+Device: Xiaomi Redmi Note 6 Pro
+Device maintainer: Pavan Patel
+
+Date - 28/03/2020
+=================
+
+Source Changelog:
+----------------
+- Fixed Powermenu crash
+- Added some new headers
+- QS row customisations
+- Increased Incall vibration
+- Updater fixed (May b)
+
+Device Changelog:
+----------------
+- Updated buildFP to Coral's March 2020
+- Removed HD icon from Notification Shade
+- Updated carrier configs to support more regions
+- Upstreamed with new kernel by Ryan Andi
+- Maybe something more
