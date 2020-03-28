@@ -1,5 +1,47 @@
-Device: 
-Device maintainer: 
+Device: Motorola Moto G5S Plus
+Device maintainer: Mayur Varde
+
+Date - 28/03/2020
+=================
+
+Source Changelogs:
+------------------
+• Fixed Powermenu crash
+• Added some new headers
+• QS row customisations
+• Increased Incall vibration
+• Updater fixed (May b)
+
+Device Changelogs:
+------------------
+• Added low memory killer properties
+• Disabled below divider line under Moto Settings
+• Added kernel governor parameters
+• Performance Improvements
+• Default kernel is now Parallax-Plus
+• Compiled HWUI in Performance Mode
+• Updated display config to version 1.9
+• Enabled graphics mapper version 2.1
+• Renamed the codecs and performance xmls
+• Imported CAF ramdisk
+• Shortened the boot time
+• Made the UI smoother
+• Added permissions for DTV
+• Updated WFD, QMI, THERMAL, TIME SERVICE, MEDIA, PERIPHERAL MANAGER and ADSP blobs from LA.UM.8.6.r1-01900-89xx.0
+• Updated Wlan profiles from walleye QQ1A.191205.008
+• Updated esepowermanager, BT, gnss, fm from stock 36-14
+• Updated sensor blobs from OPSS28.65-36-14
+• Updated drm, drp and cld blobs from stock OPS28.65-36-14
+• Added QTI wifi hals
+• Added blobs needed for widevine L1 from OnePlus5T
+• Network changes (may or may not work)
+  - Updated CarrierConfig for Airtel/Vodafone/Idea VoLTE
+  - Added VoWIFI for Airtel
+  - Added VoWIFI for MTS (Russia)
+  - Added VoLTE/VoWIFI for more carriers
+• Some battery improvements
+• Many more changes which aren't mentioned
+
 
 Date - 25/03/2020
 =================
