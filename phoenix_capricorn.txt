@@ -1,6 +1,28 @@
 Device: Xiaomi Mi 5S
 Device maintainer: henmadx
 
+Date - 29/03/2020
+=================
+
+Source Changelog:
+----------------
+- Fixed Powermenu crash
+- Added some new headers
+- QS row customisations
+- Increased Incall vibration
+- Updater fixed (May be)
+
+Device Changelog:
+----------------
+- Prebuild GCam
+- Enable Night Light
+- Added MI Logo in Device Feature
+- Update Surfaceflinger From crosshatch
+- shorten wait time to optimize shutdown time 
+- enable smoothstreaming and Add Stagefright
+- Enable VoLTE
+- Merge tag LA.UM.8.6.2.r1-06900-89xx.0
+
 Date - 25/03/2020
 =================
 
