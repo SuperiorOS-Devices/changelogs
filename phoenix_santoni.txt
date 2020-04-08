@@ -2,50 +2,32 @@ Device: Xiaomi Redmi 4X
 Device maintainer: Bikram_M
 
 
-Date :- 31/03/2020
+Date :- 08/04/2020
 ================
 
-- Fixed Powermenu crash
-- Added some new headers
-- QS row customisations
-- Increased Incall vibration
-- Updater fixed (May b)
-- QEverest Kernel by default
-- Slow Charging Fixed
-- Kernel Compiled With Clang 10.0.5
-
-
-Date - 25/03/2020
-================
+Device Changelog:
+- Update DICM from LA.UM.8.6.r1-04200-89xx.0
+- Update ims-vt blobs
+- Update kernel with Clang to 10.0.5
+- Upstream wireguard to 1.0.20200401
+- Merged Caf Tag ' LA.UM.8.6.r1-04200-89xx.0'
+- Merge wlan/prima tag 'LA.UM.8.6.r1-04200-89xx.0
 
 Source Changelog:
 ----------------
-• March security patch (r_31).
-• Add OOS style QS tile layout.
-• Enable and fix QS detail view,.
-• Add Pulse and Ambient notification.
-• Brightness slider Visual Improvement.
-• Add vibration patterns from OOS.
-• Added  Smart Charging.
-• Added QS blur.
-• Add qs status bar header image .
-• Add back battery bar.
-• QS panel opacity.
-• Hide pill in full gestural nav mode.
-• Added DU themes.
-• Add RGB Accent Picker Support
-• Updated prebuilt apps.
-• Added lawnchair.
+• April security patch (release 33).
+• Added QS themes.
+• Fix Headsup & Less boring Headsup.
+• Added Tint QSTile icon with accent color option.
+• Added FPS Info Tile.(Device support needed)
+• Added Home button wakeup.(Device specific)
+• Added  Screen Stabiization Tile.
+• Optional screenshot type.
+• Support for Customizing the length of the navigation handle  .
+• Added haptic feedback to QS tiles.
+• Animate the keyguard when charging .
+• Switch to OPScreenrecorder.
+• Fixed Internal Audio recording.
+• Update default wallpaper.
+• Automatic Translation Import.
 • Source Improvement and Fixes.
-
-Device Changelog:
-----------------
-- Reduce jitter and Make UI more smooth 
-- fix incall mic with headphones 
-- Fix sim selection 
-- use 8 cores for faster app installation
-- Update blobs from LA.UM.8.6.r1-03400-89xx.0
-- Update QMI/Radio/IMS blobs from tissot
-- Improves memory performance
-- Update dalvik GC params for 64b
-- Default Kernel: QEverest
