@@ -1,21 +1,49 @@
 Device: Xiaomi Redmi Note 6 Pro
 Device maintainer: Pavan Patel
 
+Date - 08/04/2020
+=================
+
+Source Changelog:
+----------------
+• April security patch (release 33).
+• Added QS themes.
+• Fix Headsup & Less boring Headsup.
+• Added Tint QSTile icon with accent color option.
+• Added FPS Info Tile.(Device support needed)
+• Added Home button wakeup.(Device specific)
+• Added Screen Stabiization Tile.
+• Optional screenshot type.
+• Support for Customizing the length of the navigation handle .
+• Added haptic feedback to QS tiles.
+• Animate the keyguard when charging .
+• Switch to OPScreenrecorder.
+• Fixed Internal Audio recording.
+• Update default wallpaper.
+• Automatic Translation Import.
+• Source Improvement and Fixes.
+
+Device Changelog:
+----------------
+• Updated buildFP to Coral's April
+• Fixed notch hide issue
+• Microphone seems to be working with headphones now
+
 Date - 28/03/2020
 =================
 
 Source Changelog:
 ----------------
-- Fixed Powermenu crash
-- Added some new headers
-- QS row customisations
-- Increased Incall vibration
-- Updater fixed (May b)
+• Fixed Powermenu crash
+• Added some new headers
+• QS row customisations
+• Increased Incall vibration
+• Updater fixed (May b)
 
 Device Changelog:
 ----------------
-- Updated buildFP to Coral's March 2020
-- Removed HD icon from Notification Shade
-- Updated carrier configs to support more regions
-- Upstreamed with new kernel by Ryan Andi
-- Maybe something more
+• Updated buildFP to Coral's March 2020
+• Removed HD icon from Notification Shade
+• Updated carrier configs to support more regions
+• Upstreamed with new kernel by Ryan Andi
+• Maybe something more
