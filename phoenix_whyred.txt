@@ -1,63 +1,29 @@
 Device: Xiaomi Redmi Note 5 Pro
 Device maintainer: Sipun Ku Mahanta
 
-Date - 08/04/2020
+Date - 17/04/2020
 =================
 
 Source Changelog:
 ----------------
 
-• April security patch (release 33).
-• Added QS themes.
-• Fix Headsup & Less boring Headsup.
-• Added Tint QSTile icon with accent color option.
-• Added FPS Info Tile.(Device support needed)
-• Added Home button wakeup.(Device specific)
-• Added  Screen Stabiization Tile.
-• Optional screenshot type.
-• Support for Customizing the length of the navigation handle  .
-• Added haptic feedback to QS tiles.
-• Animate the keyguard when charging .
-• Switch to OPScreenrecorder.
-• Fixed Internal Audio recording.
-• Update default wallpaper.
-• Automatic Translation Import.
+• Added Face unlock.
+• Added long screenshot from asus.
+• Added Pulse magic visualizer.
+• Added Long swipe gesture actions.
+• Added Adaptive Playback.
+• Per app cellular data,vpn and wifi restriction support.
+• Fixed Navbar Enable/Disable toggle.
+• User Selectable VoLTE Icon.
+• Added more lockscreen charging animation  .
+• Added Less boring headsup tile.
+• Added FOD support .
+• Fixed Motorised cam/ Popup cam issues.
+• Little theming improvement.
+• Update prebuilt apps.
 • Source Improvement and Fixes.
 
-Device Changelog: 
+Device Changelog:
 ----------------
-- Kernel upstream
 
-Date - 27/03/2020
-=================
-
-Source Changelog:
-----------------
-• March security patch (r_31). 
-• Add OOS style QS tile layout.
-• Enable and fix QS detail view. 
-• Add Pulse and Ambient notification.
-• Brightness slider Visual Improvement. 
-• Add vibration patterns from OOS. 
-• Added Smart Charging. 
-• Added QS blur. 
-• Add qs status bar header image .
-• Add back battery bar. 
-• QS panel opacity. 
-• Hide pill in full gestural nav mode. 
-• Added DU themes. 
-• Add RGB Accent Picker Support 
-• Updated prebuilt apps. 
-• Added lawnchair. 
-• Source Improvement and Fixes. 
-
-Device Changelog: 
-----------------
-- Kernel upstream
-- Added Xiaomi Parts.
-- Added Dirac Support.
-
-Bugs/Issues:
------------
-• Camera FC - Please disable timestamp and watermark for fixes.
-• Dirac Not working - Dunno why it working sometime sometime doesn't.
+• Upstream kernel to 4.4.219
