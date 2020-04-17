@@ -1,33 +1,31 @@
 Device: Xiaomi Redmi 4X
-Device maintainer: Bikram_M
+Device maintainer: Bikram Mukherjee
 
-
-Date :- 08/04/2020
+Date :- 18/04/2020
 ================
 
 Device Changelog:
-- Update DICM from LA.UM.8.6.r1-04200-89xx.0
-- Update ims-vt blobs
-- Update kernel with Clang to 10.0.5
-- Upstream wireguard to 1.0.20200401
-- Merged Caf Tag ' LA.UM.8.6.r1-04200-89xx.0'
-- Merge wlan/prima tag 'LA.UM.8.6.r1-04200-89xx.0
+----------------
+- Optimize Battery Icon size and padding
+- Updated blobs from LA.UM.8.6.r1-04000-89xx.0 
+- Updated Keymaster blobs from Panther
+- XiaomiAddon: Added Log QS Tile
+- Misc. Fixes and Improvements
 
 Source Changelog:
 ----------------
-• April security patch (release 33).
-• Added QS themes.
-• Fix Headsup & Less boring Headsup.
-• Added Tint QSTile icon with accent color option.
-• Added FPS Info Tile.(Device support needed)
-• Added Home button wakeup.(Device specific)
-• Added  Screen Stabiization Tile.
-• Optional screenshot type.
-• Support for Customizing the length of the navigation handle  .
-• Added haptic feedback to QS tiles.
-• Animate the keyguard when charging .
-• Switch to OPScreenrecorder.
-• Fixed Internal Audio recording.
-• Update default wallpaper.
-• Automatic Translation Import.
-• Source Improvement and Fixes.
+- Added face unlock(officials only).
+- Added long screenshot from asus.
+- Added Pulse magic visualizer.
+- Added Long swipe gesture actions.
+- Added Adaptive Playback.
+- Per app cellular data,vpn and wifi restriction support.
+- Fixed Navbar Enable/Disable toggle.
+- User Selectable VoLTE Icon.
+- Added more lockscreen charging animation  .
+- Added Less boring headsup tile.
+- Added FOD support .
+- Fixed Motorised cam/ Popup cam issues.
+- Little theming improvement.
+- Update prebuilt apps.
+- Source Improvement and Fixes
