@@ -1,6 +1,31 @@
 Device: Asus Zenfone Max Pro M2
 Device maintainer: Jayant Deshmukh
 
+Date - 17/04/2020
+=================
+
+Source Changelog:
+----------------
+• Added Face unlock.
+• Added long screenshot from asus.
+• Added Pulse magic visualizer.
+• Added Long swipe gesture actions.
+• Added Adaptive Playback.
+• Per app cellular data,vpn and wifi restriction support.
+• Fixed Navbar Enable/Disable toggle.
+• User Selectable VoLTE Icon.
+• Added more lockscreen charging animation  .
+• Added Less boring headsup tile.
+• Added FOD support .
+• Fixed Motorised cam/ Popup cam issues.
+• Little theming improvement.
+• Update prebuilt apps.
+• Source Improvement and Fixes.
+
+Device Changelog:
+----------------
+• Improved Audio
+
 Date - 08/04/2020
 =================
 
