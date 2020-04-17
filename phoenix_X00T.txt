@@ -1,7 +1,28 @@
 Device: ZenFone Max Pro M1(X00T)
 Device maintainer: Priyanshu
 
+Date - 17/04/2020
+=================
 
+Source Changelog:
+----------------
+• Added Face unlock.
+• Added long screenshot from asus.
+• Added Pulse magic visualizer.
+• Added Long swipe gesture actions.
+• Added Adaptive Playback.
+• Per app cellular data,vpn and wifi restriction support.
+• Fixed Navbar Enable/Disable toggle.
+• User Selectable VoLTE Icon.
+• Added more lockscreen charging animation  .
+• Added Less boring headsup tile.
+• Added FOD support .
+• Fixed Motorised cam/ Popup cam issues.
+• Little theming improvement.
+• Update prebuilt apps.
+• Source Improvement and Fixes.
+
+-----------------
 Date - 27/03/2020
 =================
 
