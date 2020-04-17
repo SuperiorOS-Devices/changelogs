@@ -1,57 +1,44 @@
 Device: Xiaomi Redmi Note 4X
 Device maintainer: smokey_18
 
-Date - 08/04/2020
+Date - 17/04/2020
 =================
 
 Source Changelogs:
-• April security patch (release 33).
-• Added QS themes.
-• Fix Headsup & Less boring Headsup.
-• Added Tint QSTile icon with accent color option.
-• Added FPS Info Tile.(Device support needed)
-• Added Home button wakeup.(Device specific)
-• Added  Screen Stabiization Tile.
-• Optional screenshot type.
-• Support for Customizing the length of the navigation handle  .
-• Added haptic feedback to QS tiles.
-• Animate the keyguard when charging .
-• Switch to OPScreenrecorder.
-• Fixed Internal Audio recording.
-• Update default wallpaper.
-• Automatic Translation Import.
+• Added Face unlock.
+• Added long screenshot from asus.
+• Added Pulse magic visualizer.
+• Added Long swipe gesture actions.
+• Added Adaptive Playback.
+• Per app cellular data,vpn and wifi restriction support.
+• Fixed Navbar Enable/Disable toggle.
+• User Selectable VoLTE Icon.
+• Added more lockscreen charging animation  .
+• Added Less boring headsup tile.
+• Added FOD support .
+• Fixed Motorised cam/ Popup cam issues.
+• Little theming improvement.
+• Update prebuilt apps.
 • Source Improvement and Fixes.
 
 Device Changelogs:
-- Enforcing now
-- Reduce jitter and Make UI more smooth
-- Some rendering improvements
-- Use Coral April Fingerprint now
-- Better call voice quality
-- Fix Internal Sound Issue
-- Improve internet speed
-- Added flinger velocities
-- Some Tweaks For Better Ram Management
-- Enable manual network search
-- Added some snap camera overlays
+- Enable some snap overlays from RRO
 - Allow all apps to use smart replies
-- Update ADSP blobs from LA.UM.8.6.r1-04000-89xx.0
-- Update Audio/ACDB blobs from LA.UM.8.6.r1-04000-89xx.0 
-- Update Bluetooth from LA.UM.8.6.r1-04000-89xx.0
-- Update charger from LA.UM.8.6.r1-04000-89xx.0
-- Update DRM/Widevine from LA.UM.8.6.r1-04000-89xx.0
-- Update FM from LA.UM.8.6.r1-04000-89xx.0
-- Update perf blobs from LA.UM.8.6.r1-04000-89xx.0
-- Update Peripheral manager from LA.UM.8.6.r1-04000-89xx.0 
-- Update sensors from LA.UM.8.6.r1-04000-89xx.0
-- Update thermal from LA.UM.8.6.r1-04000-89xx.0
-- Update time blobs from LA.UM.8.6.r1-04000-89xx.0
-- Update Media from LA.UM.8.6.r1-04000-89xx.0 
-- Update Wi-Fi Display from LA.UM.8.6.r1-04000-89xx.0
-- Update GPS from LA.UM.8.6.r1-04000-89xx.0
-- Update Graphics stack from LA.UM.8.6.r1-04000-89xx.0
-- Update CNE/DPM blobs from LA.UM.8.6.r1-04000-89xx.0
-- Partially update QMI/RIL/IMS from LA.UM.8.6.r1-04000-89xx.0
-- Update stock blobs from V11.0.2.0.NCFMIXM
-- Allow 120fps video recording ( may work )
-and a lot more stuff as well...
+- Enable manual network search
+- Fix Night Light
+- Fix Internal Audio
+- Improve internet speed
+- Added FPS Info tile
+- Better call voice quality
+- Using Coral April Fingerprint
+- Reduce jitter and Make UI more smooth
+- Added Google AR Support
+- Some fixes for Cast to work
+- Enable Dirac audio effect
+- Disable mobile data always active
+- Enable QPower and Deep Sleep at the same time
+- Enable memory optimizations
+- Fix lag while screen recording
+- Fix Flicker issue in lockscreen
+- Enable status bar burn-in protection
+and many more there as well...
