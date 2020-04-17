@@ -1,6 +1,36 @@
 Device: Xiaomi Redmi 5A
 Device maintainer: Nick
 
+Date - 17/04/2020
+=================
+
+Source Changelog:
+----------------
+• Added Face unlock.
+• Added long screenshot from asus.
+• Added Pulse magic visualizer.
+• Added Long swipe gesture actions.
+• Added Adaptive Playback.
+• Per app cellular data,vpn and wifi restriction support.
+• Fixed Navbar Enable/Disable toggle.
+• User Selectable VoLTE Icon.
+• Added more lockscreen charging animation  .
+• Added Less boring headsup tile.
+• Added FOD support .
+• Fixed Motorised cam/ Popup cam issues.
+• Little theming improvement.
+• Update prebuilt apps.
+• Source Improvement and Fixes.
+
+Device Changelog:
+----------------
+• Update Q blobs from X00RD
+• Update Vendor To March Patch
+• Merged upto LA.UM.8.6.r1-04200-89xx.0
+• Fixed bluetooth incall audio
+• Fixed volte switch(on) by default
+• Updated some props and overlays
+
 Date - 10/04/2020
 =================
 
