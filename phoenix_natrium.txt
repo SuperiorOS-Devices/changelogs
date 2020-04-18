@@ -1,30 +1,46 @@
 Device: Xiaomi Mi 5S Plus
 Device maintainer: henmadx
 
-Date - 08/04/2020
+Date - 18/04/2020
 =================
 
 Source Changelog:
 ----------------
 
-• April security patch (release 33).
-• Added QS themes.
-• Fix Headsup & Less boring Headsup.
-• Added Tint QSTile icon with accent color option.
-• Added FPS Info Tile.(Device support needed)
-• Added Home button wakeup.(Device specific)
-• Added  Screen Stabiization Tile.
-• Optional screenshot type.
-• Support for Customizing the length of the navigation handle  .
-• Added haptic feedback to QS tiles.
-• Animate the keyguard when charging .
-• Switch to OPScreenrecorder.
-• Fixed Internal Audio recording.
-• Update default wallpaper.
-• Automatic Translation Import.
+• Added Face unlock.
+• Added long screenshot from asus.
+• Added Pulse magic visualizer.
+• Added Long swipe gesture actions.
+• Added Adaptive Playback.
+• Per app cellular data,vpn and wifi restriction support.
+• Fixed Navbar Enable/Disable toggle.
+• User Selectable VoLTE Icon.
+• Added more lockscreen charging animation  .
+• Added Less boring headsup tile.
+• Added FOD support .
+• Fixed Motorised cam/ Popup cam issues.
+• Little theming improvement.
+• Update prebuilt apps.
 • Source Improvement and Fixes.
 
-Device Changelog: 
+Device Changelog:
 ----------------
-- Official Release
-- Add GCam
+
+• Move to commonized IR HAL
+• Use Coral April Fingerprint QQ2A.200405.005
+• Move libnfc-nci.conf to /product
+• Import IPACM to dt
+• Bypass safetynet
+• wifi: relax WiFi re-association RSSI thresholds
+• Update to Q CNE and DPM blobs
+• Override SDK API level for mm-qcamera-daemon
+• Add framework detect modules to PRODUCT_PACKAGES
+• Update to Q vulkan libs
+• Update to Q OMX and WFD blobs
+• Update to Q Adreno and SDM blobs
+• update Carrier Config
+• Drop mediaextractor seccomp policy
+• Remove consumer IR HAL
+• Update deps and Soong namespaces to account for new repo
+• Relabel new commonized consumer IR HAL
+• Update latest CAF qcacld-2.0
