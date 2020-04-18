@@ -1,94 +1,46 @@
 Device: Xiaomi Mi 5S
 Device maintainer: henmadx
 
-Date - 08/04/2020
+Date - 17/04/2020
 =================
 
 Source Changelog:
 ----------------
 
-• April security patch (release 33).
-• Added QS themes.
-• Fix Headsup & Less boring Headsup.
-• Added Tint QSTile icon with accent color option.
-• Added FPS Info Tile.(Device support needed)
-• Added Home button wakeup.(Device specific)
-• Added  Screen Stabiization Tile.
-• Optional screenshot type.
-• Support for Customizing the length of the navigation handle  .
-• Added haptic feedback to QS tiles.
-• Animate the keyguard when charging .
-• Switch to OPScreenrecorder.
-• Fixed Internal Audio recording.
-• Update default wallpaper.
-• Automatic Translation Import.
-• Source Improvement and Fixes.
-
-Device Changelog: 
-----------------
-- Compile with GCC 9.3
-- Full Configure AOSP Surfaceflinger
-- Fix PowerOff Alarm
-- Enable Fps Info
-- Fixed Mi Logo in White Theme
-- Fixed Wake Button
-
-Date - 29/03/2020
-=================
-
-Source Changelog:
-----------------
-- Fixed Powermenu crash
-- Added some new headers
-- QS row customisations
-- Increased Incall vibration
-- Updater fixed (May be)
-
-Device Changelog:
-----------------
-- Prebuild GCam
-- Enable Night Light
-- Added MI Logo in Device Feature
-- Update Surfaceflinger From crosshatch
-- shorten wait time to optimize shutdown time 
-- enable smoothstreaming and Add Stagefright
-- Enable VoLTE
-- Merge tag LA.UM.8.6.2.r1-06900-89xx.0
-
-Date - 25/03/2020
-=================
-
-Source Changelog:
------------------
-• March security patch (r_31).
-• Add OOS style QS tile layout.
-• Enable and fix QS detail view,.
-• Add Pulse and Ambient notification.
-• Brightness slider Visual Improvement.
-• Add vibration patterns from OOS.
-• Added  Smart Charging.
-• Added QS blur.
-• Add qs status bar header image .
-• Add back battery bar.
-• QS panel opacity.
-• Hide pill in full gestural nav mode.
-• Added DU themes.
-• Add RGB Accent Picker Support
-• Updated prebuilt apps.
-• Added lawnchair.
+• Added Face unlock.
+• Added long screenshot from asus.
+• Added Pulse magic visualizer.
+• Added Long swipe gesture actions.
+• Added Adaptive Playback.
+• Per app cellular data,vpn and wifi restriction support.
+• Fixed Navbar Enable/Disable toggle.
+• User Selectable VoLTE Icon.
+• Added more lockscreen charging animation  .
+• Added Less boring headsup tile.
+• Added FOD support .
+• Fixed Motorised cam/ Popup cam issues.
+• Little theming improvement.
+• Update prebuilt apps.
 • Source Improvement and Fixes.
 
 Device Changelog:
 ----------------
-- Add Smart Charging 
-- Kang Walleye offset for GPU composition
-- Use 4GB dalvik-heap config
-- Import IPACM from LOS 
-- Update perf boost and target config
-- Config panel update SDK version
-- Build Snap config
-- Drop /data/vendor/misc/audio label
-- fix take HDR picture spin forever issue
-- Revert perf and thermal 
-- Revert DTS Eagle
-- Compile with SDCLANG 8.0.6
+
+• Return fp to MIUI 8.2.8 global
+• Use Coral April Fingerprint QQ2A.200405.005
+• Move libnfc-nci.conf to /product
+• Import IPACM to dt
+• Bypass safetynet
+• wifi: relax WiFi re-association RSSI thresholds
+• Update to Q CNE and DPM blobs
+• Override SDK API level for mm-qcamera-daemon
+• Add framework detect modules to PRODUCT_PACKAGES
+• Update to Q vulkan libs
+• Update to Q OMX and WFD blobs
+• Update to Q Adreno and SDM blobs
+• update Carrier Config
+• Drop mediaextractor seccomp policy
+• Remove consumer IR HAL
+• Update deps and Soong namespaces to account for new repo
+• Relabel new commonized consumer IR HAL
+• Update latest CAF qcacld-2.0
