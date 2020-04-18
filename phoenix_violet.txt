@@ -1,5 +1,33 @@
-Device: Xiaomi Redmi Note 7 Pro
-Device maintainer: Yashpal Joshi
+Device: Xiaomi Redmi Note 7 Pro(violet)
+Device maintainer: Yashpal Joshi(officialyash007)
+
+Date - 18/04/2020
+=================
+
+Source Changelog:
+----------------
+
+• Added Face unlock.
+• Added long screenshot from asus.
+• Added Pulse magic visualizer.
+• Added Long swipe gesture actions.
+• Added Adaptive Playback.
+• Per app cellular data,vpn and wifi restriction support.
+• Fixed Navbar Enable/Disable toggle.
+• User Selectable VoLTE Icon.
+• Added more lockscreen charging animation  .
+• Added Less boring headsup tile.
+• Added FOD support .
+• Fixed Motorised cam/ Popup cam issues.
+• Little theming improvement.
+• Update prebuilt apps.
+• Source Improvement and Fixes.
+
+Device Changelog:
+----------------
+
+• Added stable ANX cam and dropped Gcam
+• Upstreamed kernel
 
 Date - 08/04/2020
 =================
