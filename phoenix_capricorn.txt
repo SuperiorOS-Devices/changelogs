@@ -1,46 +1,39 @@
 Device: Xiaomi Mi 5S
 Device maintainer: henmadx
 
-Date - 17/04/2020
+Date - 05/05/2020
 =================
 
-Source Changelog:
+Source Changelogs:
 ----------------
 
-• Added Face unlock.
-• Added long screenshot from asus.
-• Added Pulse magic visualizer.
-• Added Long swipe gesture actions.
-• Added Adaptive Playback.
-• Per app cellular data,vpn and wifi restriction support.
-• Fixed Navbar Enable/Disable toggle.
-• User Selectable VoLTE Icon.
-• Added more lockscreen charging animation  .
-• Added Less boring headsup tile.
-• Added FOD support .
-• Fixed Motorised cam/ Popup cam issues.
-• Little theming improvement.
-• Update prebuilt apps.
-• Source Improvement and Fixes.
+• Merged android-10.0.0_r36.
+• Reworked network traffic.
+(Location, layout, font size, etc available)
+• New volume dialog .
+• Superior wallpapers app improved.
+• Toggle for dashboard conditions and suggestions.
+• Added Ambient Visualizer.
+• Added Material ocean theme.
+• OOS style dismiss notification button.
+• R style notification section header.
+• Option to disable statusbar on lockscreen.
+• Fix custom lockscreen shortcut icons being white
+• Lawnchair updated
+• Dropped faceunlock
+• Caffeine tile timers
+• Gesture nav extended swipe: show a double arrow when almost triggered
 
-Device Changelog:
+Device Changelogs:
 ----------------
 
-• Return fp to MIUI 8.2.8 global
-• Use Coral April Fingerprint QQ2A.200405.005
-• Move libnfc-nci.conf to /product
-• Import IPACM to dt
-• Bypass safetynet
-• wifi: relax WiFi re-association RSSI thresholds
-• Update to Q CNE and DPM blobs
-• Override SDK API level for mm-qcamera-daemon
-• Add framework detect modules to PRODUCT_PACKAGES
-• Update to Q vulkan libs
-• Update to Q OMX and WFD blobs
-• Update to Q Adreno and SDM blobs
-• update Carrier Config
-• Drop mediaextractor seccomp policy
-• Remove consumer IR HAL
-• Update deps and Soong namespaces to account for new repo
-• Relabel new commonized consumer IR HAL
-• Update latest CAF qcacld-2.0
+• Fixed Wake Button
+• Fixed BT Audio Call
+• Added Miui Camera
+• Enable Fast Dormancy & Doze Parameter
+• cnss-daemon return to stock
+• Remove Dolby formats by default
+• Disable ims HD icon
+• Merge tag 'LA.UM.8.6.2.r1-07100-89xx.0'
+• Merge tag LA.UM.7.6.r1-06400-89xx.0, LA.UM.7.6.r1-06700-89xx.0,
+LA.UM.7.6.r1-07000-89xx.0 , LA.UM.7.6.r1-07400-89xx.0 to msm-3.18
