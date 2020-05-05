@@ -1,6 +1,34 @@
 Device: Asus Zenfone Max Pro M2
 Device maintainer: Jayant Deshmukh
 
+Date - 05/05/2020
+=================
+
+Source Changelog:
+----------------
+• Merged android-10.0.0_r36.
+• Reworked network traffic.
+(Location, layout, font size, etc available)
+• New volume dialog .
+• Superior wallpapers app improved.
+• Toggle for dashboard conditions and suggestions.
+• Added Ambient Visualizer.
+• Added Material ocean theme.
+• OOS style dismiss notification button.
+• R style notification section header.
+• Option to disable statusbar on lockscreen.
+• Fix custom lockscreen shortcut icons being white
+• Lawnchair updated
+• Dropped faceunlock
+• Caffeine tile timers
+• Gesture nav extended swipe: show a double arrow when almost triggered
+
+Device Changelog:
+----------------
+• Improved Audio
+• Changed kernel
+• Shreded Zenparts
+
 Date - 17/04/2020
 =================
 
