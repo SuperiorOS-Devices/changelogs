@@ -1,14 +1,39 @@
 Device: Xiaomi Mi 5S Plus
 Device maintainer: henmadx
 
-Date - 18/04/2020
+Date - 06/05/2020
 =================
 
-Source Changelog:
+Source Changelogs:
 ----------------
 
+• Merged android-10.0.0_r36.
+• Reworked network traffic.
+(Location, layout, font size, etc available)
+• New volume dialog .
+• Superior wallpapers app improved.
+• Toggle for dashboard conditions and suggestions.
+• Added Ambient Visualizer.
+• Added Material ocean theme.
+• OOS style dismiss notification button.
+• R style notification section header.
+• Option to disable statusbar on lockscreen.
+• Fix custom lockscreen shortcut icons being white
+• Lawnchair updated
+• Dropped faceunlock
+• Caffeine tile timers
+• Gesture nav extended swipe: show a double arrow when almost triggered
 
-Device Changelog:
+Device Changelogs:
 ----------------
 
-• Return IR service to the start (Fix the device can't start)
+• Enforce presence of MIUI V11.0.2.0.OBGCNXM firmware
+• Fixed BT Audio Call
+• Added Miui Camera
+• Enable Fast Dormancy & Doze Parameter
+• cnss-daemon return to stock
+• Remove Dolby formats by default
+• Disable ims HD icon
+• Merge tag 'LA.UM.8.6.2.r1-07100-89xx.0'
+• Merge tag LA.UM.7.6.r1-06400-89xx.0, LA.UM.7.6.r1-06700-89xx.0,
+LA.UM.7.6.r1-07000-89xx.0 , LA.UM.7.6.r1-07400-89xx.0 to msm-3.18
