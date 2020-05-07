@@ -1,6 +1,37 @@
 Device: Xiaomi Redmi 5A
 Device maintainer: Nick
 
+Date - 07/05/2020
+=================
+
+Source Changelog:
+----------------
+• Merged android-10.0.0_r36.
+• Reworked network traffic.
+(Location, layout, font size, etc available)
+• New volume dialog .
+• Superior wallpapers app improved.
+• Toggle for dashboard conditions and suggestions.
+• Added Ambient Visualizer.
+• Added Material ocean theme.
+• OOS style dismiss notification button.
+• R style notification section header.
+• Option to disable statusbar on lockscreen.
+• Fix custom lockscreen shortcut icons being white
+• Lawnchair updated
+• Dropped faceunlock
+• Caffeine tile timers
+• Gesture nav extended swipe: show a double arrow when almost triggered
+
+Device Changelog:
+----------------
+• Selinux Enforced
+• Fixed thermal throttling
+• Improved ram management
+• Fixed dark theme issues
+• Updated media codec
+• Some changes here and there....
+
 Date - 17/04/2020
 =================
 
