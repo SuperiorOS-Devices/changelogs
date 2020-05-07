@@ -1,37 +1,36 @@
  Device: Motorola Moto X4
  Device maintainer: Dhinesh
 
- Date - 07/04/2020
+ Date - 07/05/2020
  =================
 
- Source Changelogs:
-  
- • April security patch (release 33).
- • Added QS themes.
- • Fix Headsup & Less boring Headsup.
- • Added Tint QSTile icon with accent color option.
- • Added FPS Info Tile.(Device support needed)
- • Added Home button wakeup.(Device specific)
- • Added  Screen Stabiization Tile.
- • Optional screenshot type.
- • Support for Customizing the length of the navigation handle  .
- • Added haptic feedback to QS tiles.
- • Animate the keyguard when charging .
- • Switch to OPScreenrecorder.
- • Fixed Internal Audio recording.
- • Update default wallpaper.
- • Automatic Translation Import.
- • Source Improvement and Fixes
+ Source Changelog:
+
+• Merged android-10.0.0_r36.
+• Reworked network traffic.
+(Location, layout, font size, etc available)
+• New volume dialog .
+• Superior wallpapers app improved.
+• Toggle for dashboard conditions and suggestions.
+• Added Ambient Visualizer.
+• Added Material ocean theme.
+• OOS style dismiss notification button.
+• R style notification section header.
+• Option to disable statusbar on lockscreen.
+• Fix custom lockscreen shortcut icons being white
+• Lawnchair updated
+• Dropped faceunlock
+• Caffeine tile timers
+• Gesture nav extended swipe: show a double arrow when almost triggered
 
  Device Changelogs:
 
- •fixed cam focus issue
- •fixed mic issue
- •include motocam
- •increase speaker volume
- •enable oem unlock
- •enable qpower for wifi
- •Fps info fixed
- •upstream lz4 compressor
- •gpu default power to 160mhz
- •add 300mhz frequency for underclock
+ •fixed boost apn issue
+ •add turbo charging instead of charging rapidly
+ •enabled call recording
+ •fixed hotspot data not working
+ •add mixing mic path
+ •temporary fix for netflix
+ •increased max volume steps
+ •fixed 300mhz (now u dont need enabled from kernel manager) 
+ •upstreamed kernel to v4.4.222
