@@ -1,31 +1,47 @@
 Device: Xiaomi Redmi 4X
 Device maintainer: Bikram Mukherjee
 
-Date :- 18/04/2020
+Date :- 08/05/2020
 ================
 
 Device Changelog:
 ----------------
-- Optimize Battery Icon size and padding
-- Updated blobs from LA.UM.8.6.r1-04000-89xx.0 
-- Updated Keymaster blobs from Panther
-- XiaomiAddon: Added Log QS Tile
-- Misc. Fixes and Improvements
+- SELinux Enforcing!
+- Fix rendering lags for screen recoarder
+- setprop alarm service for qcom early boot script 
+- Set permissions for IR
+- overlay: Use 8 icons in statusbar
+- sepolicy: Address more denials
+- Disable DiscoveryService
+- add device specific thermal also downgrade thermal
+- add some dalvik props
+- move wcnss_service to main
+- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE 
+- Enable IWLAN assisted mode 
+- CarrierConfig overlay from LA.UM.8.6.r1-04300-89xx.0 
+- Updated DCIM from LA.UM.8.6.r1-04300-89xx.0 
+- Update Clang to 10.0.6
+- update Net wireguard v1.0.20200429
+- update to wakelock blocker driver v1.1.0 
+- Merge tag to ASB-2020-04-05_3.18
+- Merge Caf Tag And Wlan/prima to LA.UM.7.6.r1-07400-89xx.0
+- Add AutoCut Charger
+- Add overclock to 12.228MHz
 
 Source Changelog:
 ----------------
-- Added face unlock(officials only).
-- Added long screenshot from asus.
-- Added Pulse magic visualizer.
-- Added Long swipe gesture actions.
-- Added Adaptive Playback.
-- Per app cellular data,vpn and wifi restriction support.
-- Fixed Navbar Enable/Disable toggle.
-- User Selectable VoLTE Icon.
-- Added more lockscreen charging animation  .
-- Added Less boring headsup tile.
-- Added FOD support .
-- Fixed Motorised cam/ Popup cam issues.
-- Little theming improvement.
-- Update prebuilt apps.
-- Source Improvement and Fixes
+- Merged android-10.0.0_r36
+- Reworked network traffic (Location, layout, font size, etc available)
+- New volume dialog
+- Superior wallpapers app improved
+- Toggle for dashboard conditions and suggestions
+- Added Ambient Visualizer
+- Added Material ocean theme
+- OOS style dismiss notification button
+- R style notification section header
+- Option to disable statusbar on lockscreen
+- Fix custom lockscreen shortcut icons being white
+- Lawnchair updated
+- Dropped faceunlock
+- Caffeine tile timers
+- Gesture nav extended swipe: show a double arrow when almost triggered
