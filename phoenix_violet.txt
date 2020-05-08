@@ -1,6 +1,31 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Yashpal Joshi(officialyash007)
 
+Date - 07/05/2020
+=================
+
+Source Changelog:
+----------------
+
+• Merged android-10.0.0_r36.
+• Reworked network traffic.
+(Location, layout, font size, etc available)
+• New volume dialog .
+• Superior wallpapers app improved.
+• Toggle for dashboard conditions and suggestions.
+• Added Ambient Visualizer.
+• Added Material ocean theme.
+• OOS style dismiss notification button.
+• R style notification section header.
+• Option to disable statusbar on lockscreen.
+• Fix custom lockscreen shortcut icons being white
+• Lawnchair updated
+• Dropped faceunlock
+• Caffeine tile timers
+• Gesture nav extended swipe: show a double arrow when almost triggered
+• violet: Updated ANX Camera to v179
+• violet: Misc audio improvements
+
 Date - 18/04/2020
 =================
 
