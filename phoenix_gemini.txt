@@ -1,10 +1,10 @@
 Device: Xiaomi Mi 5
 Device maintainer: henmadx
 
-Date - 05/05/2020
+Date - 09/05/2020
 =================
 
-Source Changelog:
+Source Changelogs:
 ----------------
 
 • Merged android-10.0.0_r36.
@@ -24,9 +24,9 @@ Source Changelog:
 • Caffeine tile timers
 • Gesture nav extended swipe: show a double arrow when almost triggered
 
-Device Changelog:
+Device Changelogs:
 ----------------
 
-• Remove Gcam
-• Added Miui Camera
-• Fixed BT Audio Call
+• Update Vibration from the Latest Stock O
+• Add Gcam 7.3
+• ENFORCING!

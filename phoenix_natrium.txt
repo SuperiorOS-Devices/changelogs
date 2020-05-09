@@ -1,7 +1,7 @@
 Device: Xiaomi Mi 5S Plus
 Device maintainer: henmadx
 
-Date - 06/05/2020
+Date - 09/05/2020
 =================
 
 Source Changelogs:
@@ -27,13 +27,6 @@ Source Changelogs:
 Device Changelogs:
 ----------------
 
-• Enforce presence of MIUI V11.0.2.0.OBGCNXM firmware
-• Fixed BT Audio Call
-• Added Miui Camera
-• Enable Fast Dormancy & Doze Parameter
-• cnss-daemon return to stock
-• Remove Dolby formats by default
-• Disable ims HD icon
-• Merge tag 'LA.UM.8.6.2.r1-07100-89xx.0'
-• Merge tag LA.UM.7.6.r1-06400-89xx.0, LA.UM.7.6.r1-06700-89xx.0,
-LA.UM.7.6.r1-07000-89xx.0 , LA.UM.7.6.r1-07400-89xx.0 to msm-3.18
+• Update Vibration from the Latest Stock O
+• Update Gcam 7.3
+• ENFORCING!
