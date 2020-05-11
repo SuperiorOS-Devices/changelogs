@@ -1,29 +1,30 @@
 Device: Xiaomi Redmi Note 5 Pro
 Device maintainer: Sipun Ku Mahanta
 
-Date - 17/04/2020
+Date - 11/05/2020
 =================
 
 Source Changelog:
 ----------------
 
-• Added Face unlock.
-• Added long screenshot from asus.
-• Added Pulse magic visualizer.
-• Added Long swipe gesture actions.
-• Added Adaptive Playback.
-• Per app cellular data,vpn and wifi restriction support.
-• Fixed Navbar Enable/Disable toggle.
-• User Selectable VoLTE Icon.
-• Added more lockscreen charging animation  .
-• Added Less boring headsup tile.
-• Added FOD support .
-• Fixed Motorised cam/ Popup cam issues.
-• Little theming improvement.
-• Update prebuilt apps.
-• Source Improvement and Fixes.
+• Merged android-10.0.0_r36.
+• Reworked network traffic.
+(Location, layout, font size, etc available)
+• New volume dialog .
+• Superior wallpapers app improved.
+• Toggle for dashboard conditions and suggestions.
+• Added Ambient Visualizer.
+• Added Material ocean theme.
+• OOS style dismiss notification button.
+• R style notification section header.
+• Option to disable statusbar on lockscreen.
+• Fix custom lockscreen shortcut icons being white
+• Lawnchair updated
+• Dropped faceunlock
+• Caffeine tile timers
+• Gesture nav extended swipe: show a double arrow when almost triggered
 
 Device Changelog:
 ----------------
 
-• Upstream kernel to 4.4.219
+• Upstream kernel to 4.4.222
