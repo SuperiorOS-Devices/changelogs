@@ -1,36 +1,29 @@
  Device: Motorola Moto X4
  Device maintainer: Dhinesh
 
- Date - 07/05/2020
+ Date - 06/06/2020
  =================
 
  Source Changelog:
-
-• Merged android-10.0.0_r36.
-• Reworked network traffic.
-(Location, layout, font size, etc available)
-• New volume dialog .
-• Superior wallpapers app improved.
-• Toggle for dashboard conditions and suggestions.
-• Added Ambient Visualizer.
-• Added Material ocean theme.
-• OOS style dismiss notification button.
-• R style notification section header.
-• Option to disable statusbar on lockscreen.
-• Fix custom lockscreen shortcut icons being white
-• Lawnchair updated
-• Dropped faceunlock
-• Caffeine tile timers
-• Gesture nav extended swipe: show a double arrow when almost triggered
+ ----------------
+ • Merged tag from android-10.0.0 r39 
+ • Reworked battery styles.
+ • Custom carrier label.
+ • Togglable privacy indicators.
+ • Livedisplay support.
+ • Aggressive battery.
+ • Make FOD animation optional.
+ • Fix notification LED for missed call.
+ • R style notification section header toggle.
+ • Navbar tuner from Android N.
+ • QS header data usage.
+ • Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
+ • Fixed Bootanimation path.
+ • Source Improvement & fixes.
+ • Translation import from our crowdin.
 
  Device Changelogs:
 
- •fixed boost apn issue
- •add turbo charging instead of charging rapidly
- •enabled call recording
- •fixed hotspot data not working
- •add mixing mic path
- •temporary fix for netflix
- •increased max volume steps
- •fixed 300mhz (now u dont need enabled from kernel manager) 
- •upstreamed kernel to v4.4.222
+ •rework motoaction (thnx to @seba3567)
+ •removed dirac
+ •added Moto Dolby
