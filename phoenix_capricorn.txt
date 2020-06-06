@@ -1,32 +1,35 @@
 Device: Xiaomi Mi 5S
 Device maintainer: henmadx
 
-Date - 09/05/2020
+Date - 06/06/2020
 =================
 
 Source Changelogs:
 ----------------
 
-• Merged android-10.0.0_r36.
-• Reworked network traffic.
-(Location, layout, font size, etc available)
-• New volume dialog .
-• Superior wallpapers app improved.
-• Toggle for dashboard conditions and suggestions.
-• Added Ambient Visualizer.
-• Added Material ocean theme.
-• OOS style dismiss notification button.
-• R style notification section header.
-• Option to disable statusbar on lockscreen.
-• Fix custom lockscreen shortcut icons being white
-• Lawnchair updated
-• Dropped faceunlock
-• Caffeine tile timers
-• Gesture nav extended swipe: show a double arrow when almost triggered
+• Merged tag from android-10.0.0 r39 
+• Reworked battery styles.
+• Custom carrier label.
+• Togglable privacy indicators.
+• Livedisplay support.
+• Aggressive battery.
+• Make FOD animation optional.
+• Fix notification LED for missed call.
+• R style notification section header toggle.
+• Navbar tuner from Android N.
+• QS header data usage.
+• Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
+• Fixed Bootanimation path.
+• Source Improvement & fixes.
+• Translation import from our crowdin.
+• For more check - our gerrit (https://gerrit.superioros.org/q/status:merged)
 
 Device Changelogs:
 ----------------
 
-• Update Vibration from the Latest Stock O
-• Update Gcam 7.3
-• ENFORCING!
+• Update Audio Latest Config
+• Use Vulkan for UI rendering
+• Disable Double Tap Wake on settings (Already in the Config panel)
+• Ignore RSSNR Signal Level
+• Force triple frame buffers
+• Gcam Removed
