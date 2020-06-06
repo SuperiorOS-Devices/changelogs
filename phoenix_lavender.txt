@@ -1,0 +1,39 @@
+Device: Xiaomi Redmi Note 7
+Device maintainer: jimgsey
+
+Date - 06/06/2020
+=================
+
+Source Changelogs:
+----------------
+
+• Merged tag from android-10.0.0 r39 
+• Reworked battery styles.
+• Custom carrier label.
+• Togglable privacy indicators.
+• Livedisplay support.
+• Aggressive battery.
+• Make FOD animation optional.
+• Fix notification LED for missed call.
+• R style notification section header toggle.
+• Navbar tuner from Android N.
+• QS header data usage.
+• Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
+• Fixed Bootanimation path.
+• Source Improvement & fixes.
+• Translation import from our crowdin.
+• For more check - our gerrit (https://gerrit.superioros.org/q/status:merged)
+
+Device Changelogs:
+----------------
+
+• Update Morfuz to 4.4
+• Improve thermal profile
+• Move CDSP remandants to common
+• Remove Audio blobs 
+• update bdroid_buildcfg values from caf 
+• Lock screen rotation in LockScreen
+• Update blobs from LA.UM.8.2.r1-06500-sdm660.0 
+• Update blobs from LA.UM.8.2.r1-06500-sdm660.0 
+• Update GPS from LA.UM.8.2.r1-06200-sdm660.0
+• For more check - our tree in https://github.com/SuperiorOS-Devices?q=lavender
