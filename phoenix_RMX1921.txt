@@ -1,0 +1,32 @@
+Device: Realme XT
+Device maintainer: Amrish
+
+Date - 07/06/2020
+=================
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r39
+• Reworked battery styles.
+• Custom carrier label.
+• Togglable privacy indicators.
+• Livedisplay support.
+• Aggressive battery.
+• Make FOD animation optional.
+• Fix notification LED for missed call.
+• R style notification section header toggle.
+• Navbar tuner from Android N.
+• QS header data usage.
+• Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
+• Fixed Bootanimation path.
+• Source Improvement & fixes.
+• Translation import from our crowdin.
+
+Device Changelogs:
+----------------
+
+• Kernel upstreamed to 4.9.225
+• Built with clang 11.0.1
+• Enabled 'notch hide' overlay
+• Fix position of FOD icon when notch is hidden
+• Fixed HDR video playback saturation
