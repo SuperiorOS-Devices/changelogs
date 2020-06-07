@@ -2,6 +2,29 @@ Device: Samsung Galaxy Note 3(HLTEKOR)
 Device maintainer: Amin Fauzi
 
 -----------------
+Date - 07/06/2020
+=================
+*****DO NOT DIRTY FLASH OVER PREVIOUS BUILDS*****
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r39 
+• Reworked battery styles.
+• Custom carrier label.
+• Togglable privacy indicators.
+• Livedisplay support.
+• Aggressive battery.
+• Make FOD animation optional.
+• Fix notification LED for missed call.
+• R style notification section header toggle.
+• Navbar tuner from Android N.
+• QS header data usage.
+• Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
+• Fixed Bootanimation path.
+• Source Improvement & fixes.
+• Translation import from our crowdin.
+
+-----------------
 Date - 06/05/2020
 =================
 
