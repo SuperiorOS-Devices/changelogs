@@ -3,7 +3,6 @@ Device maintainer: Jayant Deshmukh
 
 Date - 06/06/2020
 =================
-*****DO NOT DIRTY FLASH OVER PREVIOUS BUILDS*****
 
 Source Changelog:
 ----------------
