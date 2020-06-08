@@ -1,6 +1,29 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Yashpal Joshi(officialyash007)
 
+Date - 07/06/2020(Final Update)
+=================
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r39 
+• Reworked battery styles.
+• Custom carrier label.
+• Togglable privacy indicators.
+• Livedisplay support.
+• Aggressive battery.
+• Make FOD animation optional.
+• Fix notification LED for missed call.
+• R style notification section header toggle.
+• Navbar tuner from Android N.
+• QS header data usage.
+• Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
+• Fixed Bootanimation path.
+• Source Improvement & fixes.
+• Translation import from our crowdin.
+• violet: added Snap camera again
+• violet: kernel upstream
+
 Date - 07/05/2020
 =================
 
