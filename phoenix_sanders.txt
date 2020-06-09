@@ -1,6 +1,88 @@
 Device: Motorola Moto G5S Plus
 Device maintainer: Mayur Varde
 
+Date - 09/06/2020
+=================
+
+Source Changelogs:
+------------------
+• Merged tag from android-10.0.0 r39 
+• Reworked battery styles.
+• Custom carrier label.
+• Togglable privacy indicators.
+• Livedisplay support.
+• Aggressive battery.
+• Make FOD animation optional.
+• Fix notification LED for missed call.
+• R style notification section header toggle.
+• Navbar tuner from Android N.
+• QS header data usage.
+• Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
+• Fixed Bootanimation path.
+• Source Improvement & fixes.
+• Translation import from our crowdin.
+• Reworked network traffic. (Location, layout, font size, etc available)
+• New volume dialog .
+• Superior wallpapers app improved.
+• Toggle for dashboard conditions and suggestions.
+• Added Ambient Visualizer.
+• Added Material ocean theme.
+• OOS style dismiss notification button.
+• R style notification section header.
+• Option to disable statusbar on lockscreen.
+• Fix custom lockscreen shortcut icons being white
+• Lawnchair updated
+• Dropped faceunlock
+• Caffeine tile timers
+• Gesture nav extended swipe: show a double arrow when almost triggered
+• Added QS themes.
+• Fix Headsup & Less boring Headsup.
+• Added Tint QSTile icon with accent color option.
+• Added FPS Info Tile.(Device support needed)
+• Added Home button wakeup.(Device specific)
+• Added  Screen Stabiization Tile.
+• Optional screenshot type.
+• Support for Customizing the length of the navigation handle.
+• Added haptic feedback to QS tiles.
+• Animate the keyguard when charging .
+• Switch to OPScreenrecorder.
+• Fixed Internal Audio recording.
+• Update default wallpaper.
+• Automatic Translation Import.
+• Source Improvement and Fixes.
+
+Device Changelogs:
+------------------
+• New MotoActions UI
+   - Match with stock
+   - Detailed info
+• New MotoActions icon style
+   - Respect android 10 settings style
+   - Respect android 10 icon shape shifting style
+   - Icons in subsection of MotoActions will follow the tint of it's parent icon
+   - New MotoActions Icons
+• Updated the device gestures sub icons to match with stock
+• Shifted to Qcom binderized powerhal
+• Switched to qcom sepolicy-legacy-um
+• Kernel compiled with clang 10.0.6
+• Updated sepolicy
+• Fixed the time lag issue
+• Fixed the FM Radio
+• Build missing dummy android.hidl.manager@1.0
+• Dropped deprecated WLAN SDK flag
+• Cleanup and update tree to remove the haywire
+• Improved Kcal settings ui under MotoActions
+• Gave system permissions to kgsl-3d0 nodes
+• Disable DiscoveryService
+• Disable NearbyMessagingService
+• Build separate system and vendor HIDL libs
+• Fixed NFC (maybe. try and lemme know)
+• Added log tile
+• Fixed WiFi randomly disconnecting issue
+• More under-the-hood changes
+• Many more changes difficult to mention all ;)
+
+
 Date - 28/03/2020
 =================
 
