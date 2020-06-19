@@ -1,6 +1,19 @@
 Device: Realme XT
 Device maintainer: Amrish
 
+Date - 19/06/2020
+=================
+
+Device Changelog:
+----------------
+• Shifted to BloodMoon kernel.
+• Kernel upstreamed to 4.9.227.
+• FOD 1.1 Implementation.(Now it's accurate and works well in third party apps)
+• FOD icon customisation and animation now works.
+• Dropped existing "advanced settings".
+• Added realme parts.(Thanks to @officialpro)
+
+
 Date - 07/06/2020
 =================
 
