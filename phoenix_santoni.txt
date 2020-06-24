@@ -1,47 +1,34 @@
 Device: Xiaomi Redmi 4X
 Device maintainer: Bikram Mukherjee
 
-Date :- 08/05/2020
+Date :- 08/06/2020
 ================
 
 Device Changelog:
 ----------------
-- SELinux Enforcing!
-- Fix rendering lags for screen recoarder
-- setprop alarm service for qcom early boot script 
-- Set permissions for IR
-- overlay: Use 8 icons in statusbar
-- sepolicy: Address more denials
-- Disable DiscoveryService
-- add device specific thermal also downgrade thermal
-- add some dalvik props
-- move wcnss_service to main
-- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE 
-- Enable IWLAN assisted mode 
-- CarrierConfig overlay from LA.UM.8.6.r1-04300-89xx.0 
-- Updated DCIM from LA.UM.8.6.r1-04300-89xx.0 
-- Update Clang to 10.0.6
-- update Net wireguard v1.0.20200429
-- update to wakelock blocker driver v1.1.0 
-- Merge tag to ASB-2020-04-05_3.18
-- Merge Caf Tag And Wlan/prima to LA.UM.7.6.r1-07400-89xx.0
-- Add AutoCut Charger
-- Add overclock to 12.228MHz
+• Update data-ipa-cfg-mgr from LA.UM.8.6.r1-04400-89xx.0
+• Update CarrierConfig from LA.UM.8.6.r1-04400-89xx.0 
+• Switch to prebuilt thermal hal from tissot - 9 PKQ1.180917.001 V10.0.21.0.PDHMIXM
+• Update wcnss_service from LA.UM.8.6.r1-04000-89xx.0 
+• Add IOP and Workload Classifier props
+• Update Listen blobs from LA.UM.8.6.r1-04000-89xx.0
+• Default Kernel: SolarisKernel v4.9.226
+• Fixed goodix delay issue from kernel side
 
 Source Changelog:
 ----------------
-- Merged android-10.0.0_r36
-- Reworked network traffic (Location, layout, font size, etc available)
-- New volume dialog
-- Superior wallpapers app improved
-- Toggle for dashboard conditions and suggestions
-- Added Ambient Visualizer
-- Added Material ocean theme
-- OOS style dismiss notification button
-- R style notification section header
-- Option to disable statusbar on lockscreen
-- Fix custom lockscreen shortcut icons being white
-- Lawnchair updated
-- Dropped faceunlock
-- Caffeine tile timers
-- Gesture nav extended swipe: show a double arrow when almost triggered
+• Merged tag from android-10.0.0 r39 
+• Reworked battery styles.
+• Custom carrier label.
+• Togglable privacy indicators.
+• Livedisplay support.
+• Aggressive battery.
+• Make FOD animation optional.
+• Fix notification LED for missed call.
+• R style notification section header toggle.
+• Navbar tuner from Android N.
+• QS header data usage.
+• Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
+• Fixed Bootanimation path.
+• Source Improvement & fixes.
+• Translation import from our crowdin.
