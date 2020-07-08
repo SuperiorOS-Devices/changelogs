@@ -1,6 +1,44 @@
 Device: Realme XT
 Device maintainer: Amrish
 
+Date - 08/07/2020
+=================
+
+*CLEAN FLASH REQUIRED
+*FLASH OVER REALME UI FIRMWARE
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r40
+• Reworked lockscreen weather.(Needs Google app for ls weather)
+• Added 8 new lockscreen clocks.
+• Removed omnijaws.
+• Added data activity arrows.
+• Data Usage QS Header (daily/monthly).
+• Running services icon in qs footer.
+• Gesture anywhere.
+• Hide lock icon on lockscreen toggle.
+• Disable lockscreen rotation toggle.
+• Old QS page instead of panel toggle.
+• Bt icon fixes
+• QS blank rows in landscape mode fixed.(on clean flash)
+• Added theme tile.
+• Dialer improvements.
+• Clock app improvements.
+• Reworked multisim ringtone.
+• Update prebuilt apps.
+
+Device Changelog:
+----------------
+• Initial build based on Realme ui trees.
+• FOD Extensions implementation.
+• FOD is fast and accurate than before.
+• Fixed the unusual heating and battery draining issues.
+• Kernel upstreamed to 4.9.229.
+• Fixed VoWifi (wifi-calling).
+• Fixed ViLTE (native video calling).
+• Fixed NFC for EU and other supported devices.
+
 Date - 19/06/2020
 =================
 
