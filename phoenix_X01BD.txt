@@ -1,6 +1,37 @@
 Device: Asus Zenfone Max Pro M2
 Device maintainer: Jayant Deshmukh
 
+Date - 08/07/2020
+=================
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r40
+• Reworked lockscreen weather.
+(Needs Google app for ls weather)
+• Added 8 new lockscreen clocks.
+• Removed omnijaws.
+• Added data activity arrows.
+• Data Usage QS Header (daily/monthly).
+• Running services icon in qs footer.
+• Gesture anywhere.
+• Hide lock icon on lockscreen toggle.
+• Disable lockscreen rotation toggle.
+• Old QS page instead of panel toggle.
+• Bt icon fixes
+• QS blank rows in landscape mode fixed. (on clean flash)
+• Added theme tile.
+• Dialer improvements.
+• Clock app improvements.
+• Reworked multisim ringtone.
+• Update prebuilt apps.
+
+Device Changelog:
+----------------
+• Kernel upstream
+• Updated nfc check
+• Audio should be louder now
+
 Date - 06/06/2020
 =================
 
