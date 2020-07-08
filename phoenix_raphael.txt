@@ -1,0 +1,43 @@
+Device: Xiaomi Redmi K20 Pro
+Device maintainer: HSgod
+
+Date - 08/07/2020
+=================
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r40
+• Reworked lockscreen weather.
+(Needs Google app for ls weather)
+• Added 8 new lockscreen clocks.
+• Removed omnijaws.
+• Added data activity arrows.
+• Data Usage QS Header (daily/monthly).
+• Running services icon in qs footer.
+• Gesture anywhere.
+• Hide lock icon on lockscreen toggle.
+• Disable lockscreen rotation toggle.
+• Old QS page instead of panel toggle.
+• Bt icon fixes
+• QS blank rows in landscape mode fixed. (on clean flash)
+• Added theme tile.
+• Dialer improvements.
+• Clock app improvements.
+• Reworked multisim ringtone.
+• Update prebuilt apps.
+
+Device Changelog:
+----------------
+• Fixed previous bugs (performance governor, battery drain)
+• Fixed Short video on ANXCamera
+• Fixed SmartCharging
+• Improved app opening
+• Improved FOD
+• Fully nuked flickering and burn-in protection
+• Enabled bluetooth WBS
+• Updated 48MP libs for ANXCamera
+• Updated FP to coral july
+• Added Raise2Wake option
+• Added vibration multiple intensities
+• Added missing aptX props
+• Added few doze options
