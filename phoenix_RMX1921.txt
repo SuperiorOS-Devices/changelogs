@@ -1,6 +1,17 @@
 Device: Realme XT
 Device maintainer: Amrish
 
+Date - 09/07/2020
+=================
+
+Changelog:
+----------------
+• Fixed FOD when notch is being hidden.
+• Added Simple low memory killer in kernel for better ram management.
+• Fixed the issue of proximity sensor blinking in various third-party apps.
+• Fixed FOD in Always on display.
+• Many udh improvements.
+
 Date - 08/07/2020
 =================
 
