@@ -1,6 +1,43 @@
 Device: Motorola Moto G5S Plus
 Device maintainer: Mayur Varde
 
+Date -09/07/2020
+================
+
+Source Changelogs:
+------------------
+• Merged tag from android-10.0.0 r40
+• Reworked lockscreen weather.
+(Needs Google app for ls weather)
+• Added 8 new lockscreen clocks. 
+• Removed omnijaws.
+• Added data activity arrows.
+• Added sync tile
+• Data Usage QS Header (daily/monthly).
+• Running services icon in qs footer.
+• Gesture anywhere.
+• Hide lock icon on lockscreen toggle.
+• Disable lockscreen rotation toggle.
+• Old QS page instead of panel toggle.
+• Bt icon fixes
+• QS blank rows in landscape mode fixed. (on clean flash)
+• Added theme tile.
+• Dialer improvements.
+• Clock app improvements.
+• Reworked multisim ringtone.
+• Update prebuilt apps.
+
+Device Changelogs:
+------------------
+• Updated gl drivers to V@454.0
+• Updated vulkan drivers to v@1.1.128
+• Updated WFD from daisy Q
+• Default I/O scheduler is now cfq
+• Overclocked the kernel (default configuration is normal)
+• Battery improvement
+• More under-the-hood changes ;)
+
+
 Date - 09/06/2020
 =================
 
