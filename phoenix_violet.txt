@@ -1,5 +1,42 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
-Device maintainer: Yashpal Joshi(officialyash007)
+Device maintainer: Nipin NA(Joker_V2_0)
+
+Date - 11/07/2020
+=================
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r40
+• Reworked lockscreen weather.
+(Needs Google app for ls weather)
+• Added 8 new lockscreen clocks. 
+• Removed omnijaws.
+• Added data activity arrows.
+• Added sync tile
+• Data Usage QS Header (daily/monthly).
+• Running services icon in qs footer.
+• Gesture anywhere.
+• Hide lock icon on lockscreen toggle.
+• Disable lockscreen rotation toggle.
+• Old QS page instead of panel toggle.
+• Bt icon fixes.
+• QS blank rows in landscape mode fixed. (on clean flash)
+• Added theme tile.
+• Dialer improvements.
+• Clock app improvements.
+• Reworked multisim ringtone.
+• Update prebuilt apps.
+
+Device Changelog:
+----------------
+• Updated build fingerprint.
+• Improved charging speed.
+• Updated some thermal values.
+• Switched to Power-libperfmgr.
+• Fixed FM Radio.
+• Fixed ANX Camera video mode issues.
+• Fixed 3rd party screen recorder green screen issue.
+• Reduced screen recorder lag.
 
 Date - 07/06/2020(Final Update)
 =================
