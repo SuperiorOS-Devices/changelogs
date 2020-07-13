@@ -1,47 +1,53 @@
 Device: Xiaomi Redmi 4X
 Device maintainer: Bikram Mukherjee
 
-Date :- 08/05/2020
+Date :- 12/07/2020
 ================
 
 Device Changelog:
 ----------------
-- SELinux Enforcing!
-- Fix rendering lags for screen recoarder
-- setprop alarm service for qcom early boot script 
-- Set permissions for IR
-- overlay: Use 8 icons in statusbar
-- sepolicy: Address more denials
-- Disable DiscoveryService
-- add device specific thermal also downgrade thermal
-- add some dalvik props
-- move wcnss_service to main
-- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE 
-- Enable IWLAN assisted mode 
-- CarrierConfig overlay from LA.UM.8.6.r1-04300-89xx.0 
-- Updated DCIM from LA.UM.8.6.r1-04300-89xx.0 
-- Update Clang to 10.0.6
-- update Net wireguard v1.0.20200429
-- update to wakelock blocker driver v1.1.0 
-- Merge tag to ASB-2020-04-05_3.18
-- Merge Caf Tag And Wlan/prima to LA.UM.7.6.r1-07400-89xx.0
-- Add AutoCut Charger
-- Add overclock to 12.228MHz
+- Kernel: Upstreamed to 4.9.230
+- Updated blobs from onc-q
+- Moved QMI/Radio/IMS blobs to product
+- Updated perf configs from pine-q
+- Fixed VoLTE issues on 2nd SIM slot
+- Fixed default system haptics strength
+- Xiaomi Add-on: Added Selinux Switch, Fixed Settings restore on boot
+- Enable zygote pre-forking (faster app launching)
+- Re-enabled Hotword detection
+- Fixed Fingerprint to wake without lock screen
+- Misc. audio i/o improvements
+- Fixed few denials
+- Kernel Compiled With clang 11.0.2
+- Update Factory Version to 2.1
+- Update Gps configs for better stability & accuracy
+- Added Gcam Go
+- add bacback device specific thermal 
+- address mediaprovider denials
+- Update thermal config for 4.9
+- Import SchedTune tuning from b4s4
+- Update static iuicc names in device
+- Under the hood improvements
 
 Source Changelog:
 ----------------
-- Merged android-10.0.0_r36
-- Reworked network traffic (Location, layout, font size, etc available)
-- New volume dialog
-- Superior wallpapers app improved
-- Toggle for dashboard conditions and suggestions
-- Added Ambient Visualizer
-- Added Material ocean theme
-- OOS style dismiss notification button
-- R style notification section header
-- Option to disable statusbar on lockscreen
-- Fix custom lockscreen shortcut icons being white
-- Lawnchair updated
-- Dropped faceunlock
-- Caffeine tile timers
-- Gesture nav extended swipe: show a double arrow when almost triggered
+- Merged tag from android-10.0.0 r40
+- Reworked lockscreen weather.
+(Needs Google app for ls weather)
+- Added 8 new lockscreen clocks. 
+- Removed omnijaws.
+- Added data activity arrows.
+- Added sync tile
+- Data Usage QS Header (daily/monthly).
+- Running services icon in qs footer.
+- Gesture anywhere.
+- Hide lock icon on lockscreen toggle.
+- Disable lockscreen rotation toggle.
+- Old QS page instead of panel toggle.
+- Bt icon fixes
+- QS blank rows in landscape mode fixed. (on clean flash)
+- Added theme tile.
+- Dialer improvements.
+- Clock app improvements.
+- Reworked multisim ringtone.
+- Update prebuilt apps.
