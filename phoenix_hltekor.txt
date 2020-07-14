@@ -2,6 +2,38 @@ Device: Samsung Galaxy Note 3(HLTEKOR)
 Device maintainer: Amin Fauzi
 
 -----------------
+Date - 14/07/2020
+=================
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r40
+• Bring up July Security Patch
+• Reworked lockscreen weather.
+(Needs Google app for ls weather)
+• Added 8 new lockscreen clocks.
+• Removed omnijaws.
+• Added data activity arrows.
+• Added sync tile
+• Data Usage QS Header (daily/monthly).
+• Running services icon in qs footer.
+• Gesture anywhere.
+• Hide lock icon on lockscreen toggle.
+• Disable lockscreen rotation toggle.
+• Old QS page instead of panel toggle.
+• Bt icon fixes
+• QS blank rows in landscape mode fixed. (on clean flash)
+• Added theme tile.
+• Dialer improvements.
+• Clock app improvements.
+• Reworked multisim ringtone.
+• Update prebuilt apps.
+
+Device Changelog:
+----------------
+• Fixed Always On Display (AOD)
+
+-----------------
 Date - 07/06/2020
 =================
 *****DO NOT DIRTY FLASH OVER PREVIOUS BUILDS*****
