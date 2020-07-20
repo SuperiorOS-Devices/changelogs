@@ -1,29 +1,35 @@
  Device: Motorola Moto X4
  Device maintainer: Dhinesh
 
- Date - 06/06/2020
+ Date - 20/07/2020
  =================
 
  Source Changelog:
  ----------------
- • Merged tag from android-10.0.0 r39 
- • Reworked battery styles.
- • Custom carrier label.
- • Togglable privacy indicators.
- • Livedisplay support.
- • Aggressive battery.
- • Make FOD animation optional.
- • Fix notification LED for missed call.
- • R style notification section header toggle.
- • Navbar tuner from Android N.
- • QS header data usage.
- • Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
- • Fixed Bootanimation path.
- • Source Improvement & fixes.
- • Translation import from our crowdin.
+• Merged tag from android-10.0.0 r40
+• Reworked lockscreen weather.(Needs Google app for ls weather)
+• Added 8 new lockscreen clocks.
+• Removed omnijaws.
+• Added data activity arrows.
+• Added sync tile
+• Data Usage QS Header (daily/monthly).
+• Running services icon in qs footer.
+• Gesture anywhere.
+• Hide lock icon on lockscreen toggle.
+• Disable lockscreen rotation toggle.
+• Old QS page instead of panel toggle.
+• Bt icon fixes
+• QS blank rows in landscape mode fixed. (on clean flash)
+• Added theme tile.
+• Dialer improvements.
+• Clock app improvements.
+• Reworked multisim ringtone.
+• Update prebuilt apps.
+• For more check - our Gerrit
 
  Device Changelogs:
 
- •rework motoaction (thnx to @seba3567)
- •removed dirac
- •added Moto Dolby
+ •update nfc to 1.2
+ •update some blobs
+ •kernel upstreamed to 4.4.230
+ 
