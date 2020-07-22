@@ -1,39 +1,43 @@
 Device: Xiaomi Redmi Note 7
 Device maintainer: jimgsey
 
-Date - 06/06/2020
+Date - 21/07/2020
 =================
 
-Source Changelogs:
+Source Changelog:
 ----------------
 
-• Merged tag from android-10.0.0 r39 
-• Reworked battery styles.
-• Custom carrier label.
-• Togglable privacy indicators.
-• Livedisplay support.
-• Aggressive battery.
-• Make FOD animation optional.
-• Fix notification LED for missed call.
-• R style notification section header toggle.
-• Navbar tuner from Android N.
-• QS header data usage.
-• Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
-• Fixed Bootanimation path.
-• Source Improvement & fixes.
-• Translation import from our crowdin.
-• For more check - our gerrit (https://gerrit.superioros.org/q/status:merged)
+• Merged tag from android-10.0.0 r40
+• Reworked lockscreen weather.(Needs Google app for ls weather)
+• Added 8 new lockscreen clocks.
+• Removed omnijaws.
+• Added data activity arrows.
+• Added sync tile
+• Data Usage QS Header (daily/monthly).
+• Running services icon in qs footer.
+• Gesture anywhere.
+• Hide lock icon on lockscreen toggle.
+• Disable lockscreen rotation toggle.
+• Old QS page instead of panel toggle.
+• Bt icon fixes
+• QS blank rows in landscape mode fixed. (on clean flash)
+• Added theme tile.
+• Dialer improvements.
+• Clock app improvements.
+• Reworked multisim ringtone.
+• Update prebuilt apps.
+• For more check - our Gerrit
 
-Device Changelogs:
+Device Changelog:
 ----------------
 
-• Update Morfuz to 4.4
-• Improve thermal profile
-• Move CDSP remandants to common
-• Remove Audio blobs 
-• update bdroid_buildcfg values from caf 
-• Lock screen rotation in LockScreen
-• Update blobs from LA.UM.8.2.r1-06500-sdm660.0 
-• Update blobs from LA.UM.8.2.r1-06500-sdm660.0 
-• Update GPS from LA.UM.8.2.r1-06200-sdm660.0
+• Change Kernel to common 4.4.230
+• Fix L1
+• Commonize Widevine blobs
+• Update SPL from LA.UM.8.2.r1-06700-sdm660.0
+• Enable WiFi calls in all regions
+• Update Widevine and Clearkey DRM from MIUI 20.7.2
+• Update media codecs and import media profiles from MIU
 • For more check - our tree in https://github.com/SuperiorOS-Devices?q=lavender
+
+Note:- Clean flash Required
