@@ -1,0 +1,83 @@
+Device: Xiaomi Redmi Note 8
+
+Device maintainer: MADMAX
+
+
+
+Date - 19/07/2020
+
+=================
+
+
+
+Source Changelog:
+
+----------------
+
+
+
+• Merged tag from android-10.0.0 r40
+
+• Reworked lockscreen weather.(Needs Google app for ls weather)
+
+• Added 8 new lockscreen clocks.
+
+• Removed omnijaws.
+
+• Added data activity arrows.
+
+• Added sync tile
+
+• Data Usage QS Header (daily/monthly).
+
+• Running services icon in qs footer.
+
+• Gesture anywhere.
+
+• Hide lock icon on lockscreen toggle.
+
+• Disable lockscreen rotation toggle.
+
+• Old QS page instead of panel toggle.
+
+• Bt icon fixes
+
+• QS blank rows in landscape mode fixed. (on clean flash)
+
+• Added theme tile.
+
+• Dialer improvements.
+
+• Clock app improvements.
+
+• Reworked multisim ringtone.
+
+• Update prebuilt apps.
+
+• For more check - our Gerrit
+
+
+
+Device Changelog:
+
+----------------
+
+
+
+• Merged July security patch
+
+• Switch to MIUI camera
+
+• Upstreamed kernel to 4.14.188
+
+• Fixed offline charging
+
+• Removed lift to check feature
+
+• Updated coral's fingerprint to july
+
+• Updated graphics blobs
+
+• Improved KCAL
+
+
