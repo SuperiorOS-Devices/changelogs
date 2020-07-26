@@ -1,32 +1,25 @@
 Device: Xiaomi Redmi 4X
 Device maintainer: Bikram Mukherjee
 
-Date :- 12/07/2020
+Date :- 26/07/2020
 ================
 
 Device Changelog:
 ----------------
-- Kernel: Upstreamed to 4.9.230
-- Updated blobs from onc-q
-- Moved QMI/Radio/IMS blobs to product
-- Updated perf configs from pine-q
-- Fixed VoLTE issues on 2nd SIM slot
-- Fixed default system haptics strength
-- Xiaomi Add-on: Added Selinux Switch, Fixed Settings restore on boot
-- Enable zygote pre-forking (faster app launching)
-- Re-enabled Hotword detection
-- Fixed Fingerprint to wake without lock screen
-- Misc. audio i/o improvements
-- Fixed few denials
-- Kernel Compiled With clang 11.0.2
-- Update Factory Version to 2.1
-- Update Gps configs for better stability & accuracy
-- Added Gcam Go
-- add bacback device specific thermal 
-- address mediaprovider denials
-- Update thermal config for 4.9
-- Import SchedTune tuning from b4s4
-- Update static iuicc names in device
+- Kernel: Upstreamed to 4.9.231
+- abled IWLAN overlays
+- Enabled fast WLAN BSS transition
+- Change cpu sets for camera daemon 
+- Tune Spectrum profiles
+- Fix lockscreen charging stats
+- Fix random wifi mac adress
+- gps: Localise NTP to improve GPS TTFF
+- Enable Miracast support via overlay 
+- Enable overlay for smart pixels
+- compiled with clang 11.0.3
+- Remove GL comp backpressure 
+- Clear the recovery cache in persist on boot 
+- enable live display 
 - Under the hood improvements
 
 Source Changelog:
