@@ -1,43 +1,42 @@
 Device: Xiaomi Redmi Note 7
 Device maintainer: jimgsey
 
-Date - 21/07/2020
+Date - 07/08/2020
 =================
 
 Source Changelog:
 ----------------
+• Merged tag from android-10.0.0 r41
+• Added Smart pixel.
+• Added Navbar Visualizer. 
+• Added LTE tile.
+• Improved QS panel data usage info.
+• Added VoLTE Icon from OOS 10.
+• Improved Volume Panel.
+• Scrrenstabilization Improvement.
+• Added QTI-BT support.(Supported device only)
+• Updated some icons of tiles.
+• Per app network isolation support.
+• Removed OP screen recorder and added Framework Screen recorder .
+• Legacy app scaling support.
+• Added Pixelthemes support.(statusbar icon theming)
+• Gallery App improvement.
+• Removed phonograph and added Metro as default music player.
+• Updated Superiorwalls and Via Browser.
+• Translation merged from community.
 
-• Merged tag from android-10.0.0 r40
-• Reworked lockscreen weather.(Needs Google app for ls weather)
-• Added 8 new lockscreen clocks.
-• Removed omnijaws.
-• Added data activity arrows.
-• Added sync tile
-• Data Usage QS Header (daily/monthly).
-• Running services icon in qs footer.
-• Gesture anywhere.
-• Hide lock icon on lockscreen toggle.
-• Disable lockscreen rotation toggle.
-• Old QS page instead of panel toggle.
-• Bt icon fixes
-• QS blank rows in landscape mode fixed. (on clean flash)
-• Added theme tile.
-• Dialer improvements.
-• Clock app improvements.
-• Reworked multisim ringtone.
-• Update prebuilt apps.
-• For more check - our Gerrit
+• For more check - https://gerrit.superioros.org
 
 Device Changelog:
 ----------------
 
-• Change Kernel to common 4.4.230
-• Fix L1
-• Commonize Widevine blobs
-• Update SPL from LA.UM.8.2.r1-06700-sdm660.0
-• Enable WiFi calls in all regions
-• Update Widevine and Clearkey DRM from MIUI 20.7.2
-• Update media codecs and import media profiles from MIU
+• Change Kernel to common 4.4.232
+• Changes for 24bit audio
+• Raise ADC Volume Level
+• Use OP Launcher
+• Raise ADC Volume Level
+• Add SELinux Switch and LogTitle
+
 • For more check - our tree in https://github.com/SuperiorOS-Devices?q=lavender
 
 Note:- Clean flash Required
