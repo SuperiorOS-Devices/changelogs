@@ -1,6 +1,49 @@
 Device: Realme XT
 Device maintainer: Amrish
 
+Date - 07/08/2020
+=================
+*CLEAN FLASH REQUIRED
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r41
+• Added Smart pixel.
+• Added Navbar Visualizer. 
+• Added LTE tile.
+• Improved QS panel data usage info.
+• Added VoLTE Icon from OOS 10.
+• Improved Volume Panel.
+• Scrrenstabilization Improvement.
+• Added QTI-BT support.(Supported device only)
+• Updated some icons of tiles.
+• Per app network isolation support.
+• Removed OP screen recorder and added Framework Screen recorder .
+• Legacy app scaling support.
+• Added Pixelthemes support.(statusbar icon theming)
+• Gallery App improvement.
+• Removed phonograph and added Metro as default music player.
+• Updated Superiorwalls and Via Browser.
+• Translation merged from community.
+
+• For more check - https://gerrit.superioros.org
+
+Device Changelog:
+----------------
+• Completely rebased kernel with latest caf tags merged.(Thanks to @BabluS)
+• FOD is 100% flicker-free now.(Thanks to @dev_harsh1998)
+• Fixed WhatsApp mic issues.(Thanks to @officialpro)
+• Adjusted status bar for rounded corners.
+• Removed realme parts.
+• Shifted back to good ol' advanced settings.
+• Added raise to wake feature.
+• Disabled a2dp offload by default.
+• Changed bluetooth device name to 'Realme XT'.
+• Enabled overlays for smart pixels and live display.
+• Unlocked more FOD animations.
+• Kernel compiled with clang 11.0.3
+• Added a smooth transition animation between aod and lockscreen.
+
 Date - 09/07/2020
 =================
 
