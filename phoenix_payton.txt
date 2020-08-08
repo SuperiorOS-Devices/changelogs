@@ -1,35 +1,36 @@
  Device: Motorola Moto X4
  Device maintainer: Dhinesh
 
- Date - 20/07/2020
- =================
+Date - 08/08/2020
+=================
 
- Source Changelog:
- ----------------
-• Merged tag from android-10.0.0 r40
-• Reworked lockscreen weather.(Needs Google app for ls weather)
-• Added 8 new lockscreen clocks.
-• Removed omnijaws.
-• Added data activity arrows.
-• Added sync tile
-• Data Usage QS Header (daily/monthly).
-• Running services icon in qs footer.
-• Gesture anywhere.
-• Hide lock icon on lockscreen toggle.
-• Disable lockscreen rotation toggle.
-• Old QS page instead of panel toggle.
-• Bt icon fixes
-• QS blank rows in landscape mode fixed. (on clean flash)
-• Added theme tile.
-• Dialer improvements.
-• Clock app improvements.
-• Reworked multisim ringtone.
-• Update prebuilt apps.
-• For more check - our Gerrit
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r41
+• Added Smart pixel.
+• Added Navbar Visualizer.
+• Added LTE tile.
+• Improved QS panel data usage info.
+• Added Volte Icon from OOS 10.
+• Improved Volume Panel.
+• Screen stabilization Improvement.
+• Added QTI-BT support. (Supported device only)
+• Updated some icons of tiles.
+• Per app network isolation support.
+• Removed OP screen recorder and added Framework Screen recorder .
+• Legacy app scaling support.
+• Added Pixelthemes support.(statusbar icon theming)
+• Improved Launcher3.
+• Added 3 launchers - Oneplus launcher , Lawnchair & Launcher3 (Launcher 3 as default , Builders can choose which launchers they want)
+• Gallery App improvement.
+• Removed phonograph and added Metro as default music player.
+• Updated Superiorwalls and Via Browser.
+• Translation merged from community.
+
 
  Device Changelogs:
 
- •update nfc to 1.2
- •update some blobs
- •kernel upstreamed to 4.4.230
- 
+• clean up tress
+• fixed smartcharging
+• fixed nightlight
+• updated egl drivers to v474 
