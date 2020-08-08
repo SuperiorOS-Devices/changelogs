@@ -1,7 +1,38 @@
 Device: Motorola Moto G5S Plus
 Device maintainer: Mayur Varde
 
-Date -09/07/2020
+Date - 08/08/2020
+=================
+
+Source Changelogs:
+------------------
+• Merged tag from android-10.0.0 r41
+• Added Smart pixel.
+• Added Navbar Visualizer. 
+• Added LTE tile.
+• Improved QS panel data usage info.
+• Added Volte Icon from OOS 10.
+• Improved Volume Panel.
+• Scrrenstabilization Improvement.
+• Added QTI-BT support.(Supported device only)
+• Updated some icons of tiles.
+• Per app network isolation support.
+• Removed OP screen recorder and added Framework Screen recorder .
+• Legacy app scaling support.
+• Added Pixelthemes support.(statusbar icon theming)
+• Added OnePlus launcher as default launcher
+• Gallery App improvement.
+• Removed phonograph and added Metro as default music player.
+• Updated Superiorwalls and Via Browser.
+• Translation merged from community.
+• For more check our gerrit (http://gerrit.superioros.org/)
+
+Device Changelogs:
+------------------
+• Some under-the-hood fixes
+
+
+Date - 09/07/2020
 ================
 
 Source Changelogs:
