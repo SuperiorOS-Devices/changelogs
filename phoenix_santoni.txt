@@ -1,46 +1,44 @@
 Device: Xiaomi Redmi 4X
 Device maintainer: Bikram Mukherjee
 
-Date :- 26/07/2020
+Date :- 09/08/2020
 ================
 
 Device Changelog:
 ----------------
-- Kernel: Upstreamed to 4.9.231
-- abled IWLAN overlays
-- Enabled fast WLAN BSS transition
-- Change cpu sets for camera daemon 
-- Tune Spectrum profiles
-- Fix lockscreen charging stats
-- Fix random wifi mac adress
-- gps: Localise NTP to improve GPS TTFF
-- Enable Miracast support via overlay 
-- Enable overlay for smart pixels
-- compiled with clang 11.0.3
-- Remove GL comp backpressure 
-- Clear the recovery cache in persist on boot 
-- enable live display 
-- Under the hood improvements
+- Default Launcher: OnePlus Launcher
+- Introduce  Moto Dolby v3 (thank's @amandwivedi0)
+- update data-ipa-cfg-mgr from LA.UM.8.6.2.r1-07800-89xx.0
+- Switch fingerprint to walleye (Fixed CTS Pass)
+- Limit hotspot to 12 devices
+- wifi: set beacon missed count threshold
+- IMS: Filter out the conference host in the CEP
+- Enable QPower and Deep sleep at the same time
+- Enabled Higher fling velocities for smoother scrolling and better responsiveness
+- overlay: Show DocumentsUI internal storage by default
+- Change cpu set for camera daemon
+- Kernel: Upstreamed to 4.9.232
+- Compiled kernel Clang 11.0.3
 
 Source Changelog:
 ----------------
-- Merged tag from android-10.0.0 r40
-- Reworked lockscreen weather.
-(Needs Google app for ls weather)
-- Added 8 new lockscreen clocks. 
-- Removed omnijaws.
-- Added data activity arrows.
-- Added sync tile
-- Data Usage QS Header (daily/monthly).
-- Running services icon in qs footer.
-- Gesture anywhere.
-- Hide lock icon on lockscreen toggle.
-- Disable lockscreen rotation toggle.
-- Old QS page instead of panel toggle.
-- Bt icon fixes
-- QS blank rows in landscape mode fixed. (on clean flash)
-- Added theme tile.
-- Dialer improvements.
-- Clock app improvements.
-- Reworked multisim ringtone.
-- Update prebuilt apps.
+- Merged tag from android-10.0.0 r41
+- Added Smart pixel.
+- Added Navbar Visualizer. 
+- Added LTE tile.
+- Improved QS panel data usage info.
+- Added Volte Icon from OOS 10.
+- Improved Volume Panel.
+- Scrrenstabilization Improvement.
+- Added QTI-BT support.(Supported device only)
+- Updated some icons of tiles.
+- Per app network isolation support.
+- Removed OP screen recorder and added Framework Screen recorder .
+- Legacy app scaling support.
+- Added Pixelthemes support.(statusbar icon theming)
+- Improved Launcher3.
+- Added 3 launchers Oneplus launcher , Lawnchair & Launcher3 (Launcher3 as default , Builders can choose which launchers they want)
+- Gallery App improvement.
+- Removed phonograph and added Metro as default music player.
+- Updated Superiorwalls and Via Browser.
+- Translation merged from community.
