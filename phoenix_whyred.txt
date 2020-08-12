@@ -1,37 +1,50 @@
 Device: Xiaomi Redmi Note 5 Pro
 Device maintainer: Sipun Ku Mahanta
 
-Date - 18/07/2020
+Date - 12/08/2020
 =================
 
 Source Changelog:
 ----------------
 
-• Merged tag from android-10.0.0 r40
-• Reworked lockscreen weather.(Needs Google app for ls weather)
-• Added 8 new lockscreen clocks.
-• Removed omnijaws.
-• Added data activity arrows.
-• Added sync tile
-• Data Usage QS Header (daily/monthly).
-• Running services icon in qs footer.
-• Gesture anywhere.
-• Hide lock icon on lockscreen toggle.
-• Disable lockscreen rotation toggle.
-• Old QS page instead of panel toggle.
-• Bt icon fixes
-• QS blank rows in landscape mode fixed. (on clean flash)
-• Added theme tile.
-• Dialer improvements.
-• Clock app improvements.
-• Reworked multisim ringtone.
-• Update prebuilt apps.
-• For more check - our Gerrit
+- Merged tag from android-10.0.0 r41
+- Added Smart pixel.
+- Added Navbar Visualizer. 
+- Added LTE tile.
+- Improved QS panel data usage info.
+- Added Volte Icon from OOS 10.
+- Improved Volume Panel.
+- Screenstabilization Improvement.
+- Added QTI-BT support.(Supported device only)
+- Updated some icons of tiles.
+- Per app network isolation support.
+- Removed OP screen recorder and added Framework Screen recorder .
+- Legacy app scaling support.
+- Added Pixelthemes support.(statusbar icon theming)
+- Improved Launcher3.
+- Added 3 launchers Oneplus launcher , Lawnchair & Launcher3 (Launcher3 as default , Builders can choose which launchers they want)
+- Gallery App improvement.
+- Removed phonograph and added Metro as default music player.
+- Updated Superiorwalls and Via Browser.
+- Translation merged from community.
 
 Device Changelog:
-• Back to Old tree.
-• Kernel Upstreamed.
-• Miui Cam Updated from jasmine.
+-----------------
 
+- Sepolicy cleanup
+- Remove energy awareness daemon
+- Remove interaction lock when idle
+- Initialize powerHAL when boot is completed
+- Rootdir:set permissions for nodes used by power HAL
+- Set config_sustainedPerformanceModeSupported
+- Update libqti-perfd blobs from Taimen QQ3A.200705.002
+- Compile kernel with clang 11.0.3
+- Update all blobs from  jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
+- Add proper powerhints for SD 636
+- Bump vendor security patch level from Jasmine V11.0.11.0.QDIMIXM
+- Speed up fingerprint enrollment and unlock (turn off ultra powersaving mode to make it moar fast)
+- Added Gcam go and removed mi cam
+- Added XiaomiDoze back
+- Merged lattest changes from Strombreaker kernel.
 
 Note:- Clean flash Required
