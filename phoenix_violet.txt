@@ -1,177 +1,31 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 08/08/2020
+Date - 14/09/2020
 =================
 
 Source Changelog:
 ----------------
-• Merged tag from android-10.0.0 r41
-• Added Smart pixel.
-• Added Navbar Visualizer.
-• Added LTE tile.
-• Improved QS panel data usage info.
-• Added Volte Icon from OOS 10.
-• Improved Volume Panel.
-• Screen stabilization Improvement.
-• Added QTI-BT support. (Supported device only)
-• Updated some icons of tiles.
-• Per app network isolation support.
-• Removed OP screen recorder and added Framework Screen recorder .
-• Legacy app scaling support.
-• Added Pixelthemes support.(statusbar icon theming)
-• Improved Launcher3.
-• Added 3 launchers - Oneplus launcher , Lawnchair & Launcher3 (Launcher 3 as default , Builders can choose which launchers they want)
-• Gallery App improvement.
-• Removed phonograph and added Metro as default music player.
-• Updated Superiorwalls and Via Browser.
-• Translation merged from community.
+• Merged tag from android-10.0.0 r46
+• Network traffic fonts
+• Lockscreen timeout configurable
+• Force expand Notifications
+• More battery bar locations
+• Vo-Wifi icons support
+• Double tap to doze
+• Font engine (Enjoy System-wide fonts)
+• VOOC Charging support
+• Switch styles
+• SuperiorOS Statusbar logos
+• Launch Music Player on headset connect
+• Translation imports
+• Updated SuperiorWalls to v2.0.3
 
 Device Changelog:
 ----------------
-• Switched to new trees.
-• Built with Lawnchair launcher.
-• Fixed CTS & Basic integrity for rooted and non-rooted devices.
-• Introducing Violet Parts ( Huge thanks to @athuld )
-• Improved whole UI smoothness.
-• Improved boot time.
-• Boosted audio output.
-• Enabled smart pixels.
-• Updated build FP to August.
-• QCOM implementation for audio effects.
-
-Date - 11/07/2020
-=================
-
-Source Changelog:
-----------------
-• Merged tag from android-10.0.0 r40
-• Reworked lockscreen weather.
-(Needs Google app for ls weather)
-• Added 8 new lockscreen clocks. 
-• Removed omnijaws.
-• Added data activity arrows.
-• Added sync tile
-• Data Usage QS Header (daily/monthly).
-• Running services icon in qs footer.
-• Gesture anywhere.
-• Hide lock icon on lockscreen toggle.
-• Disable lockscreen rotation toggle.
-• Old QS page instead of panel toggle.
-• Bt icon fixes.
-• QS blank rows in landscape mode fixed. (on clean flash)
-• Added theme tile.
-• Dialer improvements.
-• Clock app improvements.
-• Reworked multisim ringtone.
-• Update prebuilt apps.
-
-Device Changelog:
-----------------
-• Updated build fingerprint.
-• Improved charging speed.
-• Updated some thermal values.
-• Switched to Power-libperfmgr.
-• Fixed FM Radio.
-• Fixed ANX Camera video mode issues.
-• Fixed 3rd party screen recorder green screen issue.
-• Reduced screen recorder lag.
-
-Date - 07/06/2020(Final Update)
-=================
-
-Source Changelog:
-----------------
-• Merged tag from android-10.0.0 r39 
-• Reworked battery styles.
-• Custom carrier label.
-• Togglable privacy indicators.
-• Livedisplay support.
-• Aggressive battery.
-• Make FOD animation optional.
-• Fix notification LED for missed call.
-• R style notification section header toggle.
-• Navbar tuner from Android N.
-• QS header data usage.
-• Update Prebuilt apps (Lawnchair , Via & Superiorwalls).
-• Fixed Bootanimation path.
-• Source Improvement & fixes.
-• Translation import from our crowdin.
-• violet: added Snap camera again
-• violet: kernel upstream
-
-Date - 07/05/2020
-=================
-
-Source Changelog:
-----------------
-
-• Merged android-10.0.0_r36.
-• Reworked network traffic.
-(Location, layout, font size, etc available)
-• New volume dialog .
-• Superior wallpapers app improved.
-• Toggle for dashboard conditions and suggestions.
-• Added Ambient Visualizer.
-• Added Material ocean theme.
-• OOS style dismiss notification button.
-• R style notification section header.
-• Option to disable statusbar on lockscreen.
-• Fix custom lockscreen shortcut icons being white
-• Lawnchair updated
-• Dropped faceunlock
-• Caffeine tile timers
-• Gesture nav extended swipe: show a double arrow when almost triggered
-• violet: Updated ANX Camera to v179
-• violet: Misc audio improvements
-
-Date - 18/04/2020
-=================
-
-Source Changelog:
-----------------
-
-• Added Face unlock.
-• Added long screenshot from asus.
-• Added Pulse magic visualizer.
-• Added Long swipe gesture actions.
-• Added Adaptive Playback.
-• Per app cellular data,vpn and wifi restriction support.
-• Fixed Navbar Enable/Disable toggle.
-• User Selectable VoLTE Icon.
-• Added more lockscreen charging animation  .
-• Added Less boring headsup tile.
-• Added FOD support .
-• Fixed Motorised cam/ Popup cam issues.
-• Little theming improvement.
-• Update prebuilt apps.
-• Source Improvement and Fixes.
-
-Device Changelog:
-----------------
-
-• Added stable ANX cam and dropped Gcam
-• Upstreamed kernel
-
-Date - 08/04/2020
-=================
-
-Source Changelog:
-----------------
-
-• April security patch (release 33).
-• Added QS themes.
-• Fix Headsup & Less boring Headsup.
-• Added Tint QSTile icon with accent color option.
-• Added FPS Info Tile.(Device support needed)
-• Added Home button wakeup.(Device specific)
-• Added  Screen Stabiization Tile.
-• Optional screenshot type.
-• Support for Customizing the length of the navigation handle  .
-• Added haptic feedback to QS tiles.
-• Animate the keyguard when charging .
-• Switch to OPScreenrecorder.
-• Fixed Internal Audio recording.
-• Update default wallpaper.
-• Automatic Translation Import.
-• Source Improvement and Fixes.
+• Switched to LOS kernel
+• Fixed Dt2w
+• Fixed call volume controls (Both earpiece and speaker)
+• Fixed call recording 
+• Fixed headphone volume control button related issues
+• Updated thermals , So slow charging issue should be fixed
