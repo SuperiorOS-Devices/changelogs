@@ -1,6 +1,26 @@
 Device: Xiaomi Mi A1
 Device maintainer: Jayant Deshmukh
 
+Date - 14/09/2020
+=================
+
+Source Changelog:
+----------------
+• Merged tag from android-10.0.0 r46
+• Network traffic fonts
+• Lockscreen timeout configurable
+• Force expand Notifications
+• More battery bar locations
+• Vo-Wifi icons support
+• Double tap to doze
+• Font engine (Enjoy System-wide fonts)
+• VOOC Charging support
+• Switch styles
+• SuperiorOS Statusbar logos
+• Launch Music Player on headset connect
+• Translation imports
+• Updated SuperiorWalls to v2.0.3
+
 Date - 06/06/2020
 =================
 
