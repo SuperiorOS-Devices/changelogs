@@ -1,44 +1,32 @@
 Device: Xiaomi Redmi 4X
 Device maintainer: Bikram Mukherjee
 
-Date :- 09/08/2020
+Date :- 14/09/2020
 ================
 
 Device Changelog:
 ----------------
-- Default Launcher: OnePlus Launcher
-- Introduce  Moto Dolby v3 (thank's @amandwivedi0)
-- update data-ipa-cfg-mgr from LA.UM.8.6.2.r1-07800-89xx.0
-- Switch fingerprint to walleye (Fixed CTS Pass)
-- Limit hotspot to 12 devices
-- wifi: set beacon missed count threshold
-- IMS: Filter out the conference host in the CEP
-- Enable QPower and Deep sleep at the same time
-- Enabled Higher fling velocities for smoother scrolling and better responsiveness
-- overlay: Show DocumentsUI internal storage by default
-- Change cpu set for camera daemon
-- Kernel: Upstreamed to 4.9.232
-- Compiled kernel Clang 11.0.3
+- Default Launcher: Lawnchair
+- update data-ipa-cfg-mgr from LA.UM.8.6.2.r1-08400-89xx.0
+- Update rootdir script from LA.UM.8.6.2.r1-08400-89xx.0
+- Use Cloudflare DNS servers as hints 
+- Add full Support Carrier Smartfren ViLTE
+- Kernel: Upstreamed to 4.9.236
+- Compiled kernel Clang 11.0.4
 
 Source Changelog:
 ----------------
-- Merged tag from android-10.0.0 r41
-- Added Smart pixel.
-- Added Navbar Visualizer. 
-- Added LTE tile.
-- Improved QS panel data usage info.
-- Added Volte Icon from OOS 10.
-- Improved Volume Panel.
-- Scrrenstabilization Improvement.
-- Added QTI-BT support.(Supported device only)
-- Updated some icons of tiles.
-- Per app network isolation support.
-- Removed OP screen recorder and added Framework Screen recorder .
-- Legacy app scaling support.
-- Added Pixelthemes support.(statusbar icon theming)
-- Improved Launcher3.
-- Added 3 launchers Oneplus launcher , Lawnchair & Launcher3 (Launcher3 as default , Builders can choose which launchers they want)
-- Gallery App improvement.
-- Removed phonograph and added Metro as default music player.
-- Updated Superiorwalls and Via Browser.
-- Translation merged from community.
+- Merged tag from android-10.0.0 r46
+- Network traffic fonts
+- Lockscreen timeout configurable
+- Force expand Notifications
+- More battery bar locations
+- Vo-Wifi icons support
+- Double tap to doze
+- Font engine (Enjoy System-wide fonts)
+- VOOC Charging support
+- Switch styles
+- SuperiorOS Statusbar logos
+- Launch Music Player on headset connect
+- Translation imports
+- Updated SuperiorWalls to v2.0.3
