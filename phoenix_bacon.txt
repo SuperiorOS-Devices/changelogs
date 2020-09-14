@@ -1,28 +1,22 @@
 Device: Oneplus One
 Device maintainer: Shahbaz Qadri
 
-Date - 13/08/2020
+Date - 14/09/2020
 =================
 
 Source Changelog:
 ----------------
-- Merged tag from android-10.0.0 r41
-- Added Smart pixel.
-- Added Navbar Visualizer. 
-- Added LTE tile.
-- Improved QS panel data usage info.
-- Added Volte Icon from OOS 10.
-- Improved Volume Panel.
-- Screenstabilization Improvement.
-- Added QTI-BT support.(Supported device only)
-- Updated some icons of tiles.
-- Per app network isolation support.
-- Removed OP screen recorder and added Framework Screen recorder .
-- Legacy app scaling support.
-- Added Pixelthemes support.(statusbar icon theming)
-- Improved Launcher3.
-- Added 3 launchers Oneplus launcher , Lawnchair & Launcher3 (Launcher3 as default , Builders can choose which launchers they want)
-- Gallery App improvement.
-- Removed phonograph and added Metro as default music player.
-- Updated Superiorwalls and Via Browser.
-- Translation merged from community.
+• Merged tag from android-10.0.0 r46
+• Network traffic fonts
+• Lockscreen timeout configurable
+• Force expand Notifications
+• More battery bar locations
+• Vo-Wifi icons support
+• Double tap to doze
+• Font engine (Enjoy System-wide fonts)
+• VOOC Charging support
+• Switch styles
+• SuperiorOS Statusbar logos
+• Launch Music Player on headset connect
+• Translation imports
+• Updated SuperiorWalls to v2.0.3
