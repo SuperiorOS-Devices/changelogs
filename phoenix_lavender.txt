@@ -1,42 +1,35 @@
 Device: Xiaomi Redmi Note 7
 Device maintainer: jimgsey
 
-Date - 07/08/2020
+Date - 14/09/2020
 =================
 
 Source Changelog:
 ----------------
-• Merged tag from android-10.0.0 r41
-• Added Smart pixel.
-• Added Navbar Visualizer. 
-• Added LTE tile.
-• Improved QS panel data usage info.
-• Added VoLTE Icon from OOS 10.
-• Improved Volume Panel.
-• Scrrenstabilization Improvement.
-• Added QTI-BT support.(Supported device only)
-• Updated some icons of tiles.
-• Per app network isolation support.
-• Removed OP screen recorder and added Framework Screen recorder .
-• Legacy app scaling support.
-• Added Pixelthemes support.(statusbar icon theming)
-• Gallery App improvement.
-• Removed phonograph and added Metro as default music player.
-• Updated Superiorwalls and Via Browser.
-• Translation merged from community.
+• Merged tag from android-10.0.0 r46
+• Network traffic fonts
+• Lockscreen timeout configurable
+• Force expand Notifications
+• More battery bar locations
+• Vo-Wifi icons support
+• Double tap to doze
+• Font engine (Enjoy System-wide fonts)
+• VOOC Charging support
+• Switch styles
+• SuperiorOS Statusbar logos
+• Launch Music Player on headset connect
+• Translation imports
+• Updated SuperiorWalls to v2.0.3
 
 • For more check - https://gerrit.superioros.org
 
 Device Changelog:
 ----------------
 
-• Change Kernel to common 4.4.232
-• Changes for 24bit audio
-• Raise ADC Volume Level
-• Use OP Launcher
-• Raise ADC Volume Level
-• Add SELinux Switch and LogTitle
+• Update Kernel hmp to common 4.4.236
+• Add DeviceParts
+• Update FP to RP1A.200720.009 from coral
+• Use Lawnchair
+• Fixed SELinux Switch
 
 • For more check - our tree in https://github.com/SuperiorOS-Devices?q=lavender
-
-Note:- Clean flash Required
