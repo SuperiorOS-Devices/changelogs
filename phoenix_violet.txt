@@ -1,31 +1,26 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 14/09/2020
+Date - 11/10/2020
 =================
 
 Source Changelog:
 ----------------
-• Merged tag from android-10.0.0 r46
-• Network traffic fonts
-• Lockscreen timeout configurable
-• Force expand Notifications
-• More battery bar locations
-• Vo-Wifi icons support
-• Double tap to doze
-• Font engine (Enjoy System-wide fonts)
-• VOOC Charging support
-• Switch styles
-• SuperiorOS Statusbar logos
-• Launch Music Player on headset connect
-• Translation imports
-• Updated SuperiorWalls to v2.0.3
+• Bumped Security patch.
+• Added some more charging animations.
+• Show watt on lockscreen while charging.
+• Speedup some animations.
+• Added Face unlock.
+• Added Applock.
+• Alertslider UI (For supported device)
+• Updated prebuilt apps.
+• Merged translation from crowdin.
+• Misc Fixes.
 
 Device Changelog:
 ----------------
-• Switched to LOS kernel
-• Fixed Dt2w
-• Fixed call volume controls (Both earpiece and speaker)
-• Fixed call recording 
-• Fixed headphone volume control button related issues
-• Updated thermals , So slow charging issue should be fixed
+• Added Moto Dolby
+• Fixed screen on delay while unlocking with fingerprint
+• Reduced fingerprint response delay after locking the device
+• Updated power hint
+• Upstreamed kernel to 4.14.200
