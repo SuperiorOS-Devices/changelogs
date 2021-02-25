@@ -1,42 +1,38 @@
  Device: Motorola Moto X4
  Device maintainer: Dhinesh
 
-Date - 13/10/2020
+Date - 25/02/2021
 =================
 
 Source Changelog:
 ----------------
-• Bumped Security patch.
-• Added some more charging animations.
-• Show watt on lockscreen while charging.
-• Speedup some animations.
-• Added Face unlock.
-• Added Applock.
-• Alertslider UI (For supported device)
-• Updated prebuilt apps.
-• Merged translation from crowdin.
-• Misc Fixes.
+- February security patch.
+- Color bucket (Themes).
+- Data usage status in QS panel.
+- Statusbar icon style customisation.
+- Deepsleep status in About phone.
+- Face unlock .
+- Gesture nav bar length .
+- Keyboard : Dark Theme support , Crash fixes
+- Launcher : App lock and hide app options , More grids (5×6 , 5×7) , App suggestions , Fix gesture navigation move fail .
+- Messaging : Color scheme changes .
+- Moved blur into display settings .
+- QTI BT Support.
+- QS Tile accent tint .
+- QS footer text .
+- RGB Accenter .
+- Shortcuts in lockscreen .
+- Xtended charging animation .
+- Ambient Music ticker at bottom
 
- Date - 14/09/2020
+Device Changelog:
+-----------------
+- fully rebase cybertron
+- added blu_schedulit gov
+- added anxiety io
+- optimized for faster app opening
+- more see superior-devices
 
-• Network traffic fonts
-• Lockscreen timeout configurable
-• Force expand Notifications
-• More battery bar locations
-• Vo-Wifi icons support
-• Double tap to doze
-• Font engine (Enjoy System-wide fonts)
-• VOOC Charging support
-• Switch styles
-• SuperiorOS Statusbar logos
-• Launch Music Player on headset connect
-• Translation imports
-• Updated SuperiorWalls to v2.0.3
+NOTES:-
 
- Device Changelogs:
-
-• clean up tress
-• disable sf pressure
-• kernel upstreamed to 4.4.238
-
-****Final A10 Build****
+##clean flash recommended##
