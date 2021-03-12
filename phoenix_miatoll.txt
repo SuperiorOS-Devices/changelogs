@@ -1,0 +1,13 @@
+Device: miatoll
+Device maintainer: HaSSaN
+
+Date - 12/03/2021
+=================
+
+Device Changelog:
+-----------------
+• Kernel upstreamed to 4.14.224
+• Build fingerprint update to redfin March
+• Fixed VOIP call audio issues, credits @ctwoon
+• Addressed some more last remaining denials
+• Added back adaptive color modes
