@@ -1,26 +1,44 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 11/10/2020
+Date - 12/03/2021
 =================
 
 Source Changelog:
 ----------------
-• Bumped Security patch.
-• Added some more charging animations.
-• Show watt on lockscreen while charging.
-• Speedup some animations.
-• Added Face unlock.
-• Added Applock.
-• Alertslider UI (For supported device)
-• Updated prebuilt apps.
-• Merged translation from crowdin.
-• Misc Fixes.
+- Merged March security patch
+- Added back the delete action for screen recorder notification
+- Added gesture bar radius control
+- Added some fonts
+- Added back flower and hexagon icon shape overlays
+- Added Option to Display Data Disabled Indicator Icon
+- Added optional roaming indicator
+- Added scheduling always on display 
+- Added 5 more lockscreen clock styles
+- Allow hiding Notification headers
+- Dialer - Added post call snack bar
+- Dialer - Added auto call recording
+- Dialer - Introduced smart mute
+- Improved upload and download animation 
+- Introduce OOS style notification clear all button (Disabled AOSP clear all button)
+- Launcher - Implemented better icon pack support
+- Launcher - Added optional swipe down to clear all 
+- Launcher - Added icon size changing option
+- Launcher - Updated clear all icon and moved share button to recent menu
+- Deskclock - Add back flip & shake action
+- Deskclock - Add support for Poweroff alarm.
+- Brightness slider improvement
+- Some more stuffs here & there 😉
 
 Device Changelog:
 ----------------
-• Added Moto Dolby
-• Fixed screen on delay while unlocking with fingerprint
-• Reduced fingerprint response delay after locking the device
-• Updated power hint
-• Upstreamed kernel to 4.14.200
+• Adjusted key guard padding
+• Brought back all thermal configs
+• Removed pinning camera app in memory
+• Switched to source built vendor.qti.hardware.perf@2.0.vendor
+• Updated power hint from Sunfish
+• Updated graphics blobs to LA.UM.9.1.r1-08600-SMxxx0.0 
+• Updated blobs from davinci (RKQ1.200826.002 21.2.3)
+• Violet Parts - Added bass booster to dirac
+• Violet Parts - Imported vibration strength control
+• Violet Parts - Added torch brightness control
