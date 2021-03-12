@@ -1,38 +1,9 @@
  Device: Motorola Moto X4
  Device maintainer: Dhinesh
 
-Date - 25/02/2021
+Date - 12/03/2021
 =================
-
-Source Changelog:
-----------------
-- February security patch.
-- Color bucket (Themes).
-- Data usage status in QS panel.
-- Statusbar icon style customisation.
-- Deepsleep status in About phone.
-- Face unlock .
-- Gesture nav bar length .
-- Keyboard : Dark Theme support , Crash fixes
-- Launcher : App lock and hide app options , More grids (5×6 , 5×7) , App suggestions , Fix gesture navigation move fail .
-- Messaging : Color scheme changes .
-- Moved blur into display settings .
-- QTI BT Support.
-- QS Tile accent tint .
-- QS footer text .
-- RGB Accenter .
-- Shortcuts in lockscreen .
-- Xtended charging animation .
-- Ambient Music ticker at bottom
 
 Device Changelog:
 -----------------
-- fully rebase cybertron
-- added blu_schedulit gov
-- added anxiety io
-- optimized for faster app opening
-- more see superior-devices
-
-NOTES:-
-
-##clean flash recommended##
+- more see superior-device
