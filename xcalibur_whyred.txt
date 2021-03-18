@@ -1,0 +1,9 @@
+Device: Xiaomi Redmi Note 5 Pro
+Device maintainer: Sipun Ku Mahanta
+
+Date - 17/03/2021
+=================
+
+- Updated blobs from LA.UM.8.2.r1-06700-sdm660.0 , LA.UM.9.6.2.r1-03300-89xx.0 & LA.UM.9.6.2.r1-02500-89xx.0.
+- Migrate to Health 2.1 HAL.
+- Kranul stuffs from Sreekanth sur..

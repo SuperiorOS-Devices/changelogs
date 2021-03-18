@@ -1,27 +1,27 @@
 
-Date - 24/02/2021
+Date - 12/03/2021
 =================
 
-- February security patch.
-- Color bucket (Themes).
-- Data usage status in QS panel.
-- Statusbar icon style customisation.
-- Deepsleep status in About phone.
-- Face unlock .
-- Gesture nav bar length .
-- Keyboard : Dark Theme support , Crash fixes
-- Launcher : App lock and hide app options , More grids (5×6 , 5×7) , App suggestions , Fix gesture navigation move fail .
-- Messaging : Color scheme changes .
-- Moved blur into display settings .
-- QTI BT Support.
-- QS Tile accent tint .
-- QS footer text .
-- RGB  Accenter .
-- Shortcuts in lockscreen .
-- Xtended charging animation .
-- Ambient Music ticker at bottom.
-
-Notes:-
-
-- Translations not added due to server issue.
-- Clean flash recommended to avoid launcher crash..
+- Merged March security patch
+- Added back the delete action for screen recorder notification
+- Added gesture bar radius control
+- Added some fonts
+- Added back flower and hexagon icon shape overlays
+- Added Option to Display Data Disabled Indicator Icon
+- Added optional roaming indicator
+- Added scheduling always on display 
+- Dialer - Added post call snack bar
+- Dialer - Added auto call recording
+- Dialer - Introduced smart mute
+- Improved upload and download animation 
+- Introduce OOS style notification clear all button (Disabled AOSP clear all button)
+- Launcher - Implemented better icon pack support
+- Launcher - Added optional swipe down to clear all 
+- Launcher - Added icon size changing option
+- Launcher - Updated clear all icon and moved share button to recent menu
+- Deskclock - Add back flip & shake action
+- Deskclock - Add support for Poweroff alarm.
+- Brightness slider improvement
+- Added 5 more lockscreen clock styles
+- Allow hiding Notification headers
+- Some more stuffs here & there 😉
