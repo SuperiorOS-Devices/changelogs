@@ -1,27 +1,25 @@
 
-Date - 12/03/2021
+Date - 12/04/2021
 =================
 
-- Merged March security patch
-- Added back the delete action for screen recorder notification
-- Added gesture bar radius control
-- Added some fonts
-- Added back flower and hexagon icon shape overlays
-- Added Option to Display Data Disabled Indicator Icon
-- Added optional roaming indicator
-- Added scheduling always on display 
-- Dialer - Added post call snack bar
-- Dialer - Added auto call recording
-- Dialer - Introduced smart mute
-- Improved upload and download animation 
-- Introduce OOS style notification clear all button (Disabled AOSP clear all button)
-- Launcher - Implemented better icon pack support
-- Launcher - Added optional swipe down to clear all 
-- Launcher - Added icon size changing option
-- Launcher - Updated clear all icon and moved share button to recent menu
-- Deskclock - Add back flip & shake action
-- Deskclock - Add support for Poweroff alarm.
-- Brightness slider improvement
-- Added 5 more lockscreen clock styles
-- Allow hiding Notification headers
+- Merged April security patch
+- Added long screenshot
+- Added support for per app network isolation
+- Updated Faceunlock feature from PixelExperience
+- Allow using face as auth method for apps
+- Introduce user interface for Alert Sliders
+- Implement OnePlus proprietary vibrator format
+- Added Wi-Fi & BT timeout feature
+- Added touch sensitivity switch from GoogleSettings
+- Added Dataswitch tile
+- Added systemwide applock
+- Multi SIM phone ringtone support
+- Shapeshift Lockscreen Clock
+- Updated some QS tile icons
+- ThemePicker- Hide Big Preview 
+- Added Refresh Rate controller
+- Added Lottie animation in about phone (Made by Roger.T)
+- Added Updater back
+- Added Android 12 Dark theme
+- Translation merged from our crowdin
 - Some more stuffs here & there 😉
