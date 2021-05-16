@@ -1,25 +1,17 @@
 
-Date - 12/04/2021
+Date - 12/05/2021
 =================
 
-- Merged April security patch
-- Added long screenshot
-- Added support for per app network isolation
-- Updated Faceunlock feature from PixelExperience
-- Allow using face as auth method for apps
-- Introduce user interface for Alert Sliders
-- Implement OnePlus proprietary vibrator format
-- Added Wi-Fi & BT timeout feature
-- Added touch sensitivity switch from GoogleSettings
-- Added Dataswitch tile
-- Added systemwide applock
-- Multi SIM phone ringtone support
-- Shapeshift Lockscreen Clock
-- Updated some QS tile icons
-- ThemePicker- Hide Big Preview 
-- Added Refresh Rate controller
-- Added Lottie animation in about phone (Made by Roger.T)
-- Added Updater back
-- Added Android 12 Dark theme
+- Merged May security patch
+- Added live display (Display color calibration)
+- Added qs tiles for live display and reading mode
+- Added less boring headsup (aka priority notifications) tile
+- Added Some more lockscreen clock styles
+- Allow disabling refresh rate lowering in battery saver
+- Allow hiding the lock icon on lockscreen
+- AppLock: Add option to instantly lock app on closing
+- Fixup Less Boring notification
+- HeadsUp timeout and snooze function
+- Introducing systemwide font support 
 - Translation merged from our crowdin
 - Some more stuffs here & there 😉
