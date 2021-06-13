@@ -1,11 +1,22 @@
  Device: Motorola Moto X4
  Device maintainer: Dhinesh
 
-Date - 14/04/2021
+Date - 13/06/2021
 =================
 
 Device Changelog:
 -----------------
-*fixed echo issue 
-*fixed hotspot issue
-*upstream kernel to 4.4.266
+-adapt to new moto action(thnx to seba3567)
+-fixed iorapd(credit to @ExactXmpl)
+-fix broken powerhal nodes(credit to @ExactXmpl)
+-new cybertron v2.2
+-set schedulit as default
+-upstreamed to 4.4.272
+-improved performance with 2.4ghz OC
+-improved schedutil governor
+-new improved anxiety I/O
+-use pelt as load stats
+-enabled usb fast charge mode
+-added lmk for better ram managment
+-added new gpu logic
+-more improvements see my git
