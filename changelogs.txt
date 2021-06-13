@@ -1,17 +1,31 @@
 
-Date - 12/05/2021
+Date - 13/06/2021
 =================
 
-- Merged May security patch
-- Added live display (Display color calibration)
-- Added qs tiles for live display and reading mode
-- Added less boring headsup (aka priority notifications) tile
-- Added Some more lockscreen clock styles
-- Allow disabling refresh rate lowering in battery saver
-- Allow hiding the lock icon on lockscreen
-- AppLock: Add option to instantly lock app on closing
-- Fixup Less Boring notification
-- HeadsUp timeout and snooze function
-- Introducing systemwide font support 
+- Merged June security patch
+- Added 2 more QS Tile tint options
+- Added battery health section (Optional)
+- Added seamless clock switch (Lock screen clock)
+- Added switch to link ring and media notification volumes 
+- Added toggle to show volume panel on left  
+- Added more apns
+- Dropped flipendo
+- Improved display refresh rate implementation
+- Moved fonts to theme section
+- Never show suggestions (Settings)
+- Revamped Settings dashboard icons
+- Redesigned Settings search bar & header 
+- Removed black QS status bar background 
+- Reimplemented volume panel in a better way
+- Updated default wallpaper
+- Updated prebuilt apps
 - Translation merged from our crowdin
 - Some more stuffs here & there 😉
+
+  Bug Fixes
+
+- Fixed some blank clock thumbnails
+- Fixed inactive state Wifi Icon in Kai Icon Pack 
+- Fixed lock statusbar glitches after reboot
+- Fixed some issues related to backuptool
+- Fixed Network traffic visibility on overlayChange
