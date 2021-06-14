@@ -1,44 +1,18 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 12/03/2021
+Date - 14/06/2021
 =================
-
-Source Changelog:
-----------------
-- Merged March security patch
-- Added back the delete action for screen recorder notification
-- Added gesture bar radius control
-- Added some fonts
-- Added back flower and hexagon icon shape overlays
-- Added Option to Display Data Disabled Indicator Icon
-- Added optional roaming indicator
-- Added scheduling always on display 
-- Added 5 more lockscreen clock styles
-- Allow hiding Notification headers
-- Dialer - Added post call snack bar
-- Dialer - Added auto call recording
-- Dialer - Introduced smart mute
-- Improved upload and download animation 
-- Introduce OOS style notification clear all button (Disabled AOSP clear all button)
-- Launcher - Implemented better icon pack support
-- Launcher - Added optional swipe down to clear all 
-- Launcher - Added icon size changing option
-- Launcher - Updated clear all icon and moved share button to recent menu
-- Deskclock - Add back flip & shake action
-- Deskclock - Add support for Poweroff alarm.
-- Brightness slider improvement
-- Some more stuffs here & there 😉
 
 Device Changelog:
 ----------------
-• Adjusted key guard padding
-• Brought back all thermal configs
-• Removed pinning camera app in memory
-• Switched to source built vendor.qti.hardware.perf@2.0.vendor
-• Updated power hint from Sunfish
-• Updated graphics blobs to LA.UM.9.1.r1-08600-SMxxx0.0 
-• Updated blobs from davinci (RKQ1.200826.002 21.2.3)
-• Violet Parts - Added bass booster to dirac
-• Violet Parts - Imported vibration strength control
-• Violet Parts - Added torch brightness control
+• Dropped Stereo channel support for voip over audio path (Probably fixed voip echo , Tested Whatsapp and telegram voip calls)
+  Fixed 24bit audio playback (Enforced 24 bit as primary output)
+• Added wired headset mic to voip_tx sources 
+• Corrected routing order for voip output
+• Imported Clear speaker 
+• Added Lottie animations for Clear speaker 
+• Brought back Thermal profiles (Injected into violet parts)
+• Switch back to default thermal profile when screen off 
+• Switch to TaskStackListener
+• Updated home page Lottie animation of Violet parts
