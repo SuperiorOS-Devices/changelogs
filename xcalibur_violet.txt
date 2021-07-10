@@ -1,18 +1,19 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 14/06/2021
-=================
+Date - 10/07/2021
+==============
 
 Device Changelog:
-----------------
-• Dropped Stereo channel support for voip over audio path (Probably fixed voip echo , Tested Whatsapp and telegram voip calls)
-  Fixed 24bit audio playback (Enforced 24 bit as primary output)
-• Added wired headset mic to voip_tx sources 
-• Corrected routing order for voip output
-• Imported Clear speaker 
-• Added Lottie animations for Clear speaker 
-• Brought back Thermal profiles (Injected into violet parts)
-• Switch back to default thermal profile when screen off 
-• Switch to TaskStackListener
-• Updated home page Lottie animation of Violet parts
+================
+- Added Stable ANX Camera
+- Addressed some kernel warnings
+- Created dummy libqti-perfd-client
+- Dropped prebuilt Simple Gallery and Gcam Go
+- Dropped partially broken offline charging blobs
+- Fixed cracking sound when using external mic for video recording
+- Nuked perfd blobs
+- Redirect keycode 96 to CAMERA (For fingerprint shutter in MIUI camera)
+- Switched to proton clang
+- Switched to stable Pixel offline charging animation
+- Update blobs from davinci
