@@ -1,0 +1,7 @@
+Date - 10/07/2021
+=================
+
+- Merged July security patch
+Fixes :-
+- Fixed Bluetooth media
+
