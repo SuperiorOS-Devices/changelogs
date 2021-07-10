@@ -1,31 +1,47 @@
 
-Date - 13/06/2021
+Date - 10/07/2021
 =================
 
-- Merged June security patch
-- Added 2 more QS Tile tint options
-- Added battery health section (Optional)
-- Added seamless clock switch (Lock screen clock)
-- Added switch to link ring and media notification volumes 
-- Added toggle to show volume panel on left  
-- Added more apns
-- Dropped flipendo
-- Improved display refresh rate implementation
-- Moved fonts to theme section
-- Never show suggestions (Settings)
-- Revamped Settings dashboard icons
-- Redesigned Settings search bar & header 
-- Removed black QS status bar background 
-- Reimplemented volume panel in a better way
+- Merged July security patch
+- Added optional Flashlight blink on incoming calls
+- Added optional SuperiorOS logo on status bar
+- Added 5 more lock screen clocks (Dot , spidey , sneaky , spectrum and Android S DP3)
+- Added plenty of new accent presets
+- Added QS footer text
+- Brought back flipendo
+- Brought back our old brightness slider implementation
+- Decreased vertical padding between QS Tiles
+- Enabled zygote preforking by default
+- Implemented our new settings header UI 
+- Implemented per app volume control
+- Imported 3 more VoLTE icons
+- Imported pixel offline charging animation
+- Imported PixelThemesStub for styles picker
+- Improved AOD
+- Improved low quality screen record 
+- Improved screen recorder dialog layout
+- Improved volume panel expansion animation
+- Moved screen recorder dialog to bottom
+- Switched to Hastebin to upload crash logs 
 - Updated default wallpaper
-- Updated prebuilt apps
+- Updated prebuilt ViaBrowser app
 - Translation merged from our crowdin
 - Some more stuffs here & there 😉
 
-  Bug Fixes
+Fixes :-
+- Corrected package names for Launcher/ThemePicker overlays
+- Dropped RGB accent picker in favour of our accent presets and PixelThemesStub
+- Fixed theme reset after reboot 
+- Fixed unreadable thumbnail of type alt clock
+- Fixed clock icon with Kai & Victor IconPacks
+- Fixed user icon sync with accent colors
+- Fixed flipendo never allows
+- Fixed showing duplicated charging status
+- Fixed broken charging animation
+- Fixed hidden SeamlessClockSwitch string
+- Fixed touch area on captions and ringer button when on landscape (Volume dialog)
+- Removed broken power menu column controller
 
-- Fixed some blank clock thumbnails
-- Fixed inactive state Wifi Icon in Kai Icon Pack 
-- Fixed lock statusbar glitches after reboot
-- Fixed some issues related to backuptool
-- Fixed Network traffic visibility on overlayChange
+GApps :-
+- Dropped redundant font overlays
+- Dropped Nexus launcher and it's overlays (GApps build also ships with our own launcher from now)
