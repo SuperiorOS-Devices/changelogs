@@ -1,9 +1,40 @@
 Device: Google Pixel 4a (sunfish)
 Device maintainer: Jayant Deshmukh
 
-Date - 08/05/2021
+Date - 11/07/2021
 =================
+
+Device Changelog:
+----------------
+* Updated kernel to latest linux-4.14 stable (4.14.238).
+* Synced latest July patch vendor blobs.
 
 Source Changelog:
 ----------------
-• Will be updated shortly
+* Merged July security patch
+* Added optional Flashlight blink on incoming calls
+* Added optional SuperiorOS logo on status bar
+* Added 5 more lock screen clocks (Dot , spidey , sneaky , spectrum and Android S DP3)
+* Added plenty of new accent presets
+* Brought back flipendo (battery saver feature)
+* Decreased vertical padding between QS Tiles
+* Implemented our new settings header UI
+* Implemented per app volume control
+* Imported 3 more VoLTE icons
+* Imported PixelThemesStub for styles picker
+* Improved AOD
+* Improved low quality screen record
+* Improved screen recorder dialog layout
+* Improved volume panel expansion animation
+* Switched to Hastebin to upload crash logs
+* Updated default wallpaper
+* Updated prebuilt ViaBrowser app
+* Translation merged from our crowdin
+* Fixed unreadable thumbnail of type alt clock
+* Fixed clock icon with Kai & Victor IconPacks
+* Fixed user icon sync with accent colors
+* Fixed showing duplicated charging status
+* Fixed broken charging animation
+* Fixed hidden SeamlessClockSwitch string
+* Fixed touch area on captions and ringer button when on landscape (Volume dialog)
+* Removed broken power menu column controller
