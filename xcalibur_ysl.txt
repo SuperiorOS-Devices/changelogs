@@ -1,0 +1,11 @@
+Device: Xiaomi Redmi S2
+Device maintainer: 
+
+Date - 18/07/2021
+=================
+
+* Enable zram-writeback job
+* Update blobs from daisy
+* Remove unused audio flag
+* Bump to June fp
+* Other misc changes
