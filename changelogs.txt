@@ -1,47 +1,28 @@
 
-Date - 10/07/2021
+Date - 05/08/2021
 =================
 
-- Merged July security patch
-- Added optional Flashlight blink on incoming calls
-- Added optional SuperiorOS logo on status bar
-- Added 5 more lock screen clocks (Dot , spidey , sneaky , spectrum and Android S DP3)
-- Added plenty of new accent presets
-- Added QS footer text
-- Brought back flipendo
-- Brought back our old brightness slider implementation
-- Decreased vertical padding between QS Tiles
-- Enabled zygote preforking by default
-- Implemented our new settings header UI 
-- Implemented per app volume control
-- Imported 3 more VoLTE icons
-- Imported pixel offline charging animation
-- Imported PixelThemesStub for styles picker
-- Improved AOD
-- Improved low quality screen record 
-- Improved screen recorder dialog layout
-- Improved volume panel expansion animation
-- Moved screen recorder dialog to bottom
-- Switched to Hastebin to upload crash logs 
+General Changes: 
+
+- Merged August security patch
+- Added separate catagory for display density options
+- Brought back theming catagory
+- Moved style picker , Fonts & clocks styles to theming catagory
+- Introducing switch styles (Added 6 new switch styles)
+- Introducing Pixel Prop Utils
+- Settings: Updated preference videos (from coral-user 11 RQ2A.210305.006 7119741 release-keys)
+- Settings: Improve protected sensitive info in about phone 
+- Translations merged from our crowdin
+- Updater: Added support to choose file from SD Card
 - Updated default wallpaper
-- Updated prebuilt ViaBrowser app
-- Translation merged from our crowdin
-- Some more stuffs here & there 😉
+- Updated gapps from redfin-rq3a.210705.001  
 
-Fixes :-
-- Corrected package names for Launcher/ThemePicker overlays
-- Dropped RGB accent picker in favour of our accent presets and PixelThemesStub
-- Fixed theme reset after reboot 
-- Fixed unreadable thumbnail of type alt clock
-- Fixed clock icon with Kai & Victor IconPacks
-- Fixed user icon sync with accent colors
-- Fixed flipendo never allows
-- Fixed showing duplicated charging status
-- Fixed broken charging animation
-- Fixed hidden SeamlessClockSwitch string
-- Fixed touch area on captions and ringer button when on landscape (Volume dialog)
-- Removed broken power menu column controller
+Bug Fixes:
 
-GApps :-
-- Dropped redundant font overlays
-- Dropped Nexus launcher and it's overlays (GApps build also ships with our own launcher from now)
+- Fixed AppLock related bugs
+- Fixed Android S DP3 LS Clock crash
+- Fixed Exfat related issues
+- Fixed stuttering/delay when pulling down Quick Settings panel
+- Fixed display flickering (Some devices like whyred)
+- Fixed wrong expand/collapse icon in volume bar
+- Fixed Updater crash when choose package from internal storage
