@@ -1,19 +1,23 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 10/07/2021
-==============
+Date - 06/08/2021
+================
 
 Device Changelog:
 ================
-- Added Stable ANX Camera
-- Addressed some kernel warnings
-- Created dummy libqti-perfd-client
-- Dropped prebuilt Simple Gallery and Gcam Go
-- Dropped partially broken offline charging blobs
-- Fixed cracking sound when using external mic for video recording
-- Nuked perfd blobs
-- Redirect keycode 96 to CAMERA (For fingerprint shutter in MIUI camera)
-- Switched to proton clang
-- Switched to stable Pixel offline charging animation
-- Update blobs from davinci
+- Addressed some denials
+- Dropped USAP Props
+- Dropped Pixel Build FP (In favour of Pixel prop utils)
+- Disable Discovery Service & Near by Messaging Service 
+- Disabled global mode and CDMA choices 
+- Redesigned FPS info (Violet Parts)
+- Updated carrier configs from LA.QSSI.11.0.r1-11100-qssi.0
+- Updated graphics and media blobs from LA.UM.9.1.r1-10200-SMxxx0.0
+- Updated Thermal (init script) from LA.UM.9.1.r1-10200-SMxxx0.0
+
+Kernel
+------
+- Rebased kernel over LA.UM.9.1.r1-10200-SMxxx0.0
+- Merged Latest CAF tags (LA.UM.9.1.r1-10600-SMxxx0.0)
+- Suppressed WakeLock node permission log spam
