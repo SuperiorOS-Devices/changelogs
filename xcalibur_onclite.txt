@@ -1,0 +1,5 @@
+Date - 08/08/2021
+=================
+
+- Initial Official build
+- Use Magisk Hide to pass safety net
