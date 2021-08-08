@@ -1,13 +1,14 @@
 Device: miatoll
 Device maintainer: HaSSaN
 
-Date - 12/03/2021
+Date - 08/08/2021
 =================
 
 Device Changelog:
 -----------------
-• Kernel upstreamed to 4.14.224
-• Build fingerprint update to redfin March
-• Fixed VOIP call audio issues, credits @ctwoon
-• Addressed some more last remaining denials
-• Added back adaptive color modes
+• Switched to @Sairam60 tress
+• Kernel upstreamed to Etherious 4.14.239
+• Build fingerprint update to redfin Aug
+• Fixed wifi display 
+• Improve post_boot tuning for performance(less jitter for now) 
+• Updated blobs from excalibur and load a11 liboemcrypto for excalibur
