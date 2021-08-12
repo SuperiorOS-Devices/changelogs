@@ -1,9 +1,8 @@
 Device: Asus Zenfone Max Pro M2
 Device maintainer: Shibi Krishna
 
-Date - 12/07/2021
+Date - 12/08/2021
 =================
 
-- FBE (Force Encryption) Enabled
-- Kernel upstreamed to 4.4.275
-- Build fingerprint updated to Redfin July
+- Kernel upstreamed to 4.4.280
+- Build fingerprint updated to Redfin August
