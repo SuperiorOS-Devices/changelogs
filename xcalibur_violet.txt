@@ -6,18 +6,17 @@ Date - 06/08/2021
 
 Device Changelog:
 ================
-- Addressed some denials
-- Dropped USAP Props
-- Dropped Pixel Build FP (In favour of Pixel prop utils)
-- Disable Discovery Service & Near by Messaging Service 
-- Disabled global mode and CDMA choices 
-- Redesigned FPS info (Violet Parts)
-- Updated carrier configs from LA.QSSI.11.0.r1-11100-qssi.0
-- Updated graphics and media blobs from LA.UM.9.1.r1-10200-SMxxx0.0
-- Updated Thermal (init script) from LA.UM.9.1.r1-10200-SMxxx0.0
+- Fixed Voip echo issue on speaker 
+- Updated audio configs from LA.UM.9.1.r1-10600-SMxxx0
+- Audio: Imported xiaomi changes
+- Implement keyhandler for fingerprint shutter (This Prevents fp from triggering other events)
+- Imported finetuned ACDB
+- Set fast charging indicator threshold to 10.8W
+- Cleaned notch killer & cutout overlays 
+- Updated gps configs from LA.UM.9.1.r1-10600-SMxxx0.0 
+- Some Wifi related improvements
 
 Kernel
 ------
-- Rebased kernel over LA.UM.9.1.r1-10200-SMxxx0.0
-- Merged Latest CAF tags (LA.UM.9.1.r1-10600-SMxxx0.0)
-- Suppressed WakeLock node permission log spam
+- Merged Latest CAF tags (LA.UM.9.1.r1-10900-SMxxx0.0)
+- Some Audio improvements (From azure)
