@@ -1,8 +1,10 @@
 Device: Xiaomi Redmi Note 5 Pro
 Device maintainer: Sipun Ku Mahanta
 
-Date - 08/08/2021
+Date - 10/09/2021
 =================
 
-- Rebased trees over sakil's tree.
 - Updated kernel from strombreaker.
+- Compile kernel using proton clang.
+- Fixup some BT issues.
+- Fixup Battery health not showing earlier.
