@@ -1,10 +1,12 @@
 Device: Poco X3 (surya)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 08/08/2021
+Date - 10/09/2021
 ================
 
 Device Changelog:
 ================
-- Removed build FP hacks in favour of Pixel Prop Utils
+- Fixed Screen cast
+- Added init script for exTHmUI's GameMode performance control
+- Parts: Don't apply thermal preset when GameMode is active 
 - Pulled latest changes from Optimus Drunk kernel
