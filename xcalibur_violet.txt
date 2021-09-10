@@ -1,22 +1,24 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 06/08/2021
+Date - 10/09/2021
 ================
 
 Device Changelog:
 ================
-- Fixed Voip echo issue on speaker 
-- Updated audio configs from LA.UM.9.1.r1-10600-SMxxx0
-- Audio: Imported xiaomi changes
-- Implement keyhandler for fingerprint shutter (This Prevents fp from triggering other events)
-- Imported finetuned ACDB
-- Set fast charging indicator threshold to 10.8W
-- Cleaned notch killer & cutout overlays 
-- Updated gps configs from LA.UM.9.1.r1-10600-SMxxx0.0 
-- Some Wifi related improvements
-
-Kernel
-------
-- Merged Latest CAF tags (LA.UM.9.1.r1-10900-SMxxx0.0)
-- Some Audio improvements (From azure)
+- Dropped QTI Vibrator (This fixes log spam related to vibrator)
+- Dropped duplicated Xiaomi doze (Moved from Violet Parts to Settings-Display-Lockscreen)
+- Parts: Added icons for doze 
+- Parts: Refactored whole code
+- Parts: Refactored sensors
+- Parts: Use all shared resources from devicesettings
+- Parts: Added switchbar to disable dynamic thermal (Disabled by default)
+- Parts: Don't apply thermal preset when GameMode is active 
+- Added script for exTHmUI's GameMode performance control
+- Allocated dedicated pcm node for in call recording (This fixes call recording audio)
+- Fixed echo/disturbance on normal call 
+- VioletParts: Moved back to Settings dashboard
+- VioletParts: Updated clear speaker audio from MIUI 12
+- VioletParts: Dropped all lottie animation headers
+- Merged Latest CAF tags to kernel (qcacld-3.0, fw-api, qca-wifi-host-cmn & techpack/audio) (LA.UM.9.1.r1-11100-SMxxx0.0)
+- Improved SLMK
