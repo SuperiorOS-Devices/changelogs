@@ -1,5 +1,15 @@
-Date - 08/08/2021
+Date - 11/09/2021
 =================
 
-- Initial Official build
-- Use Magisk Hide to pass safety net
+•Safety Net now passes out of the box
+•Improved smoothness 
+•Improved Battery Backup
+•Changed kernel to Lineage
+•Fixed automatic reboot when calling
+•Changed dpi to 399 default
+•Improved ram management 
+•Increased speaker and microphone volume
+•Added Xiaomi Parts
+•Added support for Gaming Mode
+•Fixed PC not detecting the device
+
