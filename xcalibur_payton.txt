@@ -1,13 +1,17 @@
  Device: Motorola Moto X4
  Device maintainer: Dhinesh
 
-Date - 13/07/2021
+Date - 21/09/2021
 =================
 
 Device Changelog:
 -----------------
-*updated thermal from stock
-*updated grpahics blobs from taimen(credit to @ExactXmpl)
-*tweaks for ui improvement
-*added 2gb zram
-*fixed broken twrp issue
+*fully rebase to los tree
+*cybertron v2.5
+*added new adapt launch feature
+*switched to aosp surfaceflinger
+*tweaks for better magisk hide
+*added dynamic zram
+*added prebuit twrp
+*and lot more
+***clean flash recommended***
