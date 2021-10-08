@@ -1,38 +1,42 @@
+![1633706057139](https://user-images.githubusercontent.com/29405483/136581672-7690727e-edb5-424a-8660-938ebb56e55c.png)
 
-September Update: Created some bugs, fixed some bugs.
+
+October Update: Pack your bags because we are going on a smooth trip!
 ==================================================
 
-So another month is here and we are back too with some much needed bug fixes. It's not like we care about what happens to you but we had enough of your whining so we fixed some stuff . So, behold you peasants! The changelog for this release. 
+Beep bop beep bop beep bop, yup! we are alive and very very well. Infact this month too our ultra fast update schedule is going very well. 
+I won't be trying to make any weird jokes or puns this time around and keep the post every short and precise. Below you will see the most beautiful changelog you will ever imagine. 
+So, go ahead and read it 5 times for every hour. 
 
 General Changes: 
 ===============
 
-- Merged September security patch
-- Added Android 12 ShapeShift clock
-- Aligned owner info as per the clock style
-- Added Variable size pattern lockscreen
-- Added Battery saver profiles
-- Added save and load set preferences for screen recorder
-- Added an option for longer screen recording
-- Added option to allow unlocking with fingerprint only on power button press (For devices with FP on power button)
-- Added option to replace media notification background with artwork
-- Added simple fade filter to the media artwork
-- Added Lawnchair launcher build support (Optional)
-- Imported Gaming mode from ExthmUI
-- Updated fingerprint to september security patch (PixelPropUtils)
-- Completely redesigned Superior Goodies
-- Redesigned Settings dashboard icons again (Also added separate catagory titles)
-- Imported Bouncy scrollview from OOS (Settings)
-- Updated prebuild apps
-- Merged translations from crowdin
- 
+- Merged October security patch
+- Added Immersive Navigation
+- Added few more fonts
+- Added AOSP WFD support 
+- Added option to scramble pin layout when unlocking
+- Added option to permanently hide apps from recents
+- Added option to locking tasks on recents
+- Don't show charging animation if battery is charged
+- Updated build fingerprints
+- Removed restrictions for system audio record 
+- Update music player
+- Launcher: Added kill action to app shortcut popup
+- Launcher: Removed share button from recents
+
 
 Bug Fixes:
 =========
 
-- Fixed WFD crash
-- Fixed unreadable QS Header Data Usage
-- Fixed face unlock directly skipping lockscreen
+- Fixed mapping mismatch between KeyEvent and NumPadKey 
+- Fixed reference to Noto Sans Javanese 
+- Fixed a11y+BiometricPrompt related OOB exception 
+- Fixed google widget timing issue 
+- Fixed haptic issues on back gesture navigation
 
-We know as soon as you will get the update you will come back crying for more. This cycle should keep continuining so we would see you again in October now.if you managed to survive. And if you like how hard we work to bring you awesome and absolutely free software EVERY MONTH, you can go ahead and donate us some coffee at **[Paypal](https://www.paypal.me/Sipun) | [UPI](https://telegra.ph/UPI-Id-09-18)**
+Dropped Devices:
+===============
+- X00T
 
+We know as soon as you will get the update you will come back crying for more. This cycle should keep continuining so we would see you again in November now.if you managed to survive. And if you like how hard we work to bring you awesome and absolutely free software EVERY MONTH, you can go ahead and donate us some coffee at **[Paypal](https://www.paypal.me/Sipun) | [UPI](https://telegra.ph/UPI-Id-09-18)**

@@ -1,30 +1,28 @@
 
-Date - 05/08/2021
+Date - 08/10/2021
 =================
 
 General Changes: 
 
-- Merged September security patch
-- Added Android 12 ShapeShift clock
-- Aligned owner info as per the clock style
-- Added Variable size pattern lockscreen
-- Added Battery saver profiles
-- Added save and load set preferences for screen recorder
-- Added an option for longer screen recording
-- Added option to allow unlocking with fingerprint only on power button press (For devices with FP on power button)
-- Added option to replace media notification background with artwork
-- Added simple fade filter to the media artwork
-- Added Lawnchair launcher build support (Optional)
-- Imported Gaming mode from ExthmUI
-- Updated fingerprint to september security patch (PixelPropUtils)
-- Completely redesigned Superior Goodies
-- Redesigned Settings dashboard icons again (Also added separate catagory titles)
-- Imported Bouncy scrollview from OOS (Settings)
-- Updated prebuild apps
-- Merged translations from crowdin
+- Merged October security patch
+- Added Immersive Navigation
+- Added few more fonts
+- Added AOSP WFD support 
+- Added option to scramble pin layout when unlocking
+- Added option to permanently hide apps from recents
+- Added option to locking tasks on recents
+- Don't show charging animation if battery is charged
+- Updated build fingerprints
+- Removed restrictions for system audio record 
+- Update music player
+- Launcher: Added kill action to app shortcut popup
+- Launcher: Removed share button from recents
+
 
 Bug Fixes:
 
-- Fixed WFD crash
-- Fixed unreadable QS Header Data Usage
-- Fixed face unlock directly skipping lockscreen
+- Fixed mapping mismatch between KeyEvent and NumPadKey 
+- Fixed reference to Noto Sans Javanese 
+- Fixed a11y+BiometricPrompt related OOB exception 
+- Fixed google widget timing issue 
+- Fixed haptic issues on back gesture navigation
