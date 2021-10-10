@@ -1,11 +1,10 @@
 Device: Asus Zenfone Max Pro M2
 Device maintainer: Shibi Krishna
 
-Date - 13/09/2021
+Date - 10/10/2021
 =================
 
-- Kernel upstreamed to 4.4.283
-- Build fingerprint updated to Redfin September
-- Fixed wifi display (Screen Cast)
-- Improved Charging Speed
-- Added init script for exTHmUI's GameMode performance control
+- Kernel upstreamed to 4.4.287
+- Build fingerprint updated to Redfin October
+- Switched to AOSP WFD implementation
+- Fixed Deep Sleep
