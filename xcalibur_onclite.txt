@@ -1,15 +1,15 @@
-Date - 11/09/2021
+Date - 10/10/2021
 =================
 
-•Safety Net now passes out of the box
-•Improved smoothness 
-•Improved Battery Backup
-•Changed kernel to Lineage
-•Fixed automatic reboot when calling
-•Changed dpi to 399 default
-•Improved ram management 
-•Increased speaker and microphone volume
-•Added Xiaomi Parts
-•Added support for Gaming Mode
-•Fixed PC not detecting the device
+•Upstreamed Kernel to 4.9.285
+•settings:Show memory usage in app info
+•Activated some options on Settings>accessibility>vibration
+•Update Redfin FP to October
+•Switch to AOSP WFP
+•overlay:Dont pin home app
+•Nuked XiaomiParts 
+•Enabled freeform windows
+•Show Turbo Charging instead of Charging Rapidly
+•overlay:Allow phone to be rotated on all 4 rotations
+
 
