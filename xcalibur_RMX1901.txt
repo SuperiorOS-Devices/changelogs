@@ -1,9 +1,0 @@
-Device: RMX1901
-Device maintainer: HaSSaN
-
-Date - 08/08/2021
-=================
-
-Device Changelog:
------------------
-- Initial Official build
