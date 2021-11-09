@@ -1,28 +1,7 @@
 
-Date - 08/10/2021
+Date - 09/11/2021
 =================
 
 General Changes: 
 
-- Merged October security patch
-- Added Immersive Navigation
-- Added few more fonts
-- Added AOSP WFD support 
-- Added option to scramble pin layout when unlocking
-- Added option to permanently hide apps from recents
-- Added option to locking tasks on recents
-- Don't show charging animation if battery is charged
-- Updated build fingerprints
-- Removed restrictions for system audio record 
-- Update music player
-- Launcher: Added kill action to app shortcut popup
-- Launcher: Removed share button from recents
-
-
-Bug Fixes:
-
-- Fixed mapping mismatch between KeyEvent and NumPadKey 
-- Fixed reference to Noto Sans Javanese 
-- Fixed a11y+BiometricPrompt related OOB exception 
-- Fixed google widget timing issue 
-- Fixed haptic issues on back gesture navigation
+- Merged November security patch
