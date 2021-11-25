@@ -1,15 +1,10 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 09/10/2021
+Date - 25/11/2021
 ================
 
 Device Changelog:
 ================
-- Fixed log spam related to power stats
-- Refactored Mi Dirac (Fixed random crash)
-- Added Mi Dirac QS tile
-- Switched to AOSP WFD implementation
-- Brought back FM 
-- Updated graphics blobs from LA.UM.9.1.r1-10900-SMxxx0.0
-- Merged Latest CAF tags to kernel (qcacld-3.0, fw-api, qca-wifi-host-cmn & techpack/audio) (LA.UM.9.1.r1-11200-SMxxx0.0)
+- Initial A12 release
+- Included Mi Dirac
