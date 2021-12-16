@@ -1,47 +1,44 @@
-
-Date - 24/11/2021
+Date - 16/12/2021
 =================
 
-General Changes: 
+General Changes:
+- Merged December security patch (android-12.0.0_r20)
+- Added customisable monet theme engine
+- Redesigned seekbar
+- Added network traffic Indicator customisations
+- Added battery icon customisations
+- Moved AOSP Gestures to SuperiorSettings
+- Moved System Navigation to SuperiorSettings
+- Implemented Smart space 
+- Improved statusbar padding
+- Updated 4G+ icon to Silky design
+- PixelPropsUtils: Whitelisted GoogleCamera 
+- PixelPropsUtils: Added streaming apps to the list
+- PixelPropsUtils: Updated build fp to december
+- Added a button to upload crash information to Memocho
+- Updated few drawables
+- Updated rounded corner dimens from Pixel 
+- Updated Flipendo (from raven SD1A.210817.037)
+- Force google sans font for lockscreen clock 
+- Increased call log limit
+- Increased active Task Duration time
+- Disabled cursor drag by default for editable TextViews 
+- Disabled rotation on lockscreen
+- Disabled fp lockouts
+- Disabled blur on App Launch 
+- Imported more themed icons
+- Brought back our updater
+- Added monet support to dialer , messaging and updater apps
+- Removed incall vibration settings from dialer (Also present on SuperiorSettings)
+- Enabled call recording for all (Removed restrictions)
+- Added auto call recording feature
 
-- Merged November security patch
-- Added Legacy-WFD support
-- Added battery stats reset option
-- Added support for signature spoofing
-- Adapted screenshot sound to ringer modes
-- Added dedicated switch for screenshot sound
-- Added global actions with advanced reboot
-- Added Double tap to sleep on status bar & lock screen
-- Added option to enable long press power button to enable torch
-- Added volte icon
-- Added increasing ring feature
-- Added option to scramble pin layout
-- Added quick unlock
-- Added volume rocker wake
-- Added volume key music controller
-- Added haptic feedback option for back gesture
-- Added navigation mode settings
-- Added hardware key customisation support
-- Added extended back gesture actions
-- Added option to enable toast icon
-- Added quick qs pull down
-- Added option to enable haptic feedback on qs tiles
-- Added incall vibration options
-- Added 3 finger screenshot gesture
-- Added switch to enable 4G icon instead of LTE
-- Added many stuffs to launcher which I can't count 😂
-- Old style mobile data indicators
-- Enabled sound profile icon on status bar
-- Introduced pixel prop utils
-- Implemented Proton based monet
-- Extended monet support to power menu
-- Enabled one handed mode
-- Enabled charging ripple animation
-- Killed some log spams
-- Added workaround to pass safetynet
-- Added proper light/dark mode support to QS
-- Enabled dedicated network tiles
-- Added more QS tiles
-- Added support for device specific keyhandler
-- Enabled LTE+ icon by default and updated it to new silky design
-- Some improvements to Screenrecorder
+Fixes:
+- Added some missing permissions
+- Fixed some weird systemui crashes
+- Fixed some more log spams
+- Fixed half black wallpaper after rotating quickly 
+- Fixed pink progress animation color in expanded Wi-Fi tile 
+- Fixed signal bar icon overlay issue 
+- Fixed tts engine crash
+- Fixed Screenrecorder internal audio recording
