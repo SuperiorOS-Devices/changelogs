@@ -1,59 +1,46 @@
-![20211123_220939](https://user-images.githubusercontent.com/29405483/143157997-7c41d92e-1dad-451b-9829-67d80d6ea774.jpg)
+![HiShoot_20211216_191309](https://user-images.githubusercontent.com/29405483/146552265-6a0a7302-8a17-4f2c-b9fc-59b8407f3b14.png)
 
-# Initial Android 12 Update
+# Fixes:
 
-Nothing to say..Just changelogs
+- Added some missing permissions
+- Fixed some weird systemui crashes
+- Fixed some more log spams
+- Fixed half black wallpaper after rotating quickly 
+- Fixed pink progress animation color in expanded Wi-Fi tile 
+- Fixed signal bar icon overlay issue 
+- Fixed tts engine crash
 
 # General Changes:
 
-- Merged November security patch
-- Added Legacy-WFD support
-- Added battery stats reset option
-- Added support for signature spoofing
-- Adapted screenshot sound to ringer modes
-- Added dedicated switch for screenshot sound
-- Added global actions with advanced reboot
-- Added Double tap to sleep on status bar & lock screen
-- Added option to enable long press power button to enable torch
-- Added volte icon
-- Added increasing ring feature
-- Added option to scramble pin layout
-- Added quick unlock
-- Added volume rocker wake
-- Added volume key music controller
-- Added haptic feedback option for back gesture
-- Added navigation mode settings
-- Added hardware key customisation support
-- Added extended back gesture actions
-- Added option to enable toast icon
-- Added quick qs pull down
-- Added option to enable haptic feedback on qs tiles
-- Added incall vibration options
-- Added 3 finger screenshot gesture
-- Added switch to enable 4G icon instead of LTE
-- Added many stuffs to launcher which I can't count 😂
-- Old style mobile data indicators
-- Enabled sound profile icon on status bar
-- Introduced pixel prop utils
-- Implemented Proton based monet
-- Extended monet support to power menu
-- Enabled one handed mode
-- Enabled charging ripple animation
-- Killed some log spams
-- Added workaround to pass safetynet
-- Added proper light/dark mode support to QS
-- Enabled dedicated network tiles
-- Added more QS tiles
-- Added support for device specific keyhandler
-- Enabled LTE+ icon by default and updated it to new silky design
-- Some improvements to Screenrecorder
+- Merged December security patch (android-12.0.0_r20)
+- Added customisable monet theme engine
+- Improved statusbar padding
+- Updated 4G+ icon to Silky design
+- PixelPropsUtils: Whitelisted GoogleCamera 
+- Redesigned seekbar
+- Added a button to upload crash information to Memocho
+- Added network traffic Indicator customisations
+- Added battery icon customisations
+- Disabled fp lockouts
+- Updated few drawables
+- Increased call log limit
+- Increased active Task Duration time
+- Disabled cursor drag by default for editable TextViews 
+- Disabled rotation on lockscreen
+- Brought back our updater
+- Added monet support to dialer , messaging and updater apps
+- Dialer: Removed incall vibration feature (Also present on SuperiorSettings)
+- Dialer: Enabled call recording for all (Removed restrictions)
+- Dialer: Added auto call recording feature
 
 # Supported Devices:
 
 - Violet
 - Sunfish
 - Whyred
+- Miatoll
+- Phoenix
 
 If you want to apply for your device refer here:- **[Maintainership](https://github.com/SuperiorOS-Devices/official_devices)**
 
-We know as soon as you will get the update you will come back crying for more. This cycle should keep continuining so we would see you again in November now.if you managed to survive. And if you like how hard we work to bring you awesome and absolutely free software EVERY MONTH, you can go ahead and donate us some coffee at **[Paypal](https://www.paypal.me/Sipun) | [UPI](https://telegra.ph/UPI-Id-09-18)**
+We know as soon as you will get the update you will come back crying for more. This cycle should keep continuining so we would see you again in January now.if you managed to survive. And if you like how hard we work to bring you awesome and absolutely free software EVERY MONTH, you can go ahead and donate us some coffee at **[Paypal](https://www.paypal.me/Sipun) | [UPI](https://telegra.ph/UPI-Id-09-18)**
