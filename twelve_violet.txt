@@ -1,46 +1,30 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 18/12/2021
+Date - 15/01/2022
 ================
 
 Device Changelog:
 ================
-- Updated Graphics blobs from LA.UM.9.1.r1-10900-SMxxx0.0
-- Updated Radio blobs from LA.UM.9.1.r1-10900-SMxxx0.0
-- Updated QMI blobs from LA.UM.9.1.r1-10900-SMxxx0.0
-- Updated DSP Hal, ADSP, ADSP Modules and CDSP blobs from LA.UM.9.1.r1-10900-SMxxx0.0
-- Imported Neural Networks from LA.UM.9.1.r1-10600-SMxxx0.0
-- Built Missing vendor variants of neural networks
-- Checkout CarrierConfig to LA.UM.9.1.r1-10700-SMxxx0
-- Updated ImsFactory to v1.1 
-- Updated UimLpa hal to v1.1 
-- Updated UceService HAL to 2.3 
-- Updated Factory version to v2.2 
-- Updated QtiRadio HAL to v2.6
-- Updated ImsRadio version to v1.7. 
-- Brought back datastatusnotification (Updated from coral)
-- Cleaned debug properties for graphics layer
-- Removed no-op display HDR & WCG 
-- Disabled switching to s2idle 
-- Disabled collect I/O statistics on runtime 
-- Allowed all filesystems for USB-OTG 
-- Enabled wallpaper zooming
-- Enabled 64-bit inode version support for ext4 
-- Powerhint: Added sched {up,down}migrate hint from QCOM perf boost
-- Powerhint: Modified capacity margins for sm6150
-- Power-libperfmgr: Initialize powerHAL when boot is completed
-- Imported more vibration overlays
-- Tuned vibration pattern (Better haptic feedback)
-- Uprevd fingerprint hal to v2.3
-- Switched to caf thermal service
-- Synced with stock audio properties
-- Switched arch variant to armv8-2a-dotprod
-- Parts: Added fps counter qs tile
-- Parts: Synced dirac strings with A12
-- Dirac: Added support for live refresh check when toggled (No need to pause and play)
+- Added mwqemadapter manifest entry 
+- Added missing IMS symlinks 
+- Dropped snap cam overlays
+- Dropped deprecated ant-radio library
+- Fixed powerhal node related log spam
+- Switched renderengine to SkiaGL Threaded 
+- Synced EGL symlinks with CAF 
+- Updated keymaster to v4.1
+- Updated keymaster and gatekeeper blobs from CAF (LA.UM.9.1.r1-10900-SMxxx0.0)
+- Update Configstore Blobs to LA.UM.9.1.r1-10900-SMxxx0.0
+- Updated Alarm & Time blobs from CAF (LA.UM.9.1.r1-10900-SMxxx0.0)
+- Imported Google changes on DEC7 Volume
+  * Handset mic gain 0 dB
+  * Voice recording mic gain +22 dB
+  * Camcorder mic gain +5 dB
+  * Dual-mic gain +4 dB
+  * Phone receiver dual-mic gain +13 dB
+  * Unprocessed mic gain +5 dB
+  * Unprocessed headset mic gain +5 dB
 
 Kernel
-- Brought back R encryption changes
-- TCP & AF_UNIX backports for better net stability
-- Merged latest caf tags (LA.UM.9.1.r1-11400-SMxxx0.0)
+- Merged latest CAF tags into kernel (LA.UM.9.1.r1-11500-SMxxx0.0)
