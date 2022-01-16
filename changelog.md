@@ -1,37 +1,52 @@
-![HiShoot_20211216_191309](https://user-images.githubusercontent.com/29405483/146552265-6a0a7302-8a17-4f2c-b9fc-59b8407f3b14.png)
+![jan2](https://user-images.githubusercontent.com/29405483/149646667-4b228451-98bc-46cf-9402-72cfaec72727.jpg)
+
 
 # Fixes:
 
-- Added some missing permissions
-- Fixed some weird systemui crashes
-- Fixed some more log spams
-- Fixed half black wallpaper after rotating quickly 
-- Fixed pink progress animation color in expanded Wi-Fi tile 
-- Fixed signal bar icon overlay issue 
-- Fixed tts engine crash
+- Addressed Attention services log spam
+- Added null check for dispatch touch view
+- Added null check to avoid crash while customizing quick settings
+- Fixed crash in settings on tts engine selection screen
+- Fixed irregular battery usage history
+- Launcher3: Fixed all apps not dismissing
+- Launcher3: Fixed NPE for QuickStep hotseat prediction controller
+- Launcher3: Fixed header protection height calculation
+- Launcher3: Fixed crash when the app info gives an invalid color
 
 # General Changes:
 
-- Merged December security patch (android-12.0.0_r20)
-- Added customisable monet theme engine
-- Improved statusbar padding
-- Updated 4G+ icon to Silky design
-- PixelPropsUtils: Whitelisted GoogleCamera 
-- Redesigned seekbar
-- Added a button to upload crash information to Memocho
-- Added network traffic Indicator customisations
-- Added battery icon customisations
-- Disabled fp lockouts
-- Updated few drawables
-- Increased call log limit
-- Increased active Task Duration time
-- Disabled cursor drag by default for editable TextViews 
-- Disabled rotation on lockscreen
-- Brought back our updater
-- Added monet support to dialer , messaging and updater apps
-- Dialer: Removed incall vibration feature (Also present on SuperiorSettings)
-- Dialer: Enabled call recording for all (Removed restrictions)
-- Dialer: Added auto call recording feature
+- Merged January Security patch (android_12.0.0_r27)
+- Added QTI BT Support
+- Added UDFPS Support
+- Added font customisations (26 fonts)
+- Added icon pack customisations (9 icon packs)
+- Added icon shapes (14 shapes)
+- Added Data switch tile
+- Added Lockscreen charging info
+- Added Dash charging support
+- Added Warp, VOOC & SuperDart charging support
+- Added brightness slider location customisations
+- Added Statusbar brightness control (Gesture)
+- Added 2-button navigation bar 
+- Added NFC tile
+- Added ambient display and AOD tiles
+- Added touch sensitivity switch from GoogleSettings
+- Added lockscreen media art
+- Added media notification background customisations
+- Added Bluetooth timeout feature
+- Added Heads-up customisations
+- Added statusbar icon tuner
+- Added ambient music ticker stuffs
+- Killed fake nav bar
+- Made "Require unlocking to use sensitive QS tiles" optional
+- Made location tile cycle through modes
+- Removed clock from QQS header
+- Dropped prebuilt music player
+- Updated via browser
+- Lawnchair: Updated to latest source
+- Launcher3: Match Pixel Launcher string for Google page
+- Launcher3: Pulled in screenshot drawable from Pixel 
+- Gapps: Updated to PixelGApps (Clean flash must)
 
 # Supported Devices:
 
@@ -40,6 +55,7 @@
 - Whyred
 - Miatoll
 - Phoenix
+- Avicii
 
 If you want to apply for your device refer here:- **[Maintainership](https://github.com/SuperiorOS-Devices/official_devices)**
 
