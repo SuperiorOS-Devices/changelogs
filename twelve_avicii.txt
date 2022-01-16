@@ -1,0 +1,7 @@
+Device: Oneplus Nord
+Device maintainer: Sipun Ku Mahanta
+
+Date - 16/01/2022
+=================
+
+- Initial Build
