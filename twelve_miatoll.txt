@@ -1,0 +1,7 @@
+Device: Redmi Note 9S Series
+Device maintainer: HaSSaN
+
+Date - 17/01/2022
+=================
+
+- Initial Build
