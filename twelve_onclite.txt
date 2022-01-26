@@ -1,0 +1,9 @@
+Device: Xiaomi Redmi 7
+Device maintainer: Abhay K Sanjay
+
+Date - 26/01/2022
+=================
+
+- Initial Official Build
+- Safety Net passes out of the box
+- Enforcing Build
