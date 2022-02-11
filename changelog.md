@@ -1,52 +1,59 @@
-![jan2](https://user-images.githubusercontent.com/29405483/149646667-4b228451-98bc-46cf-9402-72cfaec72727.jpg)
-
+![20220211_141938](https://user-images.githubusercontent.com/66232233/153564942-05bea550-43e1-45b6-8696-6f9d5665ecf3.jpg)
 
 # Fixes:
 
-- Addressed Attention services log spam
-- Added null check for dispatch touch view
-- Added null check to avoid crash while customizing quick settings
-- Fixed crash in settings on tts engine selection screen
-- Fixed irregular battery usage history
-- Launcher3: Fixed all apps not dismissing
-- Launcher3: Fixed NPE for QuickStep hotseat prediction controller
-- Launcher3: Fixed header protection height calculation
-- Launcher3: Fixed crash when the app info gives an invalid color
+- Fixed crash when alpha component is translucent
+- Fixed ripple animation for side fp devices 
+- Fixes notch hide overlay on some devices
+- Fixed status bar and QS margins and paddings
+- Fixed lock screen wallpaper bug
+- Fixed Gesture icon weird overlay issue 
+- Fixed gesture navigation fail to move to bottom
+- Fixed settings search bar colors & layout
+- Fixed some log spams & System ui crashes
 
 # General Changes:
 
-- Merged January Security patch (android_12.0.0_r27)
-- Added QTI BT Support
-- Added UDFPS Support
-- Added font customisations (26 fonts)
-- Added icon pack customisations (9 icon packs)
-- Added icon shapes (14 shapes)
-- Added Data switch tile
-- Added Lockscreen charging info
-- Added Dash charging support
-- Added Warp, VOOC & SuperDart charging support
-- Added brightness slider location customisations
-- Added Statusbar brightness control (Gesture)
-- Added 2-button navigation bar 
-- Added NFC tile
-- Added ambient display and AOD tiles
-- Added touch sensitivity switch from GoogleSettings
-- Added lockscreen media art
-- Added media notification background customisations
-- Added Bluetooth timeout feature
-- Added Heads-up customisations
-- Added statusbar icon tuner
-- Added ambient music ticker stuffs
-- Killed fake nav bar
-- Made "Require unlocking to use sensitive QS tiles" optional
-- Made location tile cycle through modes
-- Removed clock from QQS header
-- Dropped prebuilt music player
-- Updated via browser
-- Lawnchair: Updated to latest source
-- Launcher3: Match Pixel Launcher string for Google page
-- Launcher3: Pulled in screenshot drawable from Pixel 
-- Gapps: Updated to PixelGApps (Clean flash must)
+- Merged February security patch (r29)
+- Added small keyguard clock
+- Added pitch black theme
+- Added toggle to force combined signal icon 
+- Added signal and wifi icon style theming
+- Added PUI iconpack 
+- Added colored notification icon
+- Added toggle to disable notification header
+- Added Option for blocking annoying statusbar call strength icon
+- Added support for device alert sliders
+- Added Google Photos to the spoof list
+- Added missing permissions
+- Added refresh rate adjustment settings
+- Adjusted brightness slider dimensions
+- Adjusted default navbar layouts 
+- Extended monet to fingerprint authentication ripple animation
+- Imported missing lottie for swipe fingerprint from redfin 
+- Made QS brightness slider animation more fluent
+- Network Traffic Indicator: Removed screen on/off triggers
+- Refactored Volume Long Press Skip Tracks
+- Refactored media art customizations
+- Refactored Wifi Calling description text 
+- Removed streaming apps from Pixel prop utils
+- Removed gcam and mods from spoof list
+- Upstreamed sepolicy_vndr repo
+- Updated Superior Walls (Added Monet support)
+- Updated Lawnchair APK to Lawnchair 12 Alpha 5
+- Updated Lawnicons APK to Lawnicons 1.0.0
+- Updated fingerprint To February 2022 Security Patch 
+
+## Superior Launcher
+- Added restart action
+- Added option to change icon & font size
+- Added preference for opening AiAi suggestion settings 
+- Added Google Lens scan button to the recent apps 
+- Added toggle to theme dock searchbar icons 
+- Added toggle to disable workspace edit 
+- Implemented Hotseat searchbar 
+- Refactored DT2S switch
+- Updated clear all icon
 
 # Supported Devices:
 
@@ -56,6 +63,8 @@
 - Miatoll
 - Phoenix
 - Avicii
+- Onclite
+- Alioth
 
 If you want to apply for your device refer here:- **[Maintainership](https://github.com/SuperiorOS-Devices/official_devices)**
 
