@@ -1,7 +1,10 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 16/01/2022
+Date - 13/02/2022
 =================
 
-- Initial Build
+- Defined Bootanimation resolution.
+- Added Pixel offline charging animation.
+- Enabled Alrrtslider UI.
+- Fixed some neverallows.

@@ -1,8 +1,8 @@
 Device: Xiaomi Redmi Note 5 Pro
 Device maintainer: Sipun Ku Mahanta
 
-Date - 17/12/2021
+Date - 13/02/2022
 =================
 
-- Build QTI thermal Hal.
-- Updated kernel from strombreaker.
+- Fixed some denials.
+- Increased charging temperature threesold.

@@ -1,44 +1,57 @@
-Date - 16/12/2021
+Date - 13/02/2022
 =================
 
-General Changes:
-- Merged December security patch (android-12.0.0_r20)
-- Added customisable monet theme engine
-- Redesigned seekbar
-- Added network traffic Indicator customisations
-- Added battery icon customisations
-- Moved AOSP Gestures to SuperiorSettings
-- Moved System Navigation to SuperiorSettings
-- Implemented Smart space 
-- Improved statusbar padding
-- Updated 4G+ icon to Silky design
-- PixelPropsUtils: Whitelisted GoogleCamera 
-- PixelPropsUtils: Added streaming apps to the list
-- PixelPropsUtils: Updated build fp to december
-- Added a button to upload crash information to Memocho
-- Updated few drawables
-- Updated rounded corner dimens from Pixel 
-- Updated Flipendo (from raven SD1A.210817.037)
-- Force google sans font for lockscreen clock 
-- Increased call log limit
-- Increased active Task Duration time
-- Disabled cursor drag by default for editable TextViews 
-- Disabled rotation on lockscreen
-- Disabled fp lockouts
-- Disabled blur on App Launch 
-- Imported more themed icons
-- Brought back our updater
-- Added monet support to dialer , messaging and updater apps
-- Removed incall vibration settings from dialer (Also present on SuperiorSettings)
-- Enabled call recording for all (Removed restrictions)
-- Added auto call recording feature
-
 Fixes:
-- Added some missing permissions
-- Fixed some weird systemui crashes
-- Fixed some more log spams
-- Fixed half black wallpaper after rotating quickly 
-- Fixed pink progress animation color in expanded Wi-Fi tile 
-- Fixed signal bar icon overlay issue 
-- Fixed tts engine crash
-- Fixed Screenrecorder internal audio recording
+
+- Fixed crash when alpha component is translucent
+- Fixed ripple animation for side fp devices 
+- Fixes notch hide overlay on some devices
+- Fixed status bar and QS margins and paddings
+- Fixed lock screen wallpaper bug
+- Fixed Gesture icon weird overlay issue 
+- Fixed gesture navigation fail to move to bottom
+- Fixed settings search bar colors & layout
+- Fixed some log spams & System ui crashes
+
+General Changes:
+
+- Merged February security patch (r29)
+- Added small keyguard clock
+- Added pitch black theme
+- Added toggle to force combined signal icon 
+- Added signal and wifi icon style theming
+- Added PUI iconpack 
+- Added colored notification icon
+- Added toggle to disable notification header
+- Added Option for blocking annoying statusbar call strength icon
+- Added support for device alert sliders
+- Added Google Photos to the spoof list
+- Added missing permissions
+- Added refresh rate adjustment settings
+- Adjusted brightness slider dimensions
+- Adjusted default navbar layouts 
+- Extended monet to fingerprint authentication ripple animation
+- Imported missing lottie for swipe fingerprint from redfin 
+- Made QS brightness slider animation more fluent
+- Network Traffic Indicator: Removed screen on/off triggers
+- Refactored Volume Long Press Skip Tracks
+- Refactored media art customizations
+- Refactored Wifi Calling description text 
+- Removed streaming apps from Pixel prop utils
+- Removed gcam and mods from spoof list
+- Upstreamed sepolicy_vndr repo
+- Updated Superior Walls (Added Monet support)
+- Updated Lawnchair APK to Lawnchair 12 Alpha 5
+- Updated Lawnicons APK to Lawnicons 1.0.0
+- Updated fingerprint To February 2022 Security Patch 
+
+Superior Launcher
+- Added restart action
+- Added option to change icon & font size
+- Added preference for opening AiAi suggestion settings 
+- Added Google Lens scan button to the recent apps 
+- Added toggle to theme dock searchbar icons 
+- Added toggle to disable workspace edit 
+- Implemented Hotseat searchbar 
+- Refactored DT2S switch
+- Updated clear all icon
