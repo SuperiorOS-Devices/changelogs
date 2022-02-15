@@ -1,0 +1,11 @@
+Device: Poco X3 Pro(vayu)
+Device maintainer: Ahmed(BlueExOo)
+
+Date - 15/02/2022
+================
+
+- Upstream Kernel to 4.14.266
+- Update IMS libs from alioth 12
+- Improvement Dirac
+- Bump ZRAM to 3 GB
+- Some Improvements
