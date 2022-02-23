@@ -1,7 +1,20 @@
 Device: Redmi Note 9S Series
 Device maintainer: HaSSaN
 
-Date - 17/01/2022
+Date - 23/02/2022
 =================
+- Build new AIDL power hal
+- Bump max interactive duration to 5s
+- Update IMS libs from alioth 12
+- Override AIDL Power HAL service
+- Kill IMS logspam with fire
+- uprev perf hal to 2.2
 
-- Initial Build
+Notes:
+- Vanilla and Gapps available
+- DFC Kernel by defauilt
+- Compiled with AOSP Clang 14.0.2
+
+Credits & Thanks to:
+@SonalSingh18 for trees
+@Sairam60 for kernel
