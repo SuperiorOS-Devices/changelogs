@@ -1,57 +1,8 @@
-Date - 13/02/2022
+Date - 16/04/2022
 =================
-
-Fixes:
-
-- Fixed crash when alpha component is translucent
-- Fixed ripple animation for side fp devices 
-- Fixes notch hide overlay on some devices
-- Fixed status bar and QS margins and paddings
-- Fixed lock screen wallpaper bug
-- Fixed Gesture icon weird overlay issue 
-- Fixed gesture navigation fail to move to bottom
-- Fixed settings search bar colors & layout
-- Fixed some log spams & System ui crashes
 
 General Changes:
 
-- Merged February security patch (r29)
-- Added small keyguard clock
-- Added pitch black theme
-- Added toggle to force combined signal icon 
-- Added signal and wifi icon style theming
-- Added PUI iconpack 
-- Added colored notification icon
-- Added toggle to disable notification header
-- Added Option for blocking annoying statusbar call strength icon
-- Added support for device alert sliders
-- Added Google Photos to the spoof list
-- Added missing permissions
-- Added refresh rate adjustment settings
-- Adjusted brightness slider dimensions
-- Adjusted default navbar layouts 
-- Extended monet to fingerprint authentication ripple animation
-- Imported missing lottie for swipe fingerprint from redfin 
-- Made QS brightness slider animation more fluent
-- Network Traffic Indicator: Removed screen on/off triggers
-- Refactored Volume Long Press Skip Tracks
-- Refactored media art customizations
-- Refactored Wifi Calling description text 
-- Removed streaming apps from Pixel prop utils
-- Removed gcam and mods from spoof list
-- Upstreamed sepolicy_vndr repo
-- Updated Superior Walls (Added Monet support)
-- Updated Lawnchair APK to Lawnchair 12 Alpha 5
-- Updated Lawnicons APK to Lawnicons 1.0.0
-- Updated fingerprint To February 2022 Security Patch 
-
-Superior Launcher
-- Added restart action
-- Added option to change icon & font size
-- Added preference for opening AiAi suggestion settings 
-- Added Google Lens scan button to the recent apps 
-- Added toggle to theme dock searchbar icons 
-- Added toggle to disable workspace edit 
-- Implemented Hotseat searchbar 
-- Refactored DT2S switch
-- Updated clear all icon
+- Rebased Source over Android-12.1.0 source.
+- Merged April security patch (Release 4). 
+- Some basic features. TRY YOURSELF
