@@ -1,9 +1,9 @@
 Device: Xiaomi Redmi Note 5 Pro
 Device maintainer: Sipun Ku Mahanta
 
-Date - 18/04/2022
+Date - 20/04/2022
 =================
 
-- Fixed Google fast pair.
-- Added Xiaomiparts.
-- Dunno more..
+- Fixed Nightlight.
+- Fixed Bedtime mode.
+- Fixed USB option not showing.
