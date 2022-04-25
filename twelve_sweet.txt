@@ -1,12 +1,7 @@
 Device: Redmi Note 10 Pro (sweet)
-Device maintainer: Faizan Bashir (the_doctorstrange)
+Device maintainer: Jash (sedlyf6969)
 
-Date - 26/02/2022
+Date - 25/04/2022
 ================
 
-- Updated IMS blobs from sweet-qssi-user-12-SKQ1.210908.001  to fix Native Video Calling/ViLTE
-- Imported Pixel Carrier Configs for more clear Native Video Calling Experience
-- Switched to Vulkan UI Renderer
-- Fixed mic issues on Vanilla Build
-- Fixed OK Google & Imported HotwordEnrollment from OnePlus 8 Pro 
-- Added Support for Face Unlock
+Initial build
