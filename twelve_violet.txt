@@ -1,8 +1,26 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 18/04/2022
+Date - 07/05/2022
 ================
 
-- Initial 12.1 release
-- Clean flash is mandatory
+- Added missing F2FS compression flags
+- Added libc++ to public libraries
+- Decreased launch boost to 3sec
+- Disabled stereo speaker in voicecall
+- Disabled ART debug and optimize dexpreopt 
+- Fixed Incall volume 
+- Fixed audio in chrome with soundcloud
+- Fixed hvdcp_opti props (Derp from Xiaomi)
+- Fixed deprecated power profile items (Better battery estimate)
+- Fixed and adapted IFAAManager to A12
+- Removed dynamic attributes from APS config
+- Removed unused tcp property change aaction
+- Removed updatable-media from pinner services
+- Re-enable some audio features (Pulled blobs from Davinci)
+- Updated ACDB configs from VIOLETINGlobal_V12.5.1.0.QFHINXM
+- Updated Audio stack from Davinci (Better audio quality)
+- Updated system blobs from LA.QSSI.12.0.r1-07000-qssi.0 
+- Updated charging voltage properties
+- Merged Latest CodeLinaro tag into kernel
+- Merged Latest F2FS upstream into kernel
