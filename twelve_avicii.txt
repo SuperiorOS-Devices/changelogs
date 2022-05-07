@@ -1,12 +1,11 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 22/04/2022
+Date - 07/05/2022
 =================
 
-- Added call recording support.
-- Fixed vibration option not working on oneplus settings.
-- Updated blobs from OOS 11.0.16.16 EB13DA.
-- Used thermal engine from OOS.
-- Added Gcamgo along with Oneplus camera.
+- Update carrier configs from OOS 12 OB2
+- Update USB HAL to v1.3
+- Fix keyguard indicator margin
+- Inlined kernel with Popthecorn v2.6
 - Fixed some neverallows.
