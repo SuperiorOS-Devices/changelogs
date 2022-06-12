@@ -1,11 +1,10 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 07/05/2022
+Date - 12/06/2022
 =================
 
-- Update carrier configs from OOS 12 OB2
-- Update USB HAL to v1.3
-- Fix keyguard indicator margin
-- Inlined kernel with Popthecorn v2.6
-- Fixed some neverallows.
+- Generate thermal config from OOS
+- Update Dimensions
+- Update blobs from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
+- Inlined kernel with Popthecorn v2.7
