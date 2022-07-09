@@ -1,26 +1,22 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 07/05/2022
+Date - 09/07/2022
 ================
 
-- Added missing F2FS compression flags
-- Added libc++ to public libraries
-- Decreased launch boost to 3sec
-- Disabled stereo speaker in voicecall
-- Disabled ART debug and optimize dexpreopt 
-- Fixed Incall volume 
-- Fixed audio in chrome with soundcloud
-- Fixed hvdcp_opti props (Derp from Xiaomi)
-- Fixed deprecated power profile items (Better battery estimate)
-- Fixed and adapted IFAAManager to A12
-- Removed dynamic attributes from APS config
-- Removed unused tcp property change aaction
-- Removed updatable-media from pinner services
-- Re-enable some audio features (Pulled blobs from Davinci)
-- Updated ACDB configs from VIOLETINGlobal_V12.5.1.0.QFHINXM
-- Updated Audio stack from Davinci (Better audio quality)
-- Updated system blobs from LA.QSSI.12.0.r1-07000-qssi.0 
-- Updated charging voltage properties
-- Merged Latest CodeLinaro tag into kernel
-- Merged Latest F2FS upstream into kernel
+- Dropped atrace HAL
+- Dropped megvi blobs from device tree (Added stub libraries)
+- Decreased max_comp_streams to 4
+- Moved to common IFAAService
+- Switched to source-built mlipay interface
+- Removed QTI perfd remainding components
+- Cleaned dead build packages/targets
+- Updated radio config to v1.2
+- Updated Bluetooth Audio Providers Factory HAL to v2.1
+- Updated Bluetooth HAL to v1.1
+- Updated Bluetooth stack from Redmi Note 10 Pro (Sweet)
+- Pulled GPS Changes from CodeLinaro
+- Increased Zram size to 50%
+- Increase SYSTEMIMAGE partition size (GApps)
+- Merged Latest CodeLinaro tags into kernel (LA.UM.9.1.r1-12000-SMxxx0.QSSI13.0)
+- Improved fuse implementation
