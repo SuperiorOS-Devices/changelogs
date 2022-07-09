@@ -1,27 +1,47 @@
-<h1 align="center">Date - 11/06/2022</h1>
+<h1 align="center">Date - 08/07/2022</h1>
 
-<img src="https://user-images.githubusercontent.com/66232233/173197859-0409288a-404b-47b1-bd55-8aaec3102f17.jpg" align="right">
+<img src="https://user-images.githubusercontent.com/66232233/178028676-afc9a809-b1f2-4026-a534-21e81330468d.jpg" align="right">
 
 
 # General Changes
-
-- Drop wired chaging animation
-- Rework UI of Dialer based on Octavi OS's design
-- Add Monet theme support to Dialer, Contacts and DocumentsUI
-- Redesigned SuperiorSettings Dashboard based on DotOS 5.x and Xdroid Settings dashboard
-- Add Lock gesture tile to Gaming mode 
-- Update APN's from SQ3A.220605.009.B1
+- Merged July Security Patch (Android 12.1.0 release 11)
+- PixelPropsUtils: Updated fingerprints to July Security Patch 
+- Added toggle to enable/disable data usage view on QS footer
+- Added support for window ignore secure
+- Extended monet to AOSP Contacts & DocumentsUI
+- Improved QS detail clip animation 
+- Improved screenshot expansion animation 
+- Improved screenshot capture & view implementation
+- Synced Navigation Bar Dimens from TPB3.220513.017.B1
+- Reworked QTI BT support implementation 
+- Redesigned SuperiorSettings dashboard
+- Redesigned Dialer
+- Removed duplicated charging animation 
+- Updated Simple APNs from SQ3A.220605.009.B1 
+- Updated GApps from Raven July release 
 - Merged Translations from crowdin
 
-# Gapps Changes:
-- Switch to pixel gapps(more google apps than earlier)
-- Drop Google Dialer and Pixel Launcher in favor of AOSP Dialer(call record) and Launcher3
-- Gapps flag is same as earlier (BUILD_WITH_GAPPS=true)
+# Gaming Mode
+- Added lock gesture tile
+- Added time/date in panel view
+- Added memory info
+- Changed default panel view opacity to 100%
+- Fixed per game configure icon on light theme
+- Re-arranged preferences 
+- Redesigned layout 
+
+# Superior Launcher
+- Added pref to set app drawer row height
+- Added pref to disable wallpaper scrolling 
+- Added toggle to hide top shadow on statusbar
+- Added device category for additional profiles 
+- Adjusted the icon size to the grid size
+- Made drawer cells square when labels are hidden
+- Sorted device profiles 
+- Some miscellaneous changes and addressed some NPEs
 
 # Fixes
-
-- Fixed bootloop for some devices after June security patch 
-- Fixed autogroupsummary bug
-- Fixes Clear All recent app screen loop bug 
-- Fixed Batterystats issue
-- Fixed Text to speech crash
+- Fixed suspicious spaces around QS mobile icons 
+- Fixed QS mobile icon disappearing on theme switch
+- Fixed NPE when created with empty package name
+- Fixed QS clock overlapping on UI mode change
