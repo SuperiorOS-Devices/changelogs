@@ -1,7 +1,7 @@
 Device: Xiaomi Redmi Note 5 Pro
 Device maintainer: Sipun Ku Mahanta
 
-Date - 15/06/2022
+Date - 17/07/2022
 =================
 
-- Used pixel gapps for Gapps build.
+- Kranul updated to EOL
