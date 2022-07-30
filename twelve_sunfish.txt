@@ -1,65 +1,92 @@
 Device: Google Pixel 4a (sunfish)
 Device maintainer: Jayant Deshmukh
 
-Date - 02/07/2022
+Date - 30/07/2022
 =================
 
-# General Changes
+# General Changes:
 
-- Merged June Security Patch (android-12.1.0_r8)
-- Added Gaming Mode
-- Added 5 more new fonts
-- Added lots of new signal icons
-- Added support for displaying Volte icon
-- Added 23 new Volte icons
-- Add support for displaying VoWifi icon
-- Added 6 new VoWifi icons
-- Added 4 new battery icon styles
-- Added Internet QS tile to secure QS list
-- Added accent color to charging animation
-- Added left padding for keyguard slices
-- Added option to reduce 3 second screen record timer
-- Dismiss existing screenshot window on taking new screenshot
-- Dismiss screenshot window on touch outside
-- Disabled storage manager
-- Improvements battery icon style logic
-- Implemented hide gestural navigation hint bar toggle
-- Improved lockscreen font logic
-- Improved volume panel
-- Improved screenshot capture & edit
-- Improved font application
-- Migrated interstitial encryption settings xml to NestedScrollview
-- Network Traffic: Stop scheduling updates when screen off
-- Preserved unicode bolt color
-- Redesigned volume panel (Match with brightness slider)
-- Reworked on privacy indicators (Follow accent color)
-- Restyled that horrible sim select dialog
-- Splitted status bar icon controls for vibrate and mute
-- Drop wired chaging animation
-- Rework UI of Dialer based on Octavi OS's design
-- Add Monet theme support to Dialer, Contacts and DocumentsUI
-- Redesigned SuperiorSettings Dashboard based on DotOS 5.x and Xdroid Settings dashboard
-- Add Lock gesture tile to Gaming mode
-- Update APN's from SQ3A.220605.009.B1
+- Merged July Security Patch (Android 12.1.0 release 11)
+
+- PixelPropsUtils: Updated fingerprints to July Security Patch
+
+- Added toggle to enable/disable data usage view on QS footer
+
+- Added support for window ignore secure
+
+- Extended monet to AOSP Contacts & DocumentsUI
+
+- Improved QS detail clip animation
+
+- Improved screenshot expansion animation
+
+- Improved screenshot capture & view implementation
+
+- Synced Navigation Bar Dimens from TPB3.220513.017.B1
+
+- Reworked QTI BT support implementation
+
+- Redesigned SuperiorSettings dashboard
+
+- Redesigned Dialer
+
+- Removed duplicated charging animation
+
+- Updated Simple APNs from SQ3A.220605.009.B1
+
+- Updated GApps from Raven July release
+
 - Merged Translations from crowdin
+
+
+# Gaming Mode
+
+- Added lock gesture tile
+
+- Added time/date in panel view
+
+- Added memory info
+
+- Changed default panel view opacity to 100%
+
+- Fixed per game configure icon on light theme
+
+- Re-arranged preferences
+
+- Redesigned layout
+
 
 # Superior Launcher
 
-- Added toggle to apply themed icons in apps drawer
-- Fixed a couple of Null pointer exceptions
-- Introducing overview scrolling scale animation
+- Added pref to set app drawer row height
+
+- Added pref to disable wallpaper scrolling
+
+- Added toggle to hide top shadow on statusbar
+
+- Added device category for additional profiles
+
+- Adjusted the icon size to the grid size
+
+- Made drawer cells square when labels are hidden
+
+- Sorted device profiles
+
+- Some miscellaneous changes and addressed some NPEs
+
 
 # Fixes
 
-- Fixed google backup and restore
-- Fixed dialogue exit animation
-- Fixes related to QS tile height
-- Fixed NPE while getting app label
-- Fixed wrong attributes for smartspace
-- Fixed lockscreen statusbar icon stuck (Change according to themes)
+- Fixed suspicious spaces around QS mobile icons
 
-# Pixel 4a related
+- Fixed QS mobile icon disappearing on theme switch
 
-- Updated the blobs & prebuilt kernel as per the latest device tag.
-- Dropped Quick tap & Adaptive Charging
-- Pixel live wallpapers (please set some other wallpaper before update to avoid any conflicts just in case)
+- Fixed NPE when created with empty package name
+
+- Fixed QS clock overlapping on UI mode change
+
+# Extra (due to late update :p)
+
+- Ambient pulse edge light
+
+- Navbar inversion (3 button)
