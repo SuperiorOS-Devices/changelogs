@@ -1,22 +1,47 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 09/07/2022
+Date - 15/08/2022
 ================
 
-- Dropped atrace HAL
-- Dropped megvi blobs from device tree (Added stub libraries)
-- Decreased max_comp_streams to 4
-- Moved to common IFAAService
-- Switched to source-built mlipay interface
-- Removed QTI perfd remainding components
-- Cleaned dead build packages/targets
-- Updated radio config to v1.2
-- Updated Bluetooth Audio Providers Factory HAL to v2.1
-- Updated Bluetooth HAL to v1.1
-- Updated Bluetooth stack from Redmi Note 10 Pro (Sweet)
-- Pulled GPS Changes from CodeLinaro
-- Increased Zram size to 50%
-- Increase SYSTEMIMAGE partition size (GApps)
-- Merged Latest CodeLinaro tags into kernel (LA.UM.9.1.r1-12000-SMxxx0.QSSI13.0)
-- Improved fuse implementation
+- Added edgnss socket directory
+- Added valid and supported channel mask for earpiece
+- Added Stereo config channel support to usb surround sound 
+- Added Bluetooth Audio HAL for Hearing aid 
+- Added readahead_size_kb=128 to partitions (To avoid memory pressure)
+- Addressed remaining sepolicy denials
+- Cleaned redundant Neural network
+- Changed default GPU idle timeout to 60ms
+- Cleaned and updated Bluetooth props from sweet
+- Disabled sdm rotator downscaler
+- Disabled redir_party_num
+- Disabled SF client composition cache 
+- Enabled display force split 
+- Enabled settings_tether_all_in_one by default
+- Enabled QCRIL radio power saving 
+- Fixed cam interface on vilte calls 
+- Readded compress recording configurations
+- Removed redundant QTI logkit directories
+- Removed duplicated triple frame buffer prop
+- Removed FM Tuner from input devices
+- Removed redundant build property for reduceOpsTaskSplitting 
+- Redefined statusbar height dimens
+- Updated list of public libraries from sweet and phoenix
+- Updated audio stack from SWEETEEAGlobal_V13.0.10.0.SKFEUXM
+- Updated audio_io_policy from sweet
+- Updated radio props
+- Updated surfaceflinger props from CAF
+- Update ueventd from CAF
+- Updated system_ext properties from CAF
+- Updated audio props from CAF
+- Updated config_ims_rcs_package to use new ImsService
+
+Parts
+- Bumped target SDK version to 30
+- Implemented raise to wake gesture
+- Imported missing IntentFilter
+- Switched to directBootAware
+
+Kernel
+- Merged latest CLO tags (LA.UM.9.1.r1-12100.01-SMxxx0.QSSI13.0)
+- Misc changes & Improvements
