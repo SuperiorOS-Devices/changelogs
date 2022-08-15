@@ -1,45 +1,41 @@
-Date - 08/07/2022
+Date - 15/08/2022
 =================
 
-General Changes:
-- Merged July Security Patch (Android 12.1.0 release 11)
-- PixelPropsUtils: Updated fingerprints to July Security Patch 
-- Added toggle to enable/disable data usage view on QS footer
-- Added support for window ignore secure
-- Extended monet to AOSP Contacts & DocumentsUI
-- Improved QS detail clip animation 
-- Improved screenshot expansion animation 
-- Improved screenshot capture & view implementation
-- Synced Navigation Bar Dimens from TPB3.220513.017.B1
-- Reworked QTI BT support implementation 
-- Redesigned SuperiorSettings dashboard
-- Redesigned Dialer
-- Removed duplicated charging animation 
-- Updated Simple APNs from SQ3A.220605.009.B1 
-- Updated GApps from Raven July release 
+General Changes
+- Upstreamed source to android-12.1.0_r22
+- Added Pulse and Ambient notification bars
+- Added a toggle for combined signal icons in status bar 
+- Added rounded corners to activity open/close animation
+- Added navbar layout inversion tuning 
+- Added Compass tile 
+- Added Repainter integration service 
+- Implemented volume Rocker Wake
+- Implemented Android 12L Easter Egg
+- Improved doze implementation
+- Implemented Restore brightness adjustment on boot
+- Removed shadows from elements like clock, charging etc
 - Merged Translations from crowdin
 
 Gaming Mode
-- Added lock gesture tile
-- Added time/date in panel view
-- Added memory info
-- Changed default panel view opacity to 100%
-- Fixed per game configure icon on light theme
-- Re-arranged preferences 
-- Redesigned layout 
+- Added tiles layout for portrait mode
+- Added do not change option to ringer mode
+- Fixed default ringer mode value
+- Expose icon in launcher
+- Fixed panel view not losing focus when touching outside
 
 Superior Launcher
-- Added pref to set app drawer row height
-- Added pref to disable wallpaper scrolling 
-- Added toggle to hide top shadow on statusbar
-- Added device category for additional profiles 
-- Adjusted the icon size to the grid size
-- Made drawer cells square when labels are hidden
-- Sorted device profiles 
+- Added recents and app drawer opacity customization
+- Added toggles for recent quick actions
+- Added memory info in overview
+- Added translucent hotseat background
+- Removed clock widget 
 - Some miscellaneous changes and addressed some NPEs
 
 Fixes
-- Fixed suspicious spaces around QS mobile icons 
-- Fixed QS mobile icon disappearing on theme switch
-- Fixed NPE when created with empty package name
-- Fixed QS clock overlapping on UI mode change
+- Fixed an issue with linked notification volume 
+- Fixed QS expand lag when VoLTE/VoWiFi icons are enabled
+- Fixed menu popup ripple 
+- Fixed Dark Theme "TURN ON UNTIL SUNRISE" is not retained after reboot
+- Fixed volume Dialog icon visibility
+- Fixed user profile photo picker crash
+- Fixed loading iconpack-based Wellbeing icon
