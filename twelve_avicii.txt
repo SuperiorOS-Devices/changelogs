@@ -1,9 +1,7 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 26/06/2022
+Date - 16/08/2022
 =================
 
-- Fix statusbar icons not alligned in landscape mode
-- Sync media props with CAF
-- Update power profile entries
+- Drop GcamGo and Add Google camera 8.2 Mod
