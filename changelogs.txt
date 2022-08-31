@@ -1,41 +1,17 @@
-Date - 15/08/2022
+Date - 31/08/2022
 =================
 
 General Changes
-- Upstreamed source to android-12.1.0_r22
-- Added Pulse and Ambient notification bars
-- Added a toggle for combined signal icons in status bar 
-- Added rounded corners to activity open/close animation
-- Added navbar layout inversion tuning 
-- Added Compass tile 
-- Added Repainter integration service 
-- Implemented volume Rocker Wake
-- Implemented Android 12L Easter Egg
-- Improved doze implementation
-- Implemented Restore brightness adjustment on boot
-- Removed shadows from elements like clock, charging etc
+- Merged August security patch(Backport by Lineage OS)
+- Refractor Pixelproputils
+- Added statusbar clock date customization 
+- Updated APN's
+- Updated Prebuilt apps 
+- Fixed AOSP keyboards dictionary not working 
 - Merged Translations from crowdin
 
 Gaming Mode
-- Added tiles layout for portrait mode
-- Added do not change option to ringer mode
-- Fixed default ringer mode value
-- Expose icon in launcher
-- Fixed panel view not losing focus when touching outside
+- Redo the panel UI
+- Added support to show device temperature
+- Fix inconsistencies for multi-user usage 
 
-Superior Launcher
-- Added recents and app drawer opacity customization
-- Added toggles for recent quick actions
-- Added memory info in overview
-- Added translucent hotseat background
-- Removed clock widget 
-- Some miscellaneous changes and addressed some NPEs
-
-Fixes
-- Fixed an issue with linked notification volume 
-- Fixed QS expand lag when VoLTE/VoWiFi icons are enabled
-- Fixed menu popup ripple 
-- Fixed Dark Theme "TURN ON UNTIL SUNRISE" is not retained after reboot
-- Fixed volume Dialog icon visibility
-- Fixed user profile photo picker crash
-- Fixed loading iconpack-based Wellbeing icon
