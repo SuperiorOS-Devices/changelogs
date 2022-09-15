@@ -1,17 +1,12 @@
-Date - 31/08/2022
+Date - 15/09/2022
 =================
 
 General Changes
-- Merged August security patch(Backport by Lineage OS)
-- Refractor Pixelproputils
-- Added statusbar clock date customization 
-- Updated APN's
-- Updated Prebuilt apps 
-- Fixed AOSP keyboards dictionary not working 
+- Merged September security patch(Backport by Lineage OS)
+- Make IME button space optional
+- Implement seekbar animation
+- Introduce app lock
+- Disable many logspams and warnings
+- Port changes from SystemUIGoogle
+- Allow disabling QS battery estimates
 - Merged Translations from crowdin
-
-Gaming Mode
-- Redo the panel UI
-- Added support to show device temperature
-- Fix inconsistencies for multi-user usage 
-
