@@ -1,10 +1,7 @@
 Device: Xiaomi Redmi Note 7 Pro(violet)
 Device maintainer: Nipin NA(Joker_V2_0)
 
-Date - 01/09/2022
+Date - 17/09/2022
 ================
 
-- Updated adreno stack from LA.UM.9.14.r1-19300.01-LAHAINA.QSSI12.0
-- Updated media config files from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-- Added Attribute name for SW encoder 
-- Fixed Snapchat cameo sticker rendering issues
+- Nothing LoL
