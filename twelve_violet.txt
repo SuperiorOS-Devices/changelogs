@@ -1,7 +1,0 @@
-Device: Xiaomi Redmi Note 7 Pro(violet)
-Device maintainer: Nipin NA(Joker_V2_0)
-
-Date - 17/09/2022
-================
-
-- Nothing LoL

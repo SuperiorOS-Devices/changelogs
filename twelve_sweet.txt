@@ -1,7 +1,0 @@
-Device: Redmi Note 10 Pro (sweet)
-Device maintainer: Jash (sedlyf6969)
-
-Date - 25/04/2022
-================
-
-Initial build
