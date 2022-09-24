@@ -1,7 +1,7 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 16/08/2022
+Date - 24/09/2022
 =================
 
-- Drop GcamGo and Add Google camera 8.2 Mod
+- Initial release
