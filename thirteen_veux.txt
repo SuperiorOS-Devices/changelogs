@@ -1,0 +1,9 @@
+Device: Poco X4 Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G
+Device code name : peux/veux
+Device maintainer: Sourav2k (Sourav Gope)
+
+Date - 27/09/2022
+=================
+
+- Initial official release
+- SElinux Enforcing
