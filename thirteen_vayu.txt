@@ -1,0 +1,8 @@
+Device: POCO X3 Pro
+Device maintainer: Eduardo Zeas
+
+Date - 01/10/2022
+=================
+
+- Initial official release
+
