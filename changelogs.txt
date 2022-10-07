@@ -1,12 +1,10 @@
-Date - 15/09/2022
+Date - 07/10/2022
 =================
 
 General Changes
-- Merged September security patch(Backport by Lineage OS)
-- Make IME button space optional
-- Implement seekbar animation
-- Introduce app lock
-- Disable many logspams and warnings
-- Port changes from SystemUIGoogle
-- Allow disabling QS battery estimates
+- Merged October security patch(Backport by Lineage OS)
+- Updated build fingerprints to October 2022 release
+- Implemented fullscreen apps cutout
+- Fixed position of udfps if cutout is hidden
+- Fixed QS tile reset text color
 - Merged Translations from crowdin
