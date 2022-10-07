@@ -1,12 +1,8 @@
 Device: Xiaomi 11 Lite NE 5g
 Device maintainer: Mikdadali(ali_171821_)
 
-Date - 15/09/2022
+Date - 08/10/2022
 ================
 
-- ROM is Enforcing
-- Based on OSS Vendor
-- MIUI Camera Included
-- Shipped with Atom R4 stable build
-- NFC fixed thanks to @Megalodonzs
-- Bootheader V4
+- Switched to Quicksilver Kernel
+- Updated blobs from MIUI 13.0.5
