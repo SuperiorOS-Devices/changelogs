@@ -1,7 +1,10 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 24/09/2022
+Date - 09/10/2022
 =================
 
-- Initial release
+- Fixed haptic intensity
+- Fixed NFC
+- Left side volume panel
+- Some underhood improvements
