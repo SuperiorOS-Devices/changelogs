@@ -1,0 +1,16 @@
+Device: Redmi Note 10 pro
+Device maintainer: Unsatifsed27
+
+Date - 11/10/2020
+=================
+
+- Initial Build A13
+- Non  Erofs
+- For Vanilla Recomended NikGapps
+- Minimal Gapps for Build gms
+- QuantumKrayu Kernel
+
+Credit :
+BMW, Pulkit for helping
+Aryan for tree
+Ardi for kernel
