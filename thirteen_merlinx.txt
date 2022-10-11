@@ -1,0 +1,12 @@
+Device: Redmi Note 9 / Redmi 10X 4G
+Device maintainer: 01soni247
+
+Notes:  
+• Recommended firmware is V13.0.1.0.SJOMIXM
+• Please make sure that you made IMEI backup, you are on right recovery and right firmware version.
+
+Date - 11/10/2022
+=================
+
+- Initial official release
+- Only For A12 Based MIUI Vendors !!
