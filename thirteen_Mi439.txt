@@ -1,10 +1,12 @@
 Device: Redmi 7a/ 8 series
 Device maintainer: karann2354
 
-Date - 25/09/2022
+Date - 20/10/2022
 =================
 
-- Initial official release
-- Upstream kernel to v4.9.329
-- Ship with Miui Camera
-- Ship with FM Radio 
+- Update GNSS stack to 4.1
+- Drop system sided location blobs
+- Regen makefiles with LOS19.1 extract-utils
+- Fixed offline charging
+- Upstream kernel to v4.9.330
+
