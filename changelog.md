@@ -1,12 +1,9 @@
-<h1 align="center">Date - 07/10/2022</h1>
+<h1 align="center">Date - 13/11/2022</h1>
 
-<img src="https://user-images.githubusercontent.com/66232233/194538444-7e075bc7-4c07-4d2c-970c-cbfeb87df911.jpg" align="right">
-
+<img src="https://user-images.githubusercontent.com/29405483/201510941-49eeda9c-f156-4263-b63a-8f004127f163.png" align="right">
 
 # General Changes
-- Merged October security patch(Backport by Lineage OS)
-- Updated build fingerprints to October 2022 release
-- Implemented fullscreen apps cutout
-- Fixed position of udfps if cutout is hidden 
-- Fixed QS tile reset text color 
+- Merged November security patch(Backport by Lineage OS)
+- Updated build fingerprints to November 2022 release
+- Imroved PixelpropUtils
 - Merged Translations from crowdin
