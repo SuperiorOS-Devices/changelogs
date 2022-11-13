@@ -1,0 +1,9 @@
+Device: Xiaomi Redmi Note 5 Pro
+Device maintainer: Sipun Ku Mahanta
+
+Date - 13/11/2022
+=================
+
+- Fixed rounded corners on lockscreen
+- Fixed volume panel on left side
+- Fixed scanner on payment apps
