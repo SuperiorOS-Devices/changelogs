@@ -1,0 +1,9 @@
+Device: Redmi Note 7/7s
+Device code name : lavender
+Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
+
+Date - 14/11/2022
+=================
+
+- Initial official release
+- SElinux Enforcing
