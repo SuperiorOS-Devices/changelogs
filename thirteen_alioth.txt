@@ -1,0 +1,7 @@
+Device: Poco F3/ Mi 11x/ Redmi K40
+Device maintainer: Ashutosh Chettri
+
+Date - 14/11/2022
+=================
+
+- Initial release
