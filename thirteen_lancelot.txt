@@ -1,8 +1,8 @@
-Device: Redmi 9 / Poco M2 (lava)
+Device: Redmi 9 / Poco M2 (lancelot)
 Device maintainer: 01soni247
 
 Notes:  
-• Recommended firmware is V13.0.4.0.SJCCNXM (lancelot) or V13.0.2.0.SJRINXM (shiva) 
+• Recommended firmware is V12.5.6.0 For Lancelot/Shiva 
 • Please make sure that you made IMEI backup, you are on right recovery and right firmware version.
 
 Date - 26/09/2022
@@ -14,3 +14,7 @@ Date - 26/09/2022
 Date - 11/10/2022
 =================
 there isn't any, tidak ada,何もありません。, Ora ana, нет никаких
+
+Date - 14/11/2022
+=================
+- Intial Build /Move to Vendor R
