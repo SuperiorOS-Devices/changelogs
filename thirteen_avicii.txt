@@ -1,10 +1,10 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 09/10/2022
+Date - 16/11/2022
 =================
 
-- Fixed haptic intensity
-- Fixed NFC
-- Left side volume panel
-- Some underhood improvements
+- Switched to FBE v2
+
+
+Note:- Do clean flash only..
