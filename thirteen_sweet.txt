@@ -1,0 +1,19 @@
+Device: Redmi Note 10 pro
+Device Codename : sweet, sweetin
+Device maintainer: Unsatifsed27
+
+Date - 18/11/2022
+=================
+
+- Build Gms & Vanilla
+- Update blobs from MIUI V13.0.15.0.SKFEUXM
+- Add Micam Like RiceDroid
+- Sleepy Kernel
+- Non Erofs
+- For Vanilla Recomended NikGapps
+
+
+Credit :
+Umkli BMW & Umkli Pulkit for helping
+Aryan for tree
+Shashank for kernel
