@@ -1,0 +1,11 @@
+Device: Redmi Note 8 Pro
+Device code name : begonia
+Device maintainer: Ayush Singh (SHADOW)
+
+Date - 19/11/2022
+=================
+
+- Initial Official release
+- SElinux Enforcing
+- Latest Nova kernel included
+- TWRP & FW Pre-Included
