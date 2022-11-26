@@ -1,2 +1,5 @@
 Device: Redmi Note 11
 Device maintainer: Enweazu Daniel
+
+Fixes and Improvements
+Fixed night light and extra dim issues
