@@ -1,35 +1,23 @@
-<h1 align="center">Date - 13/11/2022</h1>
+<h1 align="center">Date - 11/12/2022</h1>
 
-<img src="https://user-images.githubusercontent.com/29405483/201523721-019005e2-7aa5-4286-bbb8-c484957da9df.png" align="right">
+<img src="https://user-images.githubusercontent.com/66232233/207071151-314f6b76-4833-4612-9121-49f1837506ff.png" align="right">
 
 
 # General Changes
-- Merged November ASB (android-13.0.0_r13)
-- Added Updater (OTA support)
-- Implemented screen off FOD
-- Added theme suport for QS panel 
-- Added toggle for QS data usage
-- Added Support for require unlocking to use sensitive QS tiles
-- Added dataswitch and reboot QS tiles
-- Added navbar layout inversion tuning
-- Optional haptic feedback on back gesture
-- Double tap to sleep on lockscreen
-- Double tap to sleep on statusbar
-- Optional fingerprint authentication vibration
-- Less boring heads up notification option
-- Added Pulse and Ambient notification bars
-- Added VoLTE and VoWiFi icons with custom icon support
-- Allow doubletap/longpress power to toggle torch
-- Added option to disable IME space [Only for Gesture Navigation]
-- Added quick settings pull down with one finger
-- Added Haptic Feedback to tiles
-- Updated prebuilts and default wallpaper
+- Added face unlock
+- Added heads-up, ambient display, Power share, USB tethering & AOD QS tiles
+- Added toggle for QS footer icon visibilities
+- Added system UI restart button to advanced reboot
+- Added option to reset battery stats
+- Added double click effect for charging vibration
+- Added navigation mode settings
+- Added edge swipe gesture support 
+- Brought back UDFPS animations and icons
+- Disabled Updater for now (I think December patch need a clean flash)
+- Enabled QR Scanner shortcut on lockscreen 
+- Updated QS header click actions
 
 # Fixes and Improvements
-- Fixed Volume Long Press Skip Tracks when screen is off
-- Fixed vibrate icon not showing on lockscreen
-- Pixelproputils improvemnets
-- Fixed QS tile reset text color
-- Force disabled PlayServices OTA checks
-- Fixed menu popup ripple
-- Fixed some NPE and reported bugs
+- Fixed QS footer data usage view layout 
+- Fixed an issue with linked notification volume
+- Fixed freeform window resize not working on multiple displays
