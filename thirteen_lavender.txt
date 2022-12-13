@@ -2,8 +2,12 @@ Device: Redmi Note 7/7s
 Device code name : lavender
 Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
 
-Date - 14/11/2022
+Date - 13/12/2022
 =================
 
-- Initial official release
-- SElinux Enforcing
+- Added Battery Saving Props Tweaks
+- Deep sleep issue fixed, while using headset
+- Improved Smoothness while Scroll.
+- Drop WFD protected buffers support
+- Disable client composition cache
+- Updated Some Blobs
