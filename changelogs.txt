@@ -1,8 +1,9 @@
-Date - 13/11/2022
+Date - 16/12/2022
 =================
 
 General Changes
-- Merged November security patch(Backport by Lineage OS)
-- Updated build fingerprints to November 2022 release
-- Imroved PixelpropUtils
-- Merged Translations from crowdin
+- Merged December security patch(Backport by Lineage OS)
+- Updated build fingerprints to December 2022 release
+- Added support to add contacts to EmergencyInfo app
+- Redesigned EmergencyInfo app to S style
+- Final A12 update (EOL)
