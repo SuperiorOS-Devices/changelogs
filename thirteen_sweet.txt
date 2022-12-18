@@ -2,6 +2,20 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
+Date - 18/12/2022
+=================
+
+- Build Gms & Vanilla
+- update blobs from V13.0.15.0.SKFEUXM
+- update Adreno stack from LA.UM.9.14.r1-20200-LAHAINA
+- added Dolby atmos
+- Added Leica Camera
+
+Credit
+Aryan Device tree
+Vantoman Kernel tree
+Mr.Fox Leica Camera
+
 Date - 18/11/2022
 =================
 
