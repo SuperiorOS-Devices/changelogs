@@ -1,23 +1,9 @@
-Date - 11/12/2022
+Date - 25/12/2022
 =================
 
 General Changes
-- Added face unlock
-- Added heads-up, ambient display, Power share, USB tethering & AOD QS tiles
-- Added toggle for QS footer icon visibilities
-- Added system UI restart button to advanced reboot
-- Added option to reset battery stats
-- Added double click effect for charging vibration
-- Added navigation mode settings
-- Added edge swipe gesture support 
-- Brought back UDFPS animations and icons
-- Disabled Updater for now (I think December patch need a clean flash)
-- Enabled QR Scanner shortcut on lockscreen 
-- Updated QS header click actions
+- December Security patch
 
-Fixes
-- Fixed QS footer data usage view layout 
-- Fixed an issue with linked notification volume
-- Fixed freeform window resize not working on multiple displays
-
-Note: This update is based on November Security Patch, We are working on QPR-1 release which will take some time for release, So be patient
+Note:-
+- Due to rebase Clean flash is recomended
+- If facing lags on UI change default wallpaper or re-apply it
