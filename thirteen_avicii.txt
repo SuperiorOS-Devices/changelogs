@@ -1,7 +1,7 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 14/12/2022
+Date - 25/12/2022
 =================
 
-- Nothing LoL
+- Enabled Screen off FOD
