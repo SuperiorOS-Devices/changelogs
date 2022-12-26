@@ -1,0 +1,9 @@
+Device: Xiaomi Redmi Note 7 Pro
+Device maintainer: Nipin NA (Joker-V2)
+
+Date - 26/12/2022
+=================
+
+- Initial release based on QPR-1 release by google
+- Clean flash is highly recommended (Pls don't blame me if anything goes wrong after dirty flash)
+- Shipping with latest Azure kernel
