@@ -2,12 +2,9 @@ Device: Redmi Note 7/7s
 Device code name : lavender
 Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
 
-Date - 13/12/2022
+Date - 27/12/2022
 =================
 
-- Added Battery Saving Props Tweaks
-- Deep sleep issue fixed, while using headset
-- Improved Smoothness while Scroll.
-- Drop WFD protected buffers support
-- Disable client composition cache
-- Updated Some Blobs
+- Kang sensors.ssc from Nokia PL2
+- MiParts: Adapt to A13 QPR-1
+
