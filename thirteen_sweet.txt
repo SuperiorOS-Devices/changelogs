@@ -14,33 +14,3 @@ credit :
 Aryan for tree
 Shashank for kernel source
 Mr.Fox For Leica Camera
-
-Date - 18/12/2022
-=================
-
-- Build Gms & Vanilla
-- update blobs from V13.0.15.0.SKFEUXM
-- update Adreno stack from LA.UM.9.14.r1-20200-LAHAINA
-- added Dolby atmos
-- Added Leica Camera
-
-Credit
-Aryan Device tree
-Vantoman Kernel tree
-Mr.Fox Leica Camera
-
-Date - 18/11/2022
-=================
-
-- Build Gms & Vanilla
-- Update blobs from MIUI V13.0.15.0.SKFEUXM
-- Add Micam Like RiceDroid
-- Sleepy Kernel
-- Non Erofs
-- For Vanilla Recomended NikGapps
-
-
-Credit :
-Umkli BMW & Umkli Pulkit for helping
-Aryan for tree
-Shashank for kernel
