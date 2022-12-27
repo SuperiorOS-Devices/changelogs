@@ -1,7 +1,13 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 14/11/2022
+Date - 26/12/2022
 =================
 
-- Initial release
+- Initial QPR release 
+- Switched to full gapps instead of minimal gapps
+- Drop qualcomm WFD (Fixed miracast)
+- Add advanced_sf_offsets configuration
+- Disabled QCRIL radio power saving
+- Tune powerhint
+- Add overlays for status bar start and end padding

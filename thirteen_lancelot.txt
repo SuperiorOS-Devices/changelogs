@@ -18,3 +18,8 @@ there isn't any, tidak ada,何もありません。, Ora ana, нет никак�
 Date - 14/11/2022
 =================
 - Intial Build /Move to Vendor R
+
+Date - 17/12/2022
+=================
+- Liella! Kernel 4.14.3002
+- The rest is still the same as last month
