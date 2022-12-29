@@ -19,3 +19,19 @@ Date - 18/11/2022
 Date - 19/12/2022
 - 4.14.302 Liella! Kernel
 - All Same good as Lancelot / Enggak ada Perubahan 
+
+Date - 29/12/2022
+
+=================
+
+- Desember Superior OS Source 
+
+- Switch userdata to F2FS*
+
+- Switch to FBEv2*
+
+* TY For @surblazer @bengris32 @sakthivelnadar @telepathine for resource
+
+Notes!!
+
+Due to encryption changes YOU WILL NEED TO CLEAN FLASH THIS ROM!
