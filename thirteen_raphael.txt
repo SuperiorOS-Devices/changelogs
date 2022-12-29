@@ -1,0 +1,12 @@
+Device: Xiaomi Redmi K20 Pro (raphael)
+Device maintainer: Anirban (@SageOfD6Path)
+
+Date - 29/12/2022
+=================
+
+- Initial release based on QPR-1 release by google.
+- Bumped upto December Cheetah FP
+- Enabled call-recording
+- Switched to full GApps package for GApps variant. 
+- Shipping with latest Bool-X kernel. (by - @OnettBoots)
+- All Old kernel related bugs are now fixed.
