@@ -1,0 +1,16 @@
+Device: Xiaomi Redmi K20 Pro
+Device maintainer: Anirban (@SageOfD6Path)
+
+Date - 29/12/2022
+=================
+
+- Initial release based on QPR-1 release by google.
+- Built December Cheetah FingerPrint.
+- Enabled call-recording.
+- Addressed Aux cameras for Aperture (Needs a little more work, will be refined in next update).
+- Switched to full GApps package for GApps variant. 
+- Shipping with latest Bool-X kernel. (by - @OnettBoots)
+- All Old kernel related bugs are now fixed.
+
+Notes : 1. Clean flash is highly recommended as Source went thorough full rebase this month.
+        2. GPhotos spoof works, it just does not show it in app properly. Enjoy!!!
