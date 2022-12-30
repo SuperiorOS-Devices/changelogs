@@ -2,10 +2,21 @@ Device: Redmi Note 8 Pro
 Device code name : begonia
 Device maintainer: Ayush Singh (SHADOW)
 
-Date - 19/11/2022
+Date - 30/12/2022
 =================
 
-- Initial Official release
 - SElinux Enforcing
-- Latest Nova kernel included
+- Latest Nova kernel(balance) included
 - TWRP & FW Pre-Included
+- Fixed Status Bar Padding
+- Added CTS profile spoofing
+- Fixed Thermal Service Log Spams
+- Fixed connectivity speed on TCP
+- Addressed some SEPolicy Denials
+- Updated Network Stack and IMS Frameworks
+- Fixed Network Issues Caused by GMS Services
+- Updated Device Fingerprint to Google Pixel 7 Pro
+- Disabled SkiaGL Render Traces improving smoothness
+- Removed Deprecated Implementation of Render Script
+- Increased Idle CPU Core Preference & SchedTune Performance Boosts
+- Misc improvements for Smoothness, Performance, and Battery Backup
