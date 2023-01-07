@@ -1,9 +1,33 @@
-Date - 25/12/2022
+Date - 07/01/2023
 =================
 
 General Changes
-- December Security patch
+- January 2023 Security patch (android-13.0.0_r23)
+- Added Gamespace
+- Added VoLTE/VoWiFi icon support
+- Added UDFPS support
+- Added screen off FOD support
+- Added UDFPS icon and animation support
+- Added smartspace support for lockscreen and homescreen (Use full gapps)
+- Allow changing gesture navbar length
+- Optional haptic feedback on back gesture
+- Show battery level for BT devices
+- Added tuneable clock position
+- Added support for clock auto hide
+- Configurable 0,90,180,270 degrees rotation
+- CyanogenMod screen security settings
+- Long press power button for flashlight
+- Hide power menu on secure lockscreen
+- Lockscreen media art and Blur options
+- Pulse music visualizer
+- Updated themedicons from DGicons veux
+- Option to hide searchbar on app drawer(Launcher3)
+- Translations merged from Crowdin
 
-Note:-
-- Due to rebase Clean flash is recomended
-- If facing lags on UI change default wallpaper or re-apply it
+Fixes and Improvements
+- Added various fixes for UDFPS
+- Added various icons for SystemUI/base
+- Dropped QR code scanner on lockscreen
+- Fixup! add tile by single click
+- Match lockscreen clock font with system
+- Use google dialer icon for Our AOSP dialer

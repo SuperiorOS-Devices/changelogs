@@ -1,79 +1,36 @@
-<h1 align="center">Date - 25/12/2022</h1>
+<h1 align="center">Date - 07/01/2023</h1>
 
-<img src="https://user-images.githubusercontent.com/29405483/209472522-06778290-b2e3-4f39-bc6d-a20c4fa2eeae.jpg" align="right">
+<img src="https://user-images.githubusercontent.com/29405483/211158379-a0078421-7dc6-48b8-8e0e-69640836be12.png" align="right">
 
 
 
 # General Changes
-- December Security patch (android-13.0.0_r16)
+- January 2023 Security patch (android-13.0.0_r23)
+- Added Gamespace
+- Added VoLTE/VoWiFi icon support
+- Added UDFPS support
+- Added screen off FOD support
+- Added UDFPS icon and animation support
+- Added smartspace support for lockscreen and homescreen (Use full gapps)
+- Allow changing gesture navbar length
+- Optional haptic feedback on back gesture
+- Show battery level for BT devices
+- Added tuneable clock position
+- Added support for clock auto hide
+- Configurable 0,90,180,270 degrees rotation
+- CyanogenMod screen security settings
+- Long press power button for flashlight
+- Hide power menu on secure lockscreen
+- Lockscreen media art and Blur options
+- Pulse music visualizer
+- Updated themedicons from DGicons veux
+- Option to hide searchbar on app drawer(Launcher3)
+- Translations merged from Crowdin
 
-Due to rebase some of the features from previous build not available for now. Features available are listed below-
-
-## Statusbar
-- Network traffic indicator
-- Statusbar icon customisations
-- VoLTE/VoWiFi icon support
-- Old style mobile data icon support
-- Show 4G instead of LTE
-- Show data disabled icon
-- Roaming indicator toggle
-- Battery Styles
-
-## Quicksettings
-- Vibrate on touch for tiles
-- Data usage
-- Brightnessbar customisations
-
-## Buttons
-- Volume wake 
-- Playback control by volume keys
-
-## Navbar
-- Pill length customisations (Gesture navbar)
-- Haptic feedback on back gesture (Gesture navbar)
-- Invert navbar layout (3 button navbar)
-
-## Gestures
-- Three finger Screenshot
-- Statusbar/Lockscreen D2S
-
-## Lockscreen
-- Lockscreen charging info
-- Fingerprint auth vibration
-- Fingerprint error vibration
-- Screen off UDFPS (FOD only)
-- UDFPS icon and animation customisation (FOD only)
-
-## Powermenu
-- Advanced powermenu toggle
-
-## Themes
-- Headline/Body font
-- Icon pack
-- Signal icon style
-- WiFi icon style
-- Icon shape
-- Navbar style
-
-## Notification
-- Annoying notification toggle (Sound)
-- Less annoying headsup
-- In-call vibration options
-
-## Misc
-- FP unlock ripple effect toggle
-- Ignore window secure flags
-
-## Others
-- Face unlock support
-- Black theme
-- Refresh rate controls
-- Cutout full screen app support
-- Hidden apps from launcher
-- Option to reset battery stats
-- Smartspace[only for full gapps users]
-
-
-# Note :warning:
-- Do clean flash to avoid any glitches/errors
-- If facing UI lags then change default wallpaper or re-apply it
+# Fixes and Improvements
+- Added various fixes for UDFPS
+- Added various icons for SystemUI/base
+- Dropped QR code scanner on lockscreen
+- Fixup! add tile by single click
+- Match lockscreen clock font with system
+- Use google dialer icon for Our AOSP dialer
