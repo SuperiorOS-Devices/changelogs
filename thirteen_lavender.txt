@@ -2,9 +2,18 @@ Device: Redmi Note 7/7s
 Device code name : lavender
 Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
 
-Date - 27/12/2022
+Date - 08/01/2023
 =================
-
-- Kang sensors.ssc from Nokia PL2
-- MiParts: Adapt to A13 QPR-1
-
+camera: Disable QTI perf lock usage in camera HAL
+parts: Add headphones warning for clear speaker
+parts: Update clear speaker audio from MIUI 12
+parts: Adapt vibration control to QTI Haptics
+parts: Adjust FPS Overlay
+lavender: disable gl backpressure
+lavender: update Time services from LA.UM.9.6.2.r1-03600-89xx.0
+lavender: Drop duplicate displayservice
+lavender: props: enable vsync and disable backpressure
+lavender: proprietary: import libgps.utils.so from V12.5.1.0.QFGRUXM
+lavender: set NUM_FRAMEBUFFER_SURFACE_BUFFERS
+lavender: Don't write binary XML files
+lavender: add offline charging animation from pixel
