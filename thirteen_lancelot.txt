@@ -33,3 +33,10 @@ Date - 28/12/2022
 
 Notes!!
 Due to encryption changes YOU WILL NEED TO CLEAN FLASH THIS ROM!
+Date - 08/01/2023
+=================
+- Fixed abnormal CPU boost
+- Aux camera now available on aperture 
+- Disable UI touch sounds by default
+- Disable bluetooth by default
+- Inherit several Android Go configurations
