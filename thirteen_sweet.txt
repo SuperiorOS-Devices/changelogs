@@ -2,6 +2,16 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
+DATE - 08/01/2023
+=================
+
+- Build Gms & Vanilla
+- Back Vantom kernel default
+- Leica Camera Default
+- Import media_codecs_vendor.xml from sweet
+- Added Op Dolby
+- Rebase tree from @Aryannn999
+
 Date - 27/12/2022
 =================
 
@@ -11,6 +21,8 @@ Date - 27/12/2022
 - Fix Deep sleep issue
 
 credit :
-Aryan for tree
-Shashank for kernel source
+Thanks
+Arian, Adarsh, Vantoman, Aryan999 for sorce
 Mr.Fox For Leica Camera
+All sweet Maintainers
+@Ankit_verma3010 for tester
