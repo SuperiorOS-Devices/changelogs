@@ -1,6 +1,11 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 22/01/2023 [Hotfix Update]
+=================================
+
+- Fix Bluetooth Bug
+
 Date - 20/01/2023
 =================
 
