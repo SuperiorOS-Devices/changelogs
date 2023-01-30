@@ -1,0 +1,22 @@
+Device: Nothing phone1
+Device code name : Spacewar
+Device maintainer: Vikas Yaduvanshi (OptimussPriime)
+
+Date - 30/01/2023
+=================
+
+- Initial A13 build
+- Updated blobs to NothingOS 1.1.6 to 1.1.7
+- Added Aospa Glyph light device parts
+- Address Aospa Glyph parts denials
+- Fixup NT camera video & Portrait mode
+- Kernel upstream to 5.4.230
+- Enabled  5G SA on Jio 
+- SElinux Enforcing
+- Fixup Some sepolicy Denials 
+- enable 5G SA and NSA 
+- Updated carrier config from 1.1.7
+- Updated audio policy configuration
+- Enable the pre-rendering feature
+- Improved auto brightness
+- Improved haptics 
