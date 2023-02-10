@@ -1,36 +1,32 @@
-<h1 align="center">Date - 07/01/2023</h1>
+<h1 align="center">Date - 10/02/2023</h1>
 
-<img src="https://user-images.githubusercontent.com/29405483/211158379-a0078421-7dc6-48b8-8e0e-69640836be12.png" align="right">
-
-
+<img src="https://user-images.githubusercontent.com/29405483/218112637-cf0788c3-bc4c-480b-b6fb-c5ab7bf6780a.jpg" align="right">
 
 # General Changes
-- January 2023 Security patch (android-13.0.0_r23)
-- Added Gamespace
-- Added VoLTE/VoWiFi icon support
-- Added UDFPS support
-- Added screen off FOD support
-- Added UDFPS icon and animation support
-- Added smartspace support for lockscreen and homescreen (Use full gapps)
-- Allow changing gesture navbar length
-- Optional haptic feedback on back gesture
-- Show battery level for BT devices
-- Added tuneable clock position
-- Added support for clock auto hide
-- Configurable 0,90,180,270 degrees rotation
-- CyanogenMod screen security settings
-- Long press power button for flashlight
-- Hide power menu on secure lockscreen
-- Lockscreen media art and Blur options
-- Pulse music visualizer
-- Updated themedicons from DGicons veux
-- Option to hide searchbar on app drawer(Launcher3)
+- Merged February security patch 
+- Redesigned Settings dashboard
+- Redesigned about phone UI
+- Improved GameSpace UI
+- Improved Launcher UI
+- Added support for strict standby policy
+- Added touch Hidl support 
+- Added support to limit AOD & ambient display refresh rate
+- Added support to  disable color inversion 
+- Added power share QS tile
+- Added toggle to disable Quick Settings on secure lockscreen
+- Added toggle  to skip confirmation in biometric auth dialog
+- Added toggle for GamesProp, Netflix and google photos spoof
+- Added AppLock
+- Merged hide app feature into AppLock
+- Switched to dynamic Volte/Vowifi implementation
+- Updated PixelPropUtils from PixysOS
 - Translations merged from Crowdin
 
+
 # Fixes and Improvements
-- Added various fixes for UDFPS
-- Added various icons for SystemUI/base
-- Dropped QR code scanner on lockscreen
-- Fixup! add tile by single click
-- Match lockscreen clock font with system
-- Use google dialer icon for Our AOSP dialer
+- Improved UDFPS implementation
+- Fixed duplicated creation of KeyguardStatusBarViewController
+- Fixed stuck screen from display change timeout
+
+
+## Note: Clean flash required for those who are using Full Gapps variant
