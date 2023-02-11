@@ -1,17 +1,14 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 11/01/2023
+Date - 11/02/2023
 =================
 
-- Update gboard paddings from Pixel 7 
-- Overlay: Enable wifi 6  
-- Address sepolicy denials
-- Don't force enable IMS features
-- Allows powerhal to search and write to f2fs sysfs
-- Move msm_irqbalance in tree
-- Use hintmanager for HWUI
-- Remove CAF input boost
-- Wifi: Don't ignore out gEnableConcurrentSTA 
-- Allow vendor_init to read persist_debug_prop 
-- Address serial number RIL denial 
+- Rebased tree over Emanuel's tree
+- Raise volume steps to 25 
+- Add dolby
+- Overlay: Enable call recording
+- Update CarrierConfig from LA.QSSI.13.0.r1-07400-qssi.0
+- Limit AOD refresh rate to 60hz
+
+CLEAN FLASH IS A MUST
