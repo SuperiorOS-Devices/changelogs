@@ -2,6 +2,17 @@ Device: Redmi Note 7/7s
 Device code name : lavender
 Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
 
+Date - 11/02/2023
+=================
+lavender: rootdir zRAM tuning
+lavender: rootdir: Increase ZRAM size to 70% of Ram size
+lavender: Remove unnecessary QTI logkit directories
+lavender: Kill IMS logspam
+lavender: rootdir: Add offline charging LED indicator
+lavender: props: Disable Skia tracing by default
+lavender: Speed profile services and wifi-service to reduce RAM
+lavender: overlay: Offload WM shell to another thread
+
 Date - 08/01/2023
 =================
 camera: Disable QTI perf lock usage in camera HAL
