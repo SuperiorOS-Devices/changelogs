@@ -1,16 +1,28 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
-Date - 29/12/2022
+Date - 22/01/2023 [Hotfix Update]
+=================================
+
+- Fix Bluetooth Bug
+
+Date - 20/01/2023
 =================
 
-- Initial release based on QPR-1 release by google.
-- Built December Cheetah FingerPrint.
-- Enabled call-recording.
-- Addressed Aux cameras for Aperture (Needs a little more work, will be refined in next update).
-- Switched to full GApps package for GApps variant. 
-- Shipping with latest Bool-X kernel. (by - @OnettBoots)
-- All Old kernel related bugs are now fixed.
+- Dropped Gapps build
+- Added smoothness tweaks
+- Dropped custom build description and fingerprint override
+- Configured multiple vibration intensity for Tiramisu
+- Nuked all broken aux cams for Aperture
+- Switched to QTI Bluetooth Stack
+- Suppress xtra-daemon libcdfw logspam
+- Updated adreno graphics blobs from Lahaina
+- Introduced Kprofile
+- Shipping with latest walt based Bool-X kernel. (by - @OnettBoots)
+- Tuned uclamp to sync with kernel
 
-Notes : 1. Clean flash is highly recommended as Source went thorough full rebase this month.
-        2. GPhotos spoof works, it just does not show it in app properly. Enjoy!!!
+Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
+       2. Use latest FBEV1 recovery
+       3. Dirty flashing is okay!!
+       4. Bugs : report with logs if you find any
+As always, Enjoy!!

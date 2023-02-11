@@ -1,0 +1,22 @@
+Device: Nothing phone1
+Device code name : Spacewar
+Device maintainer: Vikas Yaduvanshi (OptimussPriime)
+
+Date - 02/02/2023
+=================
+
+- sepolicy: Remove duplicate wakeup sysfs nodes
+- Mic Audio Changes mic audio improvments (thnx to dhruvesh brother)
+- Added by default volume panel  to leftside
+- sensor bug & app lag fixed with source side changes /improvments 
+- Set default refresh rate to 120
+- Updated brightness overlays from stock 
+- Enabled  5G SA on Jio 
+- Added Refresh rate in display settings
+- configs: fix audio in voip calls 
+- enable 5G SA and NSA 
+- Updated carrier config from 1.1.7
+- Updated audio policy configuration
+- Enable the pre-rendering feature
+- Add HDR Configs for microphone tuning
+- Improved haptics 

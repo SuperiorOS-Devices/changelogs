@@ -1,7 +1,10 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 25/12/2022
+Date - 09/01/2023
 =================
 
-- Enabled Screen off FOD
+- Dropped gcam
+- Updated carrierconfig from OOS
+- configure aux cam for Aperature
+- Fix some sepolicies
