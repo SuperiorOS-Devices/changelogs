@@ -2,6 +2,23 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
+DATE -  12/02/2023
+==================
+
+- Build Gms & Vanilla
+- BitGapps Recomended for Vanilla
+- Update Leica V 4.7.230121.1.(472301211)
+- Add Dolby Atmos 
+- Vantom Default Kernel V 4.14.304
+- Build with playground clang 17
+- gps: Update to LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0
+- Update the s5kgw3 camera libraries from MIUI V13.0.9.0.SKFINXM
+- Change Xiaomi Parts into Devicesettings
+- add kprofile into devicesettings section
+- add KernelSu into Kernel
+  ( Rrom is already root with KernelSu, only install Kernelsu.apk 
+    for root requests. Suppirt roited by magisk )
+ 
 DATE - 08/01/2023
 =================
 
@@ -25,4 +42,4 @@ Thanks
 Arian, Adarsh, Vantoman, Aryan999 for sorce
 Mr.Fox For Leica Camera
 All sweet Maintainers
-@Ankit_verma3010 for tester
+@Ankit_verma3010 & @sameer7452 for tester
