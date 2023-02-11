@@ -2,7 +2,7 @@ Device: Redmi Note 9 / Redmi 10X 4G
 Device maintainer: 01soni247
 
 Notes:  
-• Recommended firmware is V12.5.6.0.RJOMIXM
+• Recommended firmware is V12.5.4.0.RJOMIXM
 • Please make sure that you made IMEI backup, you are on right recovery and right firmware version.
 
 Date - 11/10/2022
@@ -12,9 +12,9 @@ Date - 11/10/2022
 - Only For A12 Based MIUI Vendors !!
 
 Date - 18/11/2022
-- Intial For Base V12.5.6.0.RJOMIXM
+- Intial For Base V12.5.4.0.RJOMIXM
 - Don't Flash What's on OTA !!!!
-- Clear Flash and Flash Fw V12.5.6.0.RJOMIXM and Los Recovery 
+- Clear Flash and Flash Fw V12.5.4.0.RJOMIXM and Los Recovery 
 
 Date - 19/12/2022
 - 4.14.302 Liella! Kernel
@@ -44,3 +44,7 @@ Date - 09/01/2023
 - Disable bluetooth by default
 - Inherit several Android Go configurations
 - Same Lancelot 
+
+Date - 11/02/2023
+- Succubus+ Kernel 4.14.305
+- Update mirrors
