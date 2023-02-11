@@ -40,3 +40,7 @@ Date - 08/01/2023
 - Disable UI touch sounds by default
 - Disable bluetooth by default
 - Inherit several Android Go configurations
+
+Date - 11/02/2023
+- Succubus+ Kernel 4.14.305
+- Update mirrors
