@@ -1,14 +1,13 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 11/02/2023
+Date - 12/02/2023
 =================
 
-- Rebased tree over Emanuel's tree
-- Raise volume steps to 25 
-- Add dolby
-- Overlay: Enable call recording
-- Update CarrierConfig from LA.QSSI.13.0.r1-07400-qssi.0
-- Limit AOD refresh rate to 60hz
-
-CLEAN FLASH IS A MUST
+- Hotfix build
+- Used QuickPic gallery
+- Enable 5G SA and NSA
+- Used MIUI poweroff charging animation
+- Fixed: Permission controller crash
+- Better RAM management
+- Compile HWUI for performance
