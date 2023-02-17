@@ -2,12 +2,16 @@ Device: Poco X4 Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G
 Device code name : peux/veux
 Device maintainer: Anant_Goel (Anant Goel)
 
-Date - 16/02/2023
+Date - 16/02/2023 [Hotfix Update]
 =================
 
-- Initial official release
+- Set default refresh rate to 120
 - SElinux Enforcing
 - Merged with Feb Patch
 - Added Moto Calculator
 - 5G Enabled
 - Kernel Updated with 13.0.5 SKCMIXM
+- Updated Gcam
+- Fixed Lag on AOD
+
+Thanks to all the testers for reporting me the bugs
