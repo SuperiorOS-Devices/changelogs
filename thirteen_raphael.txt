@@ -1,7 +1,7 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
-Date - 17/02/2013
+Date - 17/02/2023
 =================
 
 • Added standard Miui camera by @itzdfplayer
