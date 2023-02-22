@@ -8,7 +8,7 @@ Device maintainer: Enweazu Daniel (Danny)
 
 # Method:
 
-1. Download the ROM and Recovery.
+1. Download the ROM.
 
 2. Boot into Recovery.
 
@@ -24,14 +24,13 @@ Device maintainer: Enweazu Daniel (Danny)
 
 * ROM: [Download](https://www.pling.com/p/1908484)
 
-* Recovery: [Download](https://www.pling.com/p/1908484)
 
-* Boot Image: [Download](https://www.pling.com/p/1908484)
+
 
 ## Note:
 
 * Always clean flash/ wipe data if you are coming from any other ROM or if you are coming from stock.
 
-* Boot image is not required for flashing(It is only for Rooting).
+
 
 * Check the changelog before flashing.
