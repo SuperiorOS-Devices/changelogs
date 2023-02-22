@@ -1,0 +1,11 @@
+Device: Redmi Note 9S/Redmi 9 Pro/Redmi Note 9 Pro Max/Redmi Note 10 Lite/Poco M2 Pro
+Device code name : miatoll
+Device maintainer: ARINDAM BHATTACHARJEE
+
+Date - 13/02/2023
+=================
+
+- Initial official release
+- SElinux Enforcing
+- Dolby Atmos
+- Google Security Patch 2023-02

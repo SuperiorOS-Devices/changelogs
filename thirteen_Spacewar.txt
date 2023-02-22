@@ -2,21 +2,54 @@ Device: Nothing phone1
 Device code name : Spacewar
 Device maintainer: Vikas Yaduvanshi (OptimussPriime)
 
-Date - 02/02/2023
+Date -11/02/2023
 =================
 
-- sepolicy: Remove duplicate wakeup sysfs nodes
-- Mic Audio Changes mic audio improvments (thnx to dhruvesh brother)
-- Added by default volume panel  to leftside
-- sensor bug & app lag fixed with source side changes /improvments 
-- Set default refresh rate to 120
-- Updated brightness overlays from stock 
-- Enabled  5G SA on Jio 
-- Added Refresh rate in display settings
-- configs: fix audio in voip calls 
-- enable 5G SA and NSA 
-- Updated carrier config from 1.1.7
+- Added Screenoff FOD support
+- Added Reverse Charging support
+- Added New Glypth BeetEl Calling animation
+- Glyph: Added call & Notification animation 
+- Improved  System Stability / Performance Improved 
+- Glyph: Added Flip to glyph gesture 
+- Glyph: Added QS tile for glyph torch 
 - Updated audio policy configuration
 - Enable the pre-rendering feature
+- Set default refresh rate to 120
+- Updated camera from nothingos 1.5 
+- Added fully working nothing camera all  previous issues fixed
+- upstreamed sm8350 caf hals
+-  Updated display hals
+- Added refresh rate in display settings
+- Improved auto brightness 
+- Enabled Bluetooth LE features
+- Updated libs from NOS v1.5.1 
+- Fixed battery drain on AOD 
+- Improved AOD brightness 
+- Improved animation on display to AOD transition 
+- Fixed storage permissions for some apps 
+- Cleanup unused permissions and libs 
+- Improved fingerprint 
+- Fixed fingerprint not working when night light/dim is on 
+- Fixed bootanimation stuck on first boot 
+- Improved color modes 
+- Fixed screen flickering on some scenarios 
+- Improved scrolling 
+- Enforced strict standby policy 
+- Blacklisted some system apps from privacy indicators 
+- Fixed display taking more time to wake up on some scenarios  
+- Fixed fingerprint enroll animation position
+- Improved memory management
+- Fix suspend for system apps
+- Change perms to hide Magisk in banking apps
+- Improved thermals
+- Double tap to sleep on lockscreen/statusbar 
+- Allow VoLTE and VoWiFi/WFC by default
+- Remove duplicate wakeup sysfs nodes
+- Enable the pre-rendering feature
 - Add HDR Configs for microphone tuning
-- Improved haptics 
+-  Improved haptics
+
+huge thanks to...
+our nothing Devlopment Team.
+ thanks to aswin brother for Support & Help.
+huge thanks to Team aospa for glyph Feature.

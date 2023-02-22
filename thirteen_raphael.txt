@@ -1,6 +1,35 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 17/02/2023
+=================
+
+• Added standard Miui camera by @itzdfplayer
+• Fixed UDFPS slow response bug 
+• Adapted new UDFPS and DT2W implementation by @pwnrazr
+• Fixed UDFPS on AOD
+• Adapted to new CSC DC Dimming implementation 
+• Nuked Color Inversion
+• Enabled VoLTE and VoWIFI support for Movistar
+• Enabled voLTE/voWIFI/ViLTE for entire 460 mcc [Enable ViLTE for Airtel (India) and VoWiFi & ViLTE for Airtel (UP)]
+• Fixed low mic volume on VoIP
+• Fixed 24bit audio playback
+• Killed and supressed various logspams
+• Fixed a random issue with vol +/- button on weird headphones
+• Disabled GMS Causing Background Components
+• Tuned Scroll and App launch animations
+• Switched to User build
+• Using upstreamed BoolX kernel 4.14.305
+• Ship Rom with prebuilt Quickpic, DuckDuckGo and Moto Calculator
+• Tons of under the hood chaanges 
+
+Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
+       2. Use latest FBEV1 recovery
+       3. Dirty flashing is okay!!
+       4. Vlog, Short Videos, and 960fps slow motion cammera is broken on miui camera.  
+       5. Bugs : report with logs if you find any
+As always, Enjoy!!
+
 Date - 22/01/2023 [Hotfix Update]
 =================================
 
