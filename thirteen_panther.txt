@@ -1,0 +1,25 @@
+Device: Google Pixel 7
+Device maintainer: Jayant Deshmukh
+
+Date - 23/02/2023
+=================
+- Merged February security patch
+- Redesigned Settings dashboard
+- Redesigned about phone UI
+- Improved GameSpace UI
+- Improved Launcher UI
+- Added support for strict standby policy
+- Added touch Hidl support
+- Added toggle to disable Quick Settings on secure lockscreen
+- Added toggle for GamesProp, Netflix and google photos spoof
+- Switched to dynamic Volte/Vowifi implementation
+- QS Quick Pulldown
+- Smart Pixels
+- Adaptive Charging (Pixel exclusive)
+- QS Tile layout customisation
+- Updated smartspace to QPR1
+- High Touch Sensitivity options
+- UDFPS Animations
+- Pulse on navbar, ambient, etc
+- Switched to AOSP Dialer for Auto Call recording feature
+- Added local installation support for OTA Updater
