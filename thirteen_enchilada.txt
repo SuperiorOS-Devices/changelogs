@@ -1,0 +1,9 @@
+Device: OnePlus 6
+Device code name : enchilada
+Device maintainer: Vikas Yaduvanshi 
+
+Date - 02/03/2022
+=================
+
+- Initial official release
+- SElinux Enforcing
