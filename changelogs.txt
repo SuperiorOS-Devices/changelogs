@@ -1,31 +1,42 @@
-Date - 10/02/2023
+Date - 07/03/2023
 =================
 
 General Changes
-- Merged February security patch 
-- Redesigned Settings dashboard
-- Redesigned about phone UI
-- Improved GameSpace UI
-- Improved Launcher UI
-- Added support for strict standby policy
-- Added touch Hidl support 
-- Added support to limit AOD & ambient display refresh rate
-- Added support to  disable color inversion 
-- Added power share QS tile
-- Added toggle to disable Quick Settings on secure lockscreen
-- Added toggle  to skip confirmation in biometric auth dialog
-- Added toggle for GamesProp, Netflix and google photos spoof
-- Added AppLock
-- Merged hide app feature into AppLock
-- Switched to dynamic Volte/Vowifi implementation
-- Updated PixelPropUtils from PixysOS
+- Added some precooked themes (vivid, snowpaint, expresso)
+- Added Pulse and Ambient notification bars (Edge light)
+- Added support for per app volume
+- Added support to theme app drawer icons
+- Added extended gesture support 
+- Added Hardware key Customization support
+- Add QS tile layout settings 
+- Added dash, super dart & wrap charging support
+- Added refresh rate tile
+- Added quick QS pull option
+- Added status bar and nav bar burnin protection 
+- Added support for some CAF goodies (Framework boost...etc)
+- Added support for automated DC Dimming 
+- Added a cluster of new fonts
+- Added some new navbar & status bar styles
+- Connected QS footer data usage to mobile data usage page
+- Updated smartspace to 13-QPR1 
+- Updated prebuilt apps
+- Optimized notification icon resources 
+- Improvements to alert slider implementation 
+- Made QS footer rounded
+- Removed app info bottom sheet
 - Translations merged from Crowdin
 
 
 Fixes and Improvements
-- Improved UDFPS implementation
-- Fixed duplicated creation of KeyguardStatusBarViewController
-- Fixed stuck screen from display change timeout
+- Added some missing permissions
+- Fixed themed icons not applying to all supported apps
+- Fixed toast background color not changing with theme change 
+- Fixed profile provisioning check in secondary users 
+- Fixed the problem of slow exit of boot animation 
+- Fixed camera in google meet/duo
+- Fixed some ripple animation related issues (FP)
+- Fixed broken Bluetooth battery level
 
-
-## Note: Clean flash required for those who are using Full Gapps variant
+## Note
+- March security patch is delayed because of QPR 2 release by Google, So this build is coming with February Security Patch
+- We will release March security patch builds as soon as we finish our works over QPR 2 merge
