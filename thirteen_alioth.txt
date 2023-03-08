@@ -1,13 +1,18 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 12/02/2023
+Date - 08/03/2023
 =================
 
-- Hotfix build
-- Used QuickPic gallery
-- Enable 5G SA and NSA
-- Used MIUI poweroff charging animation
-- Fixed: Permission controller crash
-- Better RAM management
-- Compile HWUI for performance
+- Added Xiaomi TouchFeature
+- Address bunch of denials
+- Use QCOM implementation for audio effects 
+- Carrier video calling is fixed
+- Import libperfmgr
+- Add support for dt2w
+- Enable ViLTE for Airtel and Jio
+
+• Notes
+- CTS passes by default
+- Ships with Nexus kernel
+- Can be dirty flashable from previous build
