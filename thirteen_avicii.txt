@@ -1,39 +1,16 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 18/02/2023
+Date - 08/03/2023
 =================
 
-- Updated blobs to OOS 12 AC2003_11_F.18
-- Fixed 5G
-- Upstreamed kernel to 4.19.269
-- Updated kernel dts from OOS 12
-- Updated kernel drivers from OOS 12
-- Merged LA.UM.9.12.r1-15100-SMxx50.QSSI13.0 into kernel
-- Merged LA.UM.9.12.r1-15100-SMxx50.QSSI13.0 into techpack/audio
-- Merged LA.UM.9.12.r1-15100-SMxx50.QSSI13.0 into qcacld-3.0
-- Merged LA.UM.9.12.r1-15100-SMxx50.QSSI13.0 into qca-wifi-host-cmn
-- Merged LA.UM.9.12.r1-15100-SMxx50.QSSI13.0 into fw-api
-- Improved FOD
-- Switch to nq-nci for NFC
-- Updated audio from OOS 12
-- Updated Wi-Fi from OOS 12
-- Updated IMS from renoir - 22.5.11
-- Updated Media configs from LA.UM.9.12.r1-15100-smxx50.QSSI13.0
-- Fixed Screen off FOD
-- Update Firmware to OOS 12 AC2003_11_F.18
-- Sync properties from OOS 12 AC2003_11_F.17
-- Update powerprofile from OOS 12 AC2003\11_F.17
-- Build NFC from Source
-- Update Audio HAL from OOS 12 AC2003_11_F.18
-- Update SoundTrigger HAL from OOS 12 AC2003_11_F.18
-- Update CarrierConfig from OOS 12 AC2003_11_F.17
-- Only allow 5G SA on Jio
-- Improved haptics
-
+- Fixed detection of (fast-) chargers and their charging speed
+- Upstreamed kernel to 4.19.272
+- Improved SMS receiving behaviour
+- Fixed power_profile
+- Updated blobs from LA.QSSI.13.0.r1-09000-qssi.0
 
 Note:- 
-- Clean flash is recommended
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
 - You may see slow charging on lockscreen, it's a bug in OOS 12, it will be fixed in upcoming update
 - You may see some bugs, report them to me on telegram
