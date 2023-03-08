@@ -2,8 +2,24 @@ Device: OnePlus 6
 Device code name : enchilada
 Device maintainer: Vikas Yaduvanshi 
 
-Date - 02/03/2022
+Date - 07/03/2023
 =================
 
-- Initial official release
-- SElinux Enforcing
+• General changes
+
+- Include Screenoff FOD -fajita
+- Added Power profile audio & video support
+- Implement OnePlus Settings
+- Added custom vibration Strength Settings 
+- Added fps overlays support in OnePlus Settings
+- Included full mute aler slider functionality
+- Adress few sepolicy Denials
+- Added Aosp Display color modes
+- Improved Hbm/dc diming  Mode
+
+• Notes
+
+- February Security Patch with additional features & fixes
+- CTS passes by default 
+- March security patch is delayed because of QPR 2 release by Google, So this build is coming with February Security Patch
+- We will release March security patch builds as soon as we finish our works over QPR 2 merge
