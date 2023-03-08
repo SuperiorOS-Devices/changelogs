@@ -17,8 +17,9 @@ Device maintainer: Vikas Yaduvanshi
 # Downloads:
 
 * ROM: [Download](https://sourceforge.net/projects/superioros/files/enchilada/)
-* Firmware: [Download](https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus6Oxygen/OnePlus6Oxygen_22.J.62_GLO_0620_2111252336/OnePlus6Oxygen_22.J.62_OTA_0620_all_2111252336_14afec75dd6fa.zip)
-* Recovery: [Download](https://sourceforge.net/projects/oneplus-6-series/files/A12%20TWRP/Enchilada/)
+* Firmware:[Download](https://www.oneplus.in/support/softwareupgrade)
+* Recovery:[Download](https://sourceforge.net/projects/oneplus-6-series/files/A12%20TWRP/Enchilada/)
+* Finalize:[Download](https://androidfilehost.com/?fid=17825722713688282069)
 
 ## Note:
 
