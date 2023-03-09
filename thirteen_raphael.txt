@@ -1,11 +1,36 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 08/03/2023
+=================
+
+• Bring back GAPPS build 
+• Build AOSP Dialer as Default 
+• Completely fixed MIUI camera related bugs
+• Switched to MIUI camera Leica variant
+• Set Kprofiles to balanced
+• Set Default Display Refresh rate at 60hz
+• Fix Display animation while AOD on/off screen
+• Enabled CLO framework boost
+• Set valid and supported channel mask for earpiece
+• Switch to legacy sepolicy_vndr
+• Fixed audio right channel and enabled makeshift stereo speaker (using earpiece)
+• Tons of other under the hood improvements revolving around satability, performance and better drains.
+• Using BoolX Kernel upstreamed to 4.14.307
+
+Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
+       2. Use latest FBEV1 recovery
+       3. Dirty flashing is okay!!
+       4. If you have incoming call notification on GAPPS build, just clear data of the AOSP Dialer app.
+       5. Bugs : report with logs if you find any
+As always, Enjoy!!
+
 Date - 17/02/2023
 =================
 
 • Added standard Miui camera by @itzdfplayer
 • Fixed UDFPS slow response bug 
+• Fixed Unintended Background App kill issue
 • Adapted new UDFPS and DT2W implementation by @pwnrazr
 • Fixed UDFPS on AOD
 • Adapted to new CSC DC Dimming implementation 
@@ -16,7 +41,7 @@ Date - 17/02/2023
 • Fixed 24bit audio playback
 • Killed and supressed various logspams
 • Fixed a random issue with vol +/- button on weird headphones
-• Disabled GMS Causing Background Components
+• Disabled GMS drain causing Background Components
 • Tuned Scroll and App launch animations
 • Switched to User build
 • Using upstreamed BoolX kernel 4.14.305
