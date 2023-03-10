@@ -1,0 +1,8 @@
+Device: Mi 11
+Device maintainer: Alan Lin
+
+Date - 09/03/2023
+=================
+
+- Initial official release
+

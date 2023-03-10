@@ -1,0 +1,8 @@
+Device: Mi 9T/Redmi K20
+Device code name : davinci 
+Device maintainer: MK
+
+Date - 07/03/2023
+=================
+ 
+- Initial release
