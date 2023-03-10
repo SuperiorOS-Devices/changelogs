@@ -1,29 +1,16 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 10/02/2023
+Date - 07/03/2023
 =================
 
-• MiuiCamera
-- Added fingerprint shutter support to MiuiCamera
-- Removed broken slow motion support
-- Enabled movie effects
-- Enabled sticker avatars
-- Enabled document mode
-- Enabled panorama direction switch
-- Enabled pro video mode
-- Enabled advanced pro mode features
-
 • General changes
-- Added two channels for echo referece (Another attempt to fix echo on calls when in speaker for the receiver)
-- Disabled protected buffers support (AOSP WFD doesn't support protected Wi-Fi Display buffers)
-- Enabled world phone bool (Allows changes regarding network operations to users)
-- Injected custom doze settings into lockscreen settings
-- Updated blobs to LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-- Included Moto Calculator 
-- Tuned vibration pattern (Values from OnePlus)
+- Added compress recording configurations
+- Updated audio_io_policy from sweet (fixes mic issues with apps like instagram or snapchat)
+- Disabled Stereo channel support for voip 
 
 • Notes
+- February Security Patch with additional features & fixes
 - Shipping with latest Azure kernel
 - CTS passes by default 
 - Dirty flash is fine (Follow proper instructions)
