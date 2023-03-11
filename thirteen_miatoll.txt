@@ -9,3 +9,12 @@ Date - 13/02/2023
 - SElinux Enforcing
 - Dolby Atmos
 - Google Security Patch 2023-02
+
+Date - 11/03/2023
+=================
+
+- Migrate to AIDL ClearKey DRM HAL
+- Add Spatial Audio support
+- Add media libs
+- Import AVC-High (Secure) Codec
+- HEVC & AVC-High (Secure) codecs are now supported for Netflix
