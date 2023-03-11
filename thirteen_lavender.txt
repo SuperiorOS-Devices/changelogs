@@ -2,6 +2,32 @@ Device: Redmi Note 7/7s
 Device code name : lavender
 Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
 
+Date - 11/03/2023
+=================
+Fixed Netflix Crash
+Switched To Sonix Kernel
+lavender: props: Enable zygote critical window
+lavender: overlay: Don't pin launcher app in memory
+lavender: overlay: Update deprecated screen power items
+lavender: Add post boot tweaks
+lavender: overlay: Unpin updatable-media from memory
+lavende: Use speed tuning for performance critical applications
+lavender: wlan: Relax WiFi
+lavender: Use 2GB dalvik-heap config
+lavender: props: Better RAM Management
+lavender: dsds: restart qcrild on data switch
+lavender: init: restart qcrild on decryption
+lavender: init: Apply aggressive write caching.
+lavender: Disable blur on app launch
+lavender: sepolicy: Fix up libperfmgr crash on logs
+lavender: sepolicy: Address few Denials
+lavender: Camera: Add Sepolicy for accessing vendor properties
+lavender: rootdir: Remove non-existant shmbus
+lavender: Use CAF configuration
+lavender: dex2oat filter = speed
+lavender: Optimize package manager dexopt properties
+lavender: set dex2oat filter = quicken
+
 Date - 11/02/2023
 =================
 lavender: rootdir zRAM tuning
