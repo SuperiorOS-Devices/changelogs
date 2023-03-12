@@ -1,55 +1,33 @@
 Device: Nothing phone1
 Device code name : Spacewar
-Device maintainer: Vikas Yaduvanshi (OptimussPriime)
+Device maintainer: Vikas Yaduvanshi
 
-Date -11/02/2023
+Date -13/03/2023
 =================
 
 - Added Screenoff FOD support
-- Added Reverse Charging support
+- Added Support For Google Dialer Call Recording
+- Added Clo booost framework
 - Added New Glypth BeetEl Calling animation
-- Glyph: Added call & Notification animation 
-- Improved  System Stability / Performance Improved 
-- Glyph: Added Flip to glyph gesture 
-- Glyph: Added QS tile for glyph torch 
-- Updated audio policy configuration
-- Enable the pre-rendering feature
-- Set default refresh rate to 120
-- Updated camera from nothingos 1.5 
-- Added fully working nothing camera all  previous issues fixed
-- upstreamed sm8350 caf hals
--  Updated display hals
-- Added refresh rate in display settings
-- Improved auto brightness 
-- Enabled Bluetooth LE features
-- Updated libs from NOS v1.5.1 
-- Fixed battery drain on AOD 
-- Improved AOD brightness 
-- Improved animation on display to AOD transition 
-- Fixed storage permissions for some apps 
-- Cleanup unused permissions and libs 
-- Improved fingerprint 
-- Fixed fingerprint not working when night light/dim is on 
-- Fixed bootanimation stuck on first boot 
-- Improved color modes 
-- Fixed screen flickering on some scenarios 
-- Improved scrolling 
-- Enforced strict standby policy 
-- Blacklisted some system apps from privacy indicators 
-- Fixed display taking more time to wake up on some scenarios  
-- Fixed fingerprint enroll animation position
-- Improved memory management
-- Fix suspend for system apps
+- Glyph: Moved under System Settings 
+- Fixed video in google meet
+- Added Spatial audio from Pixel (experimental)
+- Improved System Stability / Performance Improved 
 - Change perms to hide Magisk in banking apps
-- Improved thermals
-- Double tap to sleep on lockscreen/statusbar 
-- Allow VoLTE and VoWiFi/WFC by default
-- Remove duplicate wakeup sysfs nodes
-- Enable the pre-rendering feature
-- Add HDR Configs for microphone tuning
--  Improved haptics
+- Increase Screen brightness 
+- fix audio in voip calls 
+- Updated nothing camera app from v1.5.2
+- Added minimal audio OEM changes
+- Increase auto brightness 
+
+
+• Notes
+
+- February Security Patch with additional features & fixes
+- CTS passes by default 
+- March security patch is delayed because of QPR 2 release by Google, So this build is coming with February Security Patch
+- We will release March security patch builds as soon as we finish our works over QPR 2 merge
 
 huge thanks to...
-our nothing Devlopment Team.
- thanks to aswin brother for Support & Help.
-huge thanks to Team aospa for glyph Feature.
+- thanks to aswin brother for Support & Help.
+- huge thanks to Team aospa for glyph Feature.
