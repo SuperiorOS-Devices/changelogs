@@ -1,8 +1,11 @@
-Device: Mi 11
+Device: Xiaomi Mi 11
 Device maintainer: Alan Lin
 
-Date - 09/03/2023
+Date - 13/03/2023
 =================
 
-- Initial official release
+- Implement MIUI Camera
+- Add dynamic refresh rate support
+- Update lahaina media,kernel post boot script from miui_STAR_V14.0.6.0.TKACNXM
+
 
