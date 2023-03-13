@@ -2,6 +2,17 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
+DATE -  13/02/2023
+==================
+
+- Build Gmas & Vanilla
+- Bitgapps Recomended for Vanilla
+- Leica Camera Default
+- Vantom Default Kernel
+- Back on Parts
+- Update blobs from sweet V14.0.2.0.TKFEUXM
+- prebuilt display stack
+
 DATE -  12/02/2023
 ==================
 
