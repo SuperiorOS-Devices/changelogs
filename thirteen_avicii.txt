@@ -1,16 +1,12 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 08/03/2023
+Date - 25/03/2023
 =================
-
-- Fixed detection of (fast-) chargers and their charging speed
-- Upstreamed kernel to 4.19.272
-- Improved SMS receiving behaviour
-- Fixed power_profile
-- Updated blobs from LA.QSSI.13.0.r1-09000-qssi.0
+- Fixed alert slider (No UI yet)
+- Build kernel using clang 14.0.6
+- Cleanup files which are deprecated with QPR2
 
 Note:- 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
-- You may see slow charging on lockscreen, it's a bug in OOS 12, it will be fixed in upcoming update
 - You may see some bugs, report them to me on telegram
