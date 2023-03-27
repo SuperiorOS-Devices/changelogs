@@ -2,6 +2,10 @@ Device: Redmi Note 7/7s
 Device code name : lavender
 Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
 
+Date - 27/03/2023
+=================
+lavender:Build android.hardware.graphics.allocator
+
 Date - 11/03/2023
 =================
 Fixed Netflix Crash
