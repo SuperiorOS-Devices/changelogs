@@ -1,11 +1,10 @@
 Device: Xiaomi Mi 11
 Device maintainer: Alan Lin
 
-Date - 13/03/2023
+Date - 27/03/2023
 =================
 
-- Implement MIUI Camera
-- Add dynamic refresh rate support
-- Update lahaina media,kernel post boot script from miui_STAR_V14.0.6.0.TKACNXM
-
+- Update kernel to LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
+- Use FUSE passthrough mode by default
+- Remove aptX(HD) encoder shared libs(not required on qpr2)
 
