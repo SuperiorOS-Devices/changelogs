@@ -2,24 +2,41 @@ Device: OnePlus 6
 Device code name : enchilada
 Device maintainer: Vikas Yaduvanshi 
 
-Date - 07/03/2023
+Date - 27/03/2023
 =================
 
-• General changes
 
-- Include Screenoff FOD -fajita
-- Added Power profile audio & video support
-- Implement OnePlus Settings
-- Added custom vibration Strength Settings 
-- Added fps overlays support in OnePlus Settings
+• Source changes
+================
+
+- March security patch (android 13.0.0_r35)
+- Rebase over Android 13 QPR 2.
+
+
+• General Device changes
+========================
+
+- Include Screenoff FOD -fajita.
+- Added fully working oos camera support.
+- Added Oneplus gallery pre-built 
+- Gphoto's hot device fixed.
+- Added oneplus gallery.
+- Added slider fixes added.
+- Audio: fixup audio io policy. 
+- Enable VoLTE and VoWIFI for all carriers. 
+- Added support for Google Dialer Call recording.
+- Enabled freeform windows. 
+- Adress few More sepolicy Denials.
+- Fix hyper orange night light.
+- Enable all supported USB OTG. 
+- Uderhold clean and lots of improvements done.
 - Included full mute aler slider functionality
 - Adress few sepolicy Denials
 - Added Aosp Display color modes
 - Improved Hbm/dc diming  Mode
 
-• Notes
 
-- February Security Patch with additional features & fixes
+• Notes
+=======
 - CTS passes by default 
-- March security patch is delayed because of QPR 2 release by Google, So this build is coming with February Security Patch
-- We will release March security patch builds as soon as we finish our works over QPR 2 merge
+- Clean Flash compulsory for this build Bec of Android 13 QPR 2.
