@@ -1,0 +1,6 @@
+Device: Motorola Edge 30
+Device maintainer: Jayant Deshmukh
+
+Date - 11/03/2023
+=================
+- Initial Release

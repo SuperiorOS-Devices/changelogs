@@ -1,8 +1,10 @@
-Device: Mi 11
+Device: Xiaomi Mi 11
 Device maintainer: Alan Lin
 
-Date - 09/03/2023
+Date - 27/03/2023
 =================
 
-- Initial official release
+- Update kernel to LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
+- Use FUSE passthrough mode by default
+- Remove aptX(HD) encoder shared libs(not required on qpr2)
 
