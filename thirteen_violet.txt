@@ -1,16 +1,12 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 07/03/2023
+Date - 28/03/2023
 =================
 
 • General changes
-- Added compress recording configurations
-- Updated audio_io_policy from sweet (fixes mic issues with apps like instagram or snapchat)
-- Disabled Stereo channel support for voip 
-
-• Notes
-- February Security Patch with additional features & fixes
-- Shipping with latest Azure kernel
-- CTS passes by default 
-- Dirty flash is fine (Follow proper instructions)
+- Switched to Xcalibur kernel v2.1
+- Removed aptX(HD) encoder shared libs (Encoder shared libraries are no longer required as of Android 13 QPR2)
+- Redefined bluetooth a2dp offload capabilities
+- Removed unsupported dynamic attributes from APS config
+- Updated audio configs to fix some minor bugs
