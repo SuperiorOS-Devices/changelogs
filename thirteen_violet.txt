@@ -1,12 +1,9 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 28/03/2023
+Date - 29/03/2023
 =================
 
 • General changes
-- Switched to Xcalibur kernel v2.1
-- Removed aptX(HD) encoder shared libs (Encoder shared libraries are no longer required as of Android 13 QPR2)
-- Redefined bluetooth a2dp offload capabilities
-- Removed unsupported dynamic attributes from APS config
-- Updated audio configs to fix some minor bugs
+- Included Stable MiuiCamera
+- Switched to oss libcameraservices
