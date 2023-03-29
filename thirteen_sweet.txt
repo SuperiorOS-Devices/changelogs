@@ -2,7 +2,16 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
-DATE -  13/02/2023
+
+DATE - 28/03/2023
+==================
+
+- March security patch
+- Build Gms & Vanilla
+- switch to aghisna kernel v14.4.311
+- Leica camera default
+
+DATE -  13/03/2023
 ==================
 
 - Build Gmas & Vanilla
