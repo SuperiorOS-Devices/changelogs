@@ -1,18 +1,20 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 08/03/2023
+Date - 29/03/2023
 =================
 
-- Added Xiaomi TouchFeature
-- Address bunch of denials
-- Use QCOM implementation for audio effects 
-- Carrier video calling is fixed
-- Import libperfmgr
-- Add support for dt2w
-- Enable ViLTE for Airtel and Jio
+- QPR2 release
+- Updated blobs from MIUI 14.0.7.0 EEA
+- Add missing voice-headset path 
+- Switch to SkiaGL Threaded 
+- Enable voLTE/voWIFI/ViLTE for Sri Lankan Networks 
+- Implement DC Dimming support 
+- Update IMS blobs
+- Added leica camera
 
-• Notes
+Notes:
+
+- CLEAN FLASH IS MANDATORY
 - CTS passes by default
-- Ships with Nexus kernel
-- Can be dirty flashable from previous build
+- Face any bugs? Report with proper logs
