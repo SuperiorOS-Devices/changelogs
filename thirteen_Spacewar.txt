@@ -2,9 +2,8 @@ Device: Nothing phone1
 Device code name : Spacewar
 Device maintainer: Vikas Yaduvanshi
 
-Date -13/03/2023
+Date -31/03/2023
 =================
-
 - Added Screenoff FOD support
 - Added Support For Google Dialer Call Recording
 - Added Clo booost framework
@@ -12,6 +11,8 @@ Date -13/03/2023
 - Glyph: Moved under System Settings 
 - Fixed video in google meet
 - Added Spatial audio from Pixel (experimental)
+- Enable performance mode on shima/yupik
+- Updated blobs from NOS 1.5.3
 - Improved System Stability / Performance Improved 
 - Change perms to hide Magisk in banking apps
 - Increase Screen brightness 
@@ -22,12 +23,5 @@ Date -13/03/2023
 
 
 • Notes
-
-- February Security Patch with additional features & fixes
 - CTS passes by default 
-- March security patch is delayed because of QPR 2 release by Google, So this build is coming with February Security Patch
-- We will release March security patch builds as soon as we finish our works over QPR 2 merge
-
-huge thanks to...
-- thanks to aswin brother for Support & Help.
-- huge thanks to Team aospa for glyph Feature.
+- Clean Flash compulsory for this build Bec of Android 13 QPR 2.
