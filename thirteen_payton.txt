@@ -1,0 +1,8 @@
+Device: Motorola X4
+Device maintainer: Dhinesh (@cool585)
+
+Date - 31/03/2023
+=================
+- Initial Release
+- clean flash required
+- jio is buggy
