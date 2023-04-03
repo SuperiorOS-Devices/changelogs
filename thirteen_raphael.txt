@@ -1,6 +1,25 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 03/04/2023
+=================
+
+• Brought back Google Dialer for GAPPs variant (only)
+• Enabled back ZRAM by default
+• Set ZRAM to 4GB
+• Adapted MIUI camera to QPR2
+• Switched Back to MIUI Camera Standard Variant
+• Used OSS AptX blobs
+• Fixed LED pulse notification
+• Used upstreamed BoolX kernel 4.14.311
+
+Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
+       2. Use latest FBEV1 recovery
+       3. Source went through rebase so, it is recommended to do a clean flash, dirty flash okay if you can live with somw random glitches.
+       4. Bugs : Due to rebase you might find some bugs, please report with logs if you find any.
+As always, Enjoy!!
+
+
 Date - 08/03/2023
 =================
 
@@ -21,7 +40,7 @@ Date - 08/03/2023
 Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
        2. Use latest FBEV1 recovery
        3. Dirty flashing is okay!!
-       4. If you have incoming call notification on GAPPS build, just clear data of the AOSP Dialer app.
+       4. If you have any issue with incoming call notification on GAPPS build, just clear data of the AOSP Dialer app.
        5. Bugs : report with logs if you find any
 As always, Enjoy!!
 
