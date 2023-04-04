@@ -1,6 +1,13 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 04/04/2023 [Hotfix Update]
+=================================
+
+• Nuked Display OC completely with Waffel kernel
+
+Note: This is a preventative measure to make sure that FOD activity doesn't trigger unwanted  Overclocked Refresh rates. Want Display overclocking anyway? Flash a kernel that supports it.
+
 Date - 03/04/2023
 =================
 
