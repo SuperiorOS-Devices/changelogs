@@ -2,26 +2,26 @@ Device: Nothing phone1
 Device code name : Spacewar
 Device maintainer: Vikas Yaduvanshi
 
-Date -31/03/2023
+Date -09/04/2023
 =================
-- Added Screenoff FOD support
+- compiled with latest source  old bugs fixed
+- Fixed mic noise cancellation in calls
+- Include Screenoff FOD 
 - Added Support For Google Dialer Call Recording
+- kernel : Added back wireguard support
+- kernel : Updates from NOS 1.5
+- kernel : merged LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
+- Updated  NOS 1.5  blobs
+- Glyph: Add Glyph Interface Header Image
+- Glyph: Fix rotation bug
+- Glyph: Add back AudioManager for better incall detection 
+- Enabled multi gen lru
+- Updated NTCamera from 1.5.3
 - Added Clo booost framework
-- Added New Glypth BeetEl Calling animation
-- Glyph: Moved under System Settings 
-- Fixed video in google meet
-- Added Spatial audio from Pixel (experimental)
-- Enable performance mode on shima/yupik
-- Updated blobs from NOS 1.5.3
-- Improved System Stability / Performance Improved 
+- Overall improved performance 
 - Change perms to hide Magisk in banking apps
 - Increase Screen brightness 
-- fix audio in voip calls 
-- Updated nothing camera app from v1.5.2
-- Added minimal audio OEM changes
-- Increase auto brightness 
 
 
 • Notes
 - CTS passes by default 
-- Clean Flash compulsory for this build Bec of Android 13 QPR 2.
