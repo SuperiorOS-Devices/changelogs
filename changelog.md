@@ -1,11 +1,10 @@
-<h1 align="center">Date - 25/03/2023</h1>
+<h1 align="center">Date - 12/04/2023</h1>
 
-<img src="https://user-images.githubusercontent.com/29405483/227714573-8ffcd11e-5ab0-41a2-8f8a-db454b4be426.jpg" align="right">
+<img src="https://user-images.githubusercontent.com/66232233/231254424-eda22e84-3301-4529-8ebc-331c17766c54.jpg" align="right">
 
-- March security patch (android 13.0.0_r35)
-- Rebase over Android 13 QPR 2.
-
-## Note
-- Because of rebase over QPR 2 some features are not available yet, but will be available in next updates.
-- We suggest you to clean flash this update.
-
+- Merged April security patch (android-13.0.0_r41)
+- Updated pixelproputils fingerprints to April 2023 release
+- Added back some customisations which we removed after QPR2 rebase
+- Enabled UMO turbulence noise and surface ripple
+- Improved system stability & fixed some random crashes
+- Imported translations from Crowdin
