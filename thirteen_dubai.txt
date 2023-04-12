@@ -1,6 +1,13 @@
 Device: Motorola Edge 30
 Device maintainer: Jayant Deshmukh
 
-Date - 11/03/2023
+Date - 12/04/2023
 =================
-- Initial Release
+
+- Enabled 5g carrier options
+- Merged April security patch (android-13.0.0_r41)
+- Updated pixelproputils fingerprints to April 2023 release
+- Added back some customisations which we removed after QPR2 rebase
+- Enabled UMO turbulence noise and surface ripple
+- Improved system stability & fixed some random crashes
+- Imported translations from Crowdin
