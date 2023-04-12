@@ -2,41 +2,47 @@ Device: OnePlus 6
 Device code name : enchilada
 Device maintainer: Vikas Yaduvanshi 
 
-Date - 27/03/2023
+Date - 12/04/2023
 =================
 
 
 • Source changes
 ================
 
-- March security patch (android 13.0.0_r35)
-- Rebase over Android 13 QPR 2.
+- Merged April security patch (android-13.0.0_r41)
+- Updated pixelproputils fingerprints to April 2023 release
+- Added back some customisations which we removed after QPR2 rebase
+- Enabled UMO turbulence noise and surface ripple
+- Improved system stability & fixed some random crashes
+- Imported translations from Crowdin
 
 
 • General Device changes
 ========================
 
 - Include Screenoff FOD -fajita.
-- Added fully working oos camera support.
 - Added Oneplus gallery pre-built 
-- Gphoto's hot device fixed.
+- Fixed some sepolicy denials 
+- Fixup some missing op setting sepolicy
+- sepolicy: fastchg_status fixup
+- Gphoto's hot device fixed
+- Allow more background apps
 - Added oneplus gallery.
-- Added slider fixes added.
-- Audio: fixup audio io policy. 
+-  Restore vendor bluetooth props 
+- qcril: fix MT SMS sent during power off 
+- Remove aptX(HD) encoder shared libs
+- sepolicy: Remove common sysfs_usb_data_enabled rules 
+- Re-enable bluetooth AAC frame control
 - Enable VoLTE and VoWIFI for all carriers. 
 - Added support for Google Dialer Call recording.
 - Enabled freeform windows. 
-- Adress few More sepolicy Denials.
+-  Don't sign Wifi RROs with platform cert 
 - Fix hyper orange night light.
 - Enable all supported USB OTG. 
-- Uderhold clean and lots of improvements done.
-- Included full mute aler slider functionality
-- Adress few sepolicy Denials
 - Added Aosp Display color modes
 - Improved Hbm/dc diming  Mode
-
+- Uderhold clean and lots of improvements done.
 
 • Notes
 =======
 - CTS passes by default 
-- Clean Flash compulsory for this build Bec of Android 13 QPR 2.
