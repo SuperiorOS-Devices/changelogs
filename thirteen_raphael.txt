@@ -1,12 +1,31 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 13/04/2023
+=================
+
+• Fixed random Root detection in some cases 
+• Set correct cpu affinity for Unity apps
+• Improved gameplay and fps for miHoYo games
+• Inroduced Moto Dolby
+• Fully implemented Uclamp
+• Using Waffel kernel 4.14.311
+• Other improvements 
+
+Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
+       2. Use latest FBEV1 recovery
+       3. Dirty flash is okay!!
+       4. Bugs : Please report with proper logs
+As always, Enjoy!!
+
+
 Date - 04/04/2023 [Hotfix Update]
 =================================
 
 • Nuked Display OC completely with Waffel kernel
 
 Note: This is a preventative measure to make sure that FOD activity doesn't trigger unwanted  Overclocked Refresh rates. Want Display overclocking anyway? Flash a kernel that supports it.
+
 
 Date - 03/04/2023
 =================
@@ -51,6 +70,7 @@ Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
        5. Bugs : report with logs if you find any
 As always, Enjoy!!
 
+
 Date - 17/02/2023
 =================
 
@@ -80,6 +100,7 @@ Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
        4. Vlog, Short Videos, and 960fps slow motion cammera is broken on miui camera.  
        5. Bugs : report with logs if you find any
 As always, Enjoy!!
+
 
 Date - 22/01/2023 [Hotfix Update]
 =================================
