@@ -1,11 +1,10 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 25/03/2023
+Date - 13/04/2023
 =================
-- Fixed alert slider (No UI yet)
-- Build kernel using clang 14.0.6
-- Cleanup files which are deprecated with QPR2
+- Layout adjustment of Alert slider
+- Adjustment for the FOD animations
 
 Note:- 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
