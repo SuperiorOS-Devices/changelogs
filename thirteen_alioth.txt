@@ -1,20 +1,27 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 29/03/2023
+Date - 14/04/2023
 =================
 
-- QPR2 release
-- Updated blobs from MIUI 14.0.7.0 EEA
-- Add missing voice-headset path 
-- Switch to SkiaGL Threaded 
-- Enable voLTE/voWIFI/ViLTE for Sri Lankan Networks 
-- Implement DC Dimming support 
-- Update IMS blobs
-- Added leica camera
+- Add battery friendly pocket mode
+- Enable zram writeback
+- Enable H/W composition
+- Remove no longer needed aptX blobs
+- Add thermal profiles qs tile
+- Move thermal settings to system settings (Settings>System)
+- Enable ro.hwui.render_ahead 
+- Enable voLTE/voWIFI/ViLTE for IDC Moldova 
+- Enable fuse passthrough
+- Show "Turbo Charging" instead of "Charging rapidly"
+- Set xiaomi thermal data path
+- Set default thermal profile to '10'
+- Use thermal config from V13.0.7.0
+- Fixed permission controller error 
+- Initial build with my kernel (Based on InfiniR)
 
 Notes:
 
-- CLEAN FLASH IS MANDATORY
 - CTS passes by default
-- Face any bugs? Report with proper logs
+- Can be dirty flashed over previous build
+- Face any bugs? Report with logs
