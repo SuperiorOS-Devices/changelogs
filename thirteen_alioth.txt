@@ -1,18 +1,27 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 08/03/2023
+Date - 14/04/2023
 =================
 
-- Added Xiaomi TouchFeature
-- Address bunch of denials
-- Use QCOM implementation for audio effects 
-- Carrier video calling is fixed
-- Import libperfmgr
-- Add support for dt2w
-- Enable ViLTE for Airtel and Jio
+- Add battery friendly pocket mode
+- Enable zram writeback
+- Enable H/W composition
+- Remove no longer needed aptX blobs
+- Add thermal profiles qs tile
+- Move thermal settings to system settings (Settings>System)
+- Enable ro.hwui.render_ahead 
+- Enable voLTE/voWIFI/ViLTE for IDC Moldova 
+- Enable fuse passthrough
+- Show "Turbo Charging" instead of "Charging rapidly"
+- Set xiaomi thermal data path
+- Set default thermal profile to '10'
+- Use thermal config from V13.0.7.0
+- Fixed permission controller error 
+- Initial build with my kernel (Based on InfiniR)
 
-• Notes
+Notes:
+
 - CTS passes by default
-- Ships with Nexus kernel
-- Can be dirty flashable from previous build
+- Can be dirty flashed over previous build
+- Face any bugs? Report with logs

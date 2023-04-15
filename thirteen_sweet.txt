@@ -2,7 +2,24 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
-DATE -  13/02/2023
+
+DATE - 12/04/2023
+================
+
+- Upastream aghisna kernel v 4.14.312
+- Update Adreno to LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
+- Update the s5kgw3 camera libraries from MIUI V14.0.1.0.TKFINXM
+- Leica Camera Dsfault
+
+DATE - 28/03/2023
+==================
+
+- March security patch
+- Build Gms & Vanilla
+- switch to aghisna kernel v14.4.311
+- Leica camera default
+
+DATE -  13/03/2023
 ==================
 
 - Build Gmas & Vanilla
