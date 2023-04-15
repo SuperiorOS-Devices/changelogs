@@ -2,6 +2,14 @@ Device: Redmi Note 7/7s
 Device code name : lavender
 Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
 
+Date - 15/04/2023
+=================
+lavender: Add tethering usb props
+lavender: Extend buffer size to 256kb for offload playback
+lavender: props: Disable vsync for CPU rendered Apps
+lavender: Reduce TASchedtuneBoost duration
+lavender: rootdir: Enable suspend to RAM
+
 Date - 27/03/2023
 =================
 lavender:Build android.hardware.graphics.allocator
