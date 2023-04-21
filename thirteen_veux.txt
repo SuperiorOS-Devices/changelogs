@@ -2,6 +2,15 @@ Device: Poco X4 Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G
 Device code name : peux/veux
 Device maintainer: Anant_Goel (Anant Goel)
 
+Date - 21/04/2023
+=================
+
+- Fixed Padding issue
+- Merged with April Patch
+- Updated Vendor Blobs with 13.0.7 SKCMIXM
+- Fetched Kernel with 13.0.7 SKCMIXM
+- Reduced Qs Lag
+
 Date - 16/02/2023 [Hotfix Update]
 =================
 
