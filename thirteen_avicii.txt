@@ -1,10 +1,10 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 13/04/2023
+Date - 23/04/2023
 =================
-- Layout adjustment of Alert slider
-- Adjustment for the FOD animations
+- Added suppoer for Pocket lock
+- Charging info updates
 
 Note:- 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
