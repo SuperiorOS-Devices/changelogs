@@ -2,6 +2,13 @@ Device: Poco X4 Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G
 Device code name : peux/veux
 Device maintainer: Anant_Goel (Anant Goel)
 
+Date - 24/04/2023
+=================
+
+- Added Mi Camera
+- Added OnePlus Dolby
+- Fixed fake Root Detection in few Apps
+
 Date - 21/04/2023
 =================
 
