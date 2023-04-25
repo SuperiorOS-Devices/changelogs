@@ -1,0 +1,10 @@
+Device: Xiaomi 11 Lite NE 5G
+Device maintainer: Saikiran
+
+Date - 25/04/2023
+=================
+- Initial Build
+
+Note:- 
+- MIUI Camera is working. Flash the module if you want to use it
+- You may see some bugs, report them to me on telegram
