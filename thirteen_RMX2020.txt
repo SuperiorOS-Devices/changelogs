@@ -2,7 +2,14 @@ Device: Realme C3/Narzo 10A
 Device code name : RMX2020 
 Device maintainer: WillyS69
 
-Date - 15/04/2023
+Date - 25/04/2023
 =================
- 
-- Initial official release
+
+- Revert Touch boost period to default
+- Fixed Data corruption issue after force reboot 
+
+Notes:
+
+- CTS passes by default
+- Can be dirty flashed over previous build
+- Face any bugs? Report with logs
