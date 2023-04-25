@@ -1,0 +1,9 @@
+Device: Xiaomi Pad 5
+Device maintainer: Saikiran
+
+Date - 25/04/2023
+=================
+- Initial Build
+
+Note:- 
+- You may see some bugs, report them to me on telegram
