@@ -1,16 +1,15 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 16/04/2023
+Date - 25/04/2023
 =================
 
-- Update thermal from v14.0.7.0.TKHEUXM
-- Tune powerhint
-- Increase touch timer ms
-- Force device to treat 170M as sRGB in SF 
-- Enable display async powermode
-- Switch to N0kernel and aosp clang 17
-- Nuked dynamic thermal 
+- Fixed issues with LDAC
+- Remove CAF input boost
+- Enable carrier_vt_avaible_bool on jio/airtel
+- Rework thermal environment rules
+- Import thermal service client
+- Implement new DC dimming (Supported kernel needed for it to work)
 
 Notes:
 
