@@ -1,0 +1,9 @@
+
+Device: Poco F4/Redmi K40s
+Device code name : munch 
+Device maintainer: Mudit
+
+Date - 26/04/2023
+=================
+ 
+- Initial official release
