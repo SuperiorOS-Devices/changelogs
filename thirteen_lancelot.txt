@@ -53,3 +53,7 @@ Date - 21/04/2023
 - VoLTE Repo add To build (Fix VoLTE,Sorr I am forget)
 - Enable WIFI_HIDL_FEATURE_DUAL_INTERFACE
 - Enable ro.hwui.render_ahead and set it to 20 frames
+
+Date - 27/04/2023
+- Maybe more stable
+- Up Stream Kernel 4.14.313 Power By Liella Kernel 
