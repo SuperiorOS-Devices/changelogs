@@ -2,6 +2,12 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
+DATE - 28/04/2023
+=================
+- Upstream Semlohey kernel into v4.14.314
+- Leica camera default
+- Add Dolby atmos
+- Update blobs from sweet V14.0.2.0.TKFMIXM
 
 DATE - 12/04/2023
 ================
