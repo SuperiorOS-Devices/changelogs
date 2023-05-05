@@ -2,26 +2,39 @@ Device: Nothing phone1
 Device code name : Spacewar
 Device maintainer: Vikas Yaduvanshi
 
-Date -09/04/2023
+Date -05/05/2023
 =================
-- compiled with latest source  old bugs fixed
-- Fixed mic noise cancellation in calls
+
+ General source Changes
+ ========================
+ 
+- Merged May Security Patch (Android 13.0.0 Release 43)
+- Updated PixelPropUtil fingerprints
+- Added Power Off Alarm Service
+- Added dynamic spacing for lockscreen clock
+- Improved Pocket mode
+- Fixed some issues related to PIP animation
+- Miscellaneous changes & some bug fixes
+
+
+
+Device Side Changes
+ ========================
+ 
+ -Vibration :Update the vibration haptics/
+ - Enabled predicted load boosting
 - Include Screenoff FOD 
-- Added Support For Google Dialer Call Recording
+- Updated  NOS 1.5.3 blobs
+- Glyph :Fixup Acquire wakelock if flip is detected
+- Glyph: Add Glyph Interface Header Image
+- Glyph : added a seperate qs tile
+- Glyph : Add animations from 1.5 
+- Glyph : Customisable notification and call patterns
+- Glyph : Added music visualizer
+- Glyph : show battery level in motion detedcted events
 - kernel : Added back wireguard support
 - kernel : Updates from NOS 1.5
-- kernel : merged LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
-- Updated  NOS 1.5  blobs
-- Glyph: Add Glyph Interface Header Image
-- Glyph: Fix rotation bug
-- Glyph: Add back AudioManager for better incall detection 
-- Enabled multi gen lru
-- Updated NTCamera from 1.5.3
-- Added Clo booost framework
-- Overall improved performance 
-- Change perms to hide Magisk in banking apps
-- Increase Screen brightness 
-
+- kernel : Upstream kernel to v5.4.233
 
 • Notes
 - CTS passes by default 
