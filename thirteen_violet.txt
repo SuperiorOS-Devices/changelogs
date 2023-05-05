@@ -1,9 +1,7 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 24/04/2023
+Date - 05/05/2023
 =================
 
-- Enabled 24-bit for primary output and deep buffer
-- Enforced 24-bit audio for offload playback
-- Enabled VoLTE/ViLTE/VoWiFi for entire 470 mcc (Banglalink, GrameenPhone, Aritel, Robi, Teletalk, Citycell)
+- Nothing LoL
