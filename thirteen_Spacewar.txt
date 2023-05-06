@@ -18,7 +18,11 @@ Date -05/05/2023
 
 
 
-Device Side Changes
+Device Side Changes (6/5/2023)
+- fixup :Flip to glyph  leads random reboot 
+
+
+Device Side Changes (5/5/2023)
  ========================
  
  -Vibration :Update the vibration haptics/
