@@ -1,6 +1,57 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 06/05/2023
+=================
+
+• Fixed Display Refreh Rates peaking to mx during UDFPS trigger
+• Brought back Optional Display OC
+• Introduced KSU 0.5.5
+• Improved Thermals (Enjoy Summer carefree now!)
+• Fixed some string issues with dirty flashing updates
+• Patched some annoying OMXNodeInstance & Codec related logspam
+• Fixed ServiceTracker related logspam
+• Fixed QSPM logspam
+• Addressed permission errors related to Systemsuspend wakeup nodes
+• Addressed a few trace errors
+• Addressed some Adbdebuggingmanagaer logspam
+• Patched adsprpcd related logspam
+• Addressed Sensor hals related logspam
+• Switched to Common Xiaomi 1.0 sensors implementation 
+• Fixed up wpa supplicant service init
+• Fixed  mic issues in apps like WhatsApp
+• Set display mode to DCI-P3
+• Optimized everything on preopt
+• Switched to Vulkan UI renderer
+• Limited Video playback to 60fps
+• Imported cgroup tunings and adaptive suspend parameters from gs101
+• Optimized the use of Prime Core for better battery management
+• Extend buffer size for offload playback 
+• Added support for camera hal boosting
+• Imported swiotlb from miui
+• Imported BRQ BT props from Pixel Devices
+• Allowed the device to suspend even when the screen is on
+• Setup various readaheads
+• Disabled Surfaceflinger EGL image tracking
+• Imported QTI adreno-6xx-legacy component blob
+• Disable qdcm display factory mode
+• Nuked BT a2dp_offload.cap property
+• Disable qdcm display factory mode
+• Explicitly disable serial console
+• Droped MMS user agent overlays
+• Setup various readaheads, and other minor tweaks I don't remember
+• Shipped with BoolX 4.14.312
+
+
+Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
+       2. Use latest FBEV1 recovery
+       3. Dirty flash is okay!!
+       4. You can flash magisk over ksu, if you wish. Ksu won't cause any problem (But be sure to use only one root manager app at a time) 
+       4. Bugs : Please report with proper logs
+As always, Enjoy!!
+
+
+
 Date - 13/04/2023
 =================
 
@@ -19,12 +70,14 @@ Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
 As always, Enjoy!!
 
 
+
 Date - 04/04/2023 [Hotfix Update]
 =================================
 
 • Nuked Display OC completely with Waffel kernel
 
 Note: This is a preventative measure to make sure that FOD activity doesn't trigger unwanted  Overclocked Refresh rates. Want Display overclocking anyway? Flash a kernel that supports it.
+
 
 
 Date - 03/04/2023
@@ -44,6 +97,7 @@ Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
        3. Source went through rebase so, it is recommended to do a clean flash, dirty flash okay if you can live with somw random glitches.
        4. Bugs : Due to rebase you might find some bugs, please report with logs if you find any.
 As always, Enjoy!!
+
 
 
 Date - 08/03/2023
@@ -69,6 +123,7 @@ Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
        4. If you have any issue with incoming call notification on GAPPS build, just clear data of the AOSP Dialer app.
        5. Bugs : report with logs if you find any
 As always, Enjoy!!
+
 
 
 Date - 17/02/2023
@@ -102,10 +157,13 @@ Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
 As always, Enjoy!!
 
 
+
 Date - 22/01/2023 [Hotfix Update]
 =================================
 
 - Fix Bluetooth Bug
+
+
 
 Date - 20/01/2023
 =================
