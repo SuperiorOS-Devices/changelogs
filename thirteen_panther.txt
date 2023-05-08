@@ -1,9 +1,10 @@
 Device: Google Pixel 7
 Device maintainer: Jayant Deshmukh
 
-Date - 03/04/2023
+Date - 05/05/2023
 =================
-- Updated blobs from March update
-- Fixed the faceunlock enrollment empty strings
-- Fixed a systemui crash issue when the fingerprint circle used to remain white while quickly tapping fp
-- Latest aosp r35 tress
+- Updated blobs from May update
+- Merged May Security Patch (Android 13.0.0 Release 43)
+- Added dynamic spacing for lockscreen clock
+- Fixed some issues related to PIP animation
+- Miscellaneous changes & some bug fixes

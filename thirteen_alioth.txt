@@ -1,24 +1,17 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 14/04/2023
+Date - 05/05/2023
 =================
 
-- Add battery friendly pocket mode
-- Enable zram writeback
-- Enable H/W composition
-- Remove no longer needed aptX blobs
-- Add thermal profiles qs tile
-- Move thermal settings to system settings (Settings>System)
-- Enable ro.hwui.render_ahead 
-- Enable voLTE/voWIFI/ViLTE for IDC Moldova 
-- Enable fuse passthrough
-- Show "Turbo Charging" instead of "Charging rapidly"
-- Set xiaomi thermal data path
-- Set default thermal profile to '10'
-- Use thermal config from V13.0.7.0
-- Fixed permission controller error 
-- Initial build with my kernel (Based on InfiniR)
+- Added back battery friendly pocket mode
+- Enable statusbar burn in protection
+- Reconfigure power profile for SM8250-AC
+- Allow all filesystems for USB-OTG 
+- Allow automatic adjusting of the screen brightness while dozing in low power state
+- Remove max ZRAM compression streams setting 
+- Enable voLTE/voWIFI/ViLTE for entire 515 mcc
+- Update dolby permissions
 
 Notes:
 

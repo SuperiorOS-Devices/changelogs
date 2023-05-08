@@ -1,9 +1,12 @@
-Date - 12/04/2023
+Date - 05/05/2023
 =================
 
-- Merged April security patch (android-13.0.0_r41)
-- Updated pixelproputils fingerprints to April 2023 release
-- Added back some customisations which we removed after QPR2 rebase
-- Enabled UMO turbulence noise and surface ripple
-- Improved system stability & fixed some random crashes
-- Imported translations from Crowdin
+# General Changes
+
+- Merged May Security Patch (Android 13.0.0 Release 43)
+- Updated PixelPropUtil fingerprints
+- Added Power Off Alarm Service
+- Added dynamic spacing for lockscreen clock
+- Improved Pocket mode
+- Fixed some issues related to PIP animation
+- Miscellaneous changes & some bug fixes

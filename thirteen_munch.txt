@@ -1,0 +1,33 @@
+
+Device: Poco F4/Redmi K40s
+Device code name : munch 
+Device maintainer: Mudit
+
+Notes:
+- Flash 14.x regional Firmware
+- Let the rom settle 
+- BB improves after 1-2 cycles
+- DC Dimming need kernel side support
+- Dolby/Dirac not build-in
+- Leica Micam build in
+
+Date - 07/05/2023
+=================
+
+- Merged with latest Superior OS Source
+- Upstremed Nexus Kernel (v10 rc 3.0)
+- Added Auto Brightness on AOD (AOD brightness depends on your screen brightness)
+- Fixed BT sound glitch
+- 60-120HZ Default on 1st boot
+- Added VoNR Call Support (Not tested As JIO does not support it)
+- DC Dimming and HBM already there
+- Fixed heating issues in normal day to day tasks
+- Removed pre-rendering of 10 frames
+- Fixed Pixalated selfie camera
+- Added AptX HD back
+- Renamed Orginal Colour to Saturated
+
+Date - 26/04/2023
+=================
+ 
+- Initial official release
