@@ -2,6 +2,10 @@ Device: Redmi Note 7/7s
 Device code name : lavender
 Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
 
+Date - 08/05/2023
+=================
+Switch kernel to nekolite.
+
 Date - 15/04/2023
 =================
 lavender: Add tethering usb props
