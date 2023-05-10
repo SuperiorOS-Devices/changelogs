@@ -2,11 +2,16 @@ Device: Realme C3/Narzo 10A
 Device code name : RMX2020 
 Device maintainer: WillyS69
 
-Date - 25/04/2023
+Date - 10/05/2023
 =================
 
-- Revert Touch boost period to default
-- Fixed Data corruption issue after force reboot 
+- Switch volume panel position to left by default to match stock behaviour
+- Fixed white screen issue during setup process 
+- Switch to stable 4.14.311 kernel
+- Shut more logspams
+- Update Vibrator hal
+- Purge lsc_nvram logspam
+- Misc fixes
 
 Notes:
 
