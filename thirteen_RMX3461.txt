@@ -2,7 +2,12 @@ Device: Realme 9 SE 5G
 Device code name : RMX3461 
 Device maintainer: ZirgomHaidar
 
-Date - 17/04/2023
+Date - 12/05/2023
 =================
  
-- Initial official release
+- RUI4 Compatible
+- Enable Framework Boost
+- Remove package cache on early boot
+- Added systemui option in advance reboot menu
+- Enable ro.hwui.render_ahead
+- added Dex2oat props for quick boot
