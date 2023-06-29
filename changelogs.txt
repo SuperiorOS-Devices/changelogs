@@ -1,12 +1,8 @@
-Date - 05/05/2023
+Date - 29/06/2023
 =================
 
 # General Changes
 
-- Merged May Security Patch (Android 13.0.0 Release 43)
-- Updated PixelPropUtil fingerprints
-- Added Power Off Alarm Service
-- Added dynamic spacing for lockscreen clock
-- Improved Pocket mode
-- Fixed some issues related to PIP animation
+- Rebased source over QPR3 release (Android 13.0.0 Release 52)
+- Removed features will be added on upcoming updates
 - Miscellaneous changes & some bug fixes
