@@ -5,16 +5,12 @@ Device maintainer: WillyS69
 Date - 10/05/2023
 =================
 
-- Switch volume panel position to left by default to match stock behaviour
-- Fixed white screen issue during setup process 
-- Switch to stable 4.14.311 kernel
-- Shut more logspams
-- Update Vibrator hal
-- Purge lsc_nvram logspam
-- Misc fixes
+- Upstreamed kernel to 4.14.318
+- Cleanup and sync latest mtk sepolicy
+- Switch to SLMK for better ram management
+- Misc changes and improvement 
 
 Notes:
-
 - CTS passes by default
-- Can be dirty flashed over previous build
+- Clean flash is recommended due to QPR changes
 - Face any bugs? Report with logs
