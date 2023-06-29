@@ -57,3 +57,9 @@ Date - 21/04/2023
 Date - 27/04/2023
 - Maybe more stable
 - Up Stream Kernel 4.14.313 Power By Liella Kernel 
+
+Date - 29/06/2023
+- If a random reboot, please format the data
+- Liella+ Kernel 4.14.320 (with Clang 17)
+- Revert ro.hwui.render_ahead 
+- Fixed Status Bar Which might be weirder for some people 
