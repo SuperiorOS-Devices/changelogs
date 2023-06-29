@@ -26,3 +26,9 @@ Date - 20/04/2023
 - Import Qualcomm qti related packages
 - Update blobs from V13.0.4.0.SJZMIXM
 - Updated v4.14.295-Forza Kernel
+
+Date - 29/06/2023
+=================
+
+- QPR3 Chnages
+- Nuke unwanted audio packages
