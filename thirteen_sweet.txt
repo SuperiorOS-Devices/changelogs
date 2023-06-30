@@ -2,6 +2,22 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
+
+DATE - 30/06/2023
+=================
+- Added Dolby Atmos
+- Leica default camera
+- Upstream kernel v4.14.320
+- build kernel with banana clang
+- Merge tag 'LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0'
+- update KernelSU
+
+Credit : Thanks
+Arian, Adarsh, Aryan999 for sorce device tree
+Roghzz for based kernel aghisna
+Sevting's for leica
+BMW shifu and all my tester
+
 DATE - 06/05/2023
 =================
 - Update source patch May
