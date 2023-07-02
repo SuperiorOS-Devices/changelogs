@@ -2,31 +2,9 @@ Device: OnePlus 6t
 Device code name : fajita
 Device maintainer: Vikas Yaduvanshi 
 
-Date - 07/05/2023
+
+Date - 02/07/2023
 =================
-
-
- General source Changes 07/05/2023
- ========================
- 
-- Merged May Security Patch (Android 13.0.0 Release 43)
-- Updated PixelPropUtil fingerprints
-- Added Power Off Alarm Service
-- Added dynamic spacing for lockscreen clock
-- Improved Pocket mode
-- Fixed some issues related to PIP animation
-- Miscellaneous changes & some bug fixes
-
-
-
-• General Device changes 07/05/2023
-========================
- =================
-- Added suppoer for Pocket lock
-
-
-• Notes
-=======
-- CTS passes by default 
-- April Feature rich update changes also included 
-- New functions added 
+General Changes
+Rebased source over QPR3 release (Android 13.0.0 Release 52)
+Miscellaneous changes & some bug fixe
