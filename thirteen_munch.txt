@@ -4,12 +4,35 @@ Device code name : munch
 Device maintainer: Mudit
 
 Notes:
+- Clean Flash Mandatory
 - Flash 14.x regional Firmware
 - Let the rom settle 
 - BB improves after 1-2 cycles
 - DC Dimming need kernel side support
-- Dolby/Dirac not build-in
 - Leica Micam build in
+- No Heating issues were found in testing 
+
+Date - 02/06/2023
+=================
+
+- Merged with latest Superior 0S Source
+- Upstreamed Nexus Kernel (v10 stable)
+- Switched to Decommonized DT 
+- Added Xiaomi Touch Feature
+- Added MIUI Haptics
+- Added MIUI Colors (Not Oversaturated now)
+- Added Xiaomi High Touch POlling Rate 
+- Added Dolby, Diarac and Viper4Android
+- Updated MIUI Blobs to 14.0.3
+- Tuned Powerhint
+- Enable Powersave Governor when screen off (Expect better idle drain)
+- Added Battery Friendly Pocket Mode
+- Added Per-App Refresh Rate
+- Removed Original Colour mode as no difference in saturated and original
+- Reserve Gapps space in Vanilla builds
+- Added Extra Dim support
+- Fixed Screen Recording lags
+- And many more....
 
 Date - 07/05/2023
 =================
