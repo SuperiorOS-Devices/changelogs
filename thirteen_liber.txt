@@ -1,0 +1,7 @@
+Device: Motorola One Fusion+
+Device maintainer: Dhinesh (@cool585)
+
+Date - 08/07/2023
+=================
+
+**initial release**
