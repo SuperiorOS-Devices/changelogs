@@ -1,8 +1,12 @@
-Date - 29/06/2023
+Date - 08/07/2023
 =================
 
 # General Changes
 
-- Rebased source over QPR3 release (Android 13.0.0 Release 52)
-- Removed features will be added on upcoming updates
-- Miscellaneous changes & some bug fixes
+- Merged July security patch (android-13.0.0_r61)
+- Updated pixelproputils fingerprints to July 2023 release
+- Added back AppLock
+- Redesigned volume panel
+- Added support for unlinked ringer streams on volume panel
+- Added refresh rate, Cellular, Wifi, Prefered network, AOD, Nfc, Power share, Cast, Data switch, VPN, Reboot, Heads-up, Sound, Sync, Usb tethering and caffeine Quick settings tiles
+- Added toggle to disable ripple effect on fingerprint unlock
