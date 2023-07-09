@@ -2,43 +2,48 @@ Device: Nothing phone1
 Device code name : Spacewar
 Device maintainer: Vikas Yaduvanshi
 
-Date -05/05/2023
+Date -(09/07/2023)
 =================
 
  General source Changes
  ========================
  
-- Merged May Security Patch (Android 13.0.0 Release 43)
-- Updated PixelPropUtil fingerprints
-- Added Power Off Alarm Service
-- Added dynamic spacing for lockscreen clock
-- Improved Pocket mode
-- Fixed some issues related to PIP animation
+- Merged July security patch (android-13.0.0_r61
+- Updated pixelproputils fingerprints to July 2023 release
+- Added back AppLock
+- Redesigned volume panel
+- Added support for unlinked ringer streams on volume panel
+- Added refresh rate, Cellular, Wifi, Prefered network, AOD, Nfc, Power share, Cast, Data switch, VPN, Reboot, Heads-up, Sound, Sync, Usb tethering and caffeine Quick settings tiles
+- Added toggle to disable ripple effect on fingerprint unlock
 - Miscellaneous changes & some bug fixes
 
 
 
-Device Side Changes (6/5/2023)
-- fixup :Flip to glyph  leads random reboot 
-
-
-Device Side Changes (5/5/2023)
+Device Side Changes (09/07/2023)
  ========================
  
- -Vibration :Update the vibration haptics/
- - Enabled predicted load boosting
-- Include Screenoff FOD 
-- Updated  NOS 1.5.3 blobs
-- Glyph :Fixup Acquire wakelock if flip is detected
-- Glyph: Add Glyph Interface Header Image
-- Glyph : added a seperate qs tile
-- Glyph : Add animations from 1.5 
-- Glyph : Customisable notification and call patterns
-- Glyph : Added music visualizer
-- Glyph : show battery level in motion detedcted events
-- kernel : Added back wireguard support
-- kernel : Updates from NOS 1.5
-- kernel : Upstream kernel to v5.4.233
+ 
+* Added Richtap vibration effects
+* Fixed excessive battery drain in some scenarios
+* Fixed low speaker volume
+* Added support for network signal guru
+* Glyph animations now respect DND mode
+* Added reverse charging glyph animation
+* sepolicy: Remove duplicate wakeup sysfs nodes 
+* Add back dirac soundfx 
+* misc ui/ux improvements
+* Glyph : added a seperate qs tile
+* Glyph : Customisable notification and call patterns
+* Glyph : Added music visualizer
+* Glyph : show battery level in motion detedcted events
+* Enabled predicted load boosting
+* Enabled ulps
+* Improved haptics
+* Automatically disables glyph animations when device is facing up
+* Updated libs from nos 1.5.5
+* Updated NOS camera app from nos 1.5.5
+
+** CLEAN FLASH recommended**
 
 • Notes
 - CTS passes by default 
