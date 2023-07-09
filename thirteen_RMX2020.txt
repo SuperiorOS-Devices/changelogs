@@ -2,15 +2,12 @@ Device: Realme C3/Narzo 10A
 Device code name : RMX2020 
 Device maintainer: WillyS69
 
-Date - 10/05/2023
+Date - 10/07/2023
 =================
 
-- Upstreamed kernel to 4.14.318
-- Cleanup and sync latest mtk sepolicy
-- Switch to SLMK for better ram management
-- Misc changes and improvement 
+- Fix brightness issues
+- Disable fingerprint hal on non-fp devices
 
 Notes:
 - CTS passes by default
-- Clean flash is recommended due to QPR changes
 - Face any bugs? Report with logs
