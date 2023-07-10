@@ -1,10 +1,11 @@
 Device: Xiaomi Mi 11
 Device maintainer: Alan Lin
 
-Date - 27/03/2023
+Date - 10/07/2023
 =================
 
-- Update kernel to LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
-- Use FUSE passthrough mode by default
-- Remove aptX(HD) encoder shared libs(not required on qpr2)
-
+- kernel: Merge upstream
+- venus: Add back smooth display 
+- venus: Go away Megvii
+- venus: Update to miui_VENUS_V14.0.8.0.TKBCNXM
+- sm8350-common: Include 90hz option for per app refresh rate
