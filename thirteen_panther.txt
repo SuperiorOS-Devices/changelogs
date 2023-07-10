@@ -1,10 +1,12 @@
 Device: Google Pixel 7
 Device maintainer: Jayant Deshmukh
 
-Date - 05/05/2023
+Date - 10/07/2023
 =================
-- Updated blobs from May update
-- Merged May Security Patch (Android 13.0.0 Release 43)
-- Added dynamic spacing for lockscreen clock
-- Fixed some issues related to PIP animation
-- Miscellaneous changes & some bug fixes
+* Rebased over qpr3 (July security patches)
+
+* Updated device blobs and gapps
+
+* Some features might have been added and some excluded. (Rebase stuff)
+
+* Manually updating bootloader and radio images not longer required. (included in OTA package itself)
