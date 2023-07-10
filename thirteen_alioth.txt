@@ -1,20 +1,17 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Ashutosh Chettri
 
-Date - 05/05/2023
+Date - 10/07/2023
 =================
 
-- Added back battery friendly pocket mode
-- Enable statusbar burn in protection
-- Reconfigure power profile for SM8250-AC
-- Allow all filesystems for USB-OTG 
-- Allow automatic adjusting of the screen brightness while dozing in low power state
-- Remove max ZRAM compression streams setting 
-- Enable voLTE/voWIFI/ViLTE for entire 515 mcc
-- Update dolby permissions
+- Initial QPR3 release
+- Added dirac logo
+- Disable GMS components for better WiFi speeds
+- Use HintManager for HWUI
+- Import OzoAudio Engine prebuilts
+- Import Neural Networks category libs
 
 Notes:
-
 - CTS passes by default
-- Can be dirty flashed over previous build
+- Clean flash must
 - Face any bugs? Report with logs
