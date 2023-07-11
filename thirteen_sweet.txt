@@ -3,6 +3,20 @@ Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
 
+DATE - 11/07/2023
+=================
+- ADDED Dolby Atmos
+- ADD Viper4Android
+- patch security july
+
+Credit :
+Thanks Arian, Adarsh, Aryan999 for sorce device tree 
+Roghzz for based kernel aghisna
+Sevting's for leica
+BMW shifu
+Ankit Verna 
+
+
 DATE - 30/06/2023
 =================
 - Added Dolby Atmos
