@@ -12,6 +12,12 @@ Notes:
 - Leica Micam build in
 - No Heating issues were found in testing 
 
+Date - 13/07/2023 (Hotfix)
+=================
+
+- Reverted Graphics driver
+- Glitches and green screen issues should be fixed
+
 Date - 13/07/2023
 =================
 
