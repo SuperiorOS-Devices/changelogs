@@ -1,12 +1,51 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 13/07/2023
+=================
+
+• Fixed old Derps and Rabased trees
+• Updated CNE, Configstore, Radio, Interface, Neural Networks, Time, Trusted User Interface, MM OSAL, FM, Pasrmamager, Perf, Gatekeeper, Keymaster, Keystore NFC and Alarm blobs from LA.UM.9.1.r1-12900-SMxxx0.0 (will update rest of them in coming updates)
+• Fixed and Enabled NFC post QPR3
+• Dropped Common Xiaomi 1.0 sensors implementation for now
+• Fixed low Mic input and Speaker output
+• Set default display colour profile to Natural
+• Added Display config for Auto HBM
+• Set showing "Turbo Charging" instead of "Charging Rapidly"
+• Mitigated RIL and WiFi scan related drains
+• Tweaked AOD doze brightness
+• Adjusted colour temperature for Night light
+• Enabled MIUI Offline Charging Animation
+• Fixed random heating instances
+• Disabled proximity sensor during doze
+• Set props for Rendering ahead 10 frames 
+• Enabled performant auth feature
+• Update Wifi, Bluetooth, and GPS configuration
+• Disabled backpressure
+• Improved touch sensitivity
+• Added smoothness tweaks
+• Switched to BoolX clang
+• Used inline kernel BoolX upstreamed to 4.14.319
+• Shipped with KSU 0.6.1
+• Dropped Display OC by default
+• Fixed miui camera parallel  processing post QPR3
+• Miuicamera updated to leica v1.5.4
+
+Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
+       2. Use latest FBEV1 recovery
+       3. Clean flash recommended
+       4. You can flash magisk over ksu, if you wish. Ksu won't cause any probl>
+       4. Bugs : Please report with proper logs
+As always, Enjoy!!
+
+
 Date - 06/05/2023
 =================
 
-• Fixed Display Refreh Rates peaking to mx during UDFPS trigger
+• Fixed Display Refreh Rates peaking to max during UDFPS trigger
 • Brought back Optional Display OC
 • Introduced KSU 0.5.5
+• Dropped Clo Boost Framework
 • Improved Thermals (Enjoy Summer carefree now!)
 • Fixed some string issues with dirty flashing updates
 • Patched some annoying OMXNodeInstance & Codec related logspam
