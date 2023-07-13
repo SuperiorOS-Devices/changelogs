@@ -4,7 +4,7 @@ Device code name : munch
 Device maintainer: Mudit
 
 Notes:
-- Clean Flash Mandatory
+- Clean Flash Recommended but Dirty works fine
 - Flash 14.x regional Firmware
 - Let the rom settle 
 - BB improves after 1-2 cycles
@@ -12,7 +12,24 @@ Notes:
 - Leica Micam build in
 - No Heating issues were found in testing 
 
-Date - 02/06/2023
+Date - 13/07/2023
+=================
+
+- Merged with latest Superior OS Source
+- KernelSU is in-built
+- Switched to Immensity-X Kernel (Ksu Suported)
+- Improved Sound
+- Added OzoAudio Libs
+- Removed Viper4Android
+- Updated Dolby Dex Values
+- Removed Vendor Defined Colours and Kcal stuff instead shifted to AOSP Defined Colours
+- DC Dimming and Kprofiles are stil there but not supported by default kernel if u want to  use it than shift to other kernel but bug reports wouldn't be considered with custom kernels!!
+- Use stune boost instead of sched boost
+- Reduce product shipping level to 30
+- Updated Graphics Driver to 615
+
+
+Date - 02/07/2023
 =================
 
 - Merged with latest Superior 0S Source
