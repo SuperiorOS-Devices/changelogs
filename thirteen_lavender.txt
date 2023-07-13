@@ -1,6 +1,19 @@
 Device: Redmi Note 7/7s
 Device code name : lavender
-Device maintainer: Ahmed Hridoy (Apex_Not_Legend)
+Device maintainer:  Prashant
+
+Date - 13/07/2023
+=================
+lavender: overlay: Switch to config_screenBrightnessSettingMinimumFloat
+lavender: Kill property for skia reduceOpsTaskSplitting
+lavender: Don't use proximity sensor for DozeSensors
+lavender: fix typo in BOOTLOADER_BOARD_NAME
+lavender: vndk: remove unnecessary libcutils-v29
+lavender: optimize vfs cache pressure
+lavender: wifi: Disable WLAN Firmware loggings
+lavender: prop: Disable continuous transaction tracing on all build types
+lavender: prop: Clean up useless log spams
+lavender: force use lz4 for zram compression
 
 Date - 09/05/2023
 =================
