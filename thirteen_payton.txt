@@ -1,9 +1,10 @@
 Device: Motorola X4
 Device maintainer: Dhinesh (@cool585)
 
-Date - 24/04/2023
+Date - 14/07/2023
 =================
 
-- major source side changes 
-- you can dirty flash
-- also ota has been push
+- use aperture instead of moto cam
+- fixed camera crash
+- improved qs lag
+- more kernel changes
