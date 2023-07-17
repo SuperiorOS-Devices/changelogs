@@ -1,8 +1,12 @@
 Device: POCO X3 Pro
-Device maintainer: Eduardo Zeas
+Device Maintainer: KangMonkey (@thepsambit)
 
-Date - 01/10/2022
+Date - 17/07/2023
 =================
-
-- Initial official release
+• Initial Official build
+• Hide Magisk Better
+• Included Matlog App
+• Switched to arrow-kernel
+• Added recovery to fstab
+• Includes superior minimal gapps 
 
