@@ -1,12 +1,26 @@
-Date - 08/07/2023
+Date - 25/07/2023
 =================
 
 # General Changes
+- Removed Game & G photo spoof toggles 
+- Removed Smart Space (Lockscreen & Launcher)
+- Optimized notification scaling/rendering
+- Refactored PixelPropUtils
+- Removed unnecessary HashMap instantiation 
+- Improvements to refresh rate tile
+- Disabled Quick QS pull down by default 
+- Added status bar battery customisations
+- Added lockscreen charging info stuffs
+- Updated GApps from redfin
 
-- Merged July security patch (android-13.0.0_r61)
-- Updated pixelproputils fingerprints to July 2023 release
-- Added back AppLock
-- Redesigned volume panel
-- Added support for unlinked ringer streams on volume panel
-- Added refresh rate, Cellular, Wifi, Prefered network, AOD, Nfc, Power share, Cast, Data switch, VPN, Reboot, Heads-up, Sound, Sync, Usb tethering and caffeine Quick settings tiles
-- Added toggle to disable ripple effect on fingerprint unlock
+# Bug Fixes
+
+- Fixed keyguard affordance colour in light theme
+- Fixed QS app notification size
+- Fixed FB marketspace blank issue
+- Fixed Invisible player issue on Fifa game
+- Fixed some NPEs
+- Fixed some logspams
+- Fixed Snap Chat app bug
+- Fixed clipboard delay
+- Fixed GBoard copy paste delay
