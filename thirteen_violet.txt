@@ -1,7 +1,12 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 30/06/2023
+Date - 26/07/2023
 =================
 
-- Nothing LoL (Believe me🥹)
+- Disabled adsprpcd
+- Updated brightness curve from MIUI
+- Increased minimum brightness float value
+- Updated CarrierConfig from LA.QSSI.13.0.r1-10000.02-qssi.0
+- Fixed low volume mic for some social apps like snapchat , telegram, instagram etc
+- See kernel changes here: https://github.com/Joker-V2/kernel_xiaomi_violet/commits/thirteen
