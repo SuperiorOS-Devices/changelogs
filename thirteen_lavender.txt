@@ -2,6 +2,11 @@ Device: Redmi Note 7/7s
 Device code name : lavender
 Device maintainer:  Prashant
 
+Date - 26/07/2023
+=================
+Revert "lavender: vndk: remove unnecessary libcutils-v29"
+lavender: Import legacy usb rules
+
 Date - 13/07/2023
 =================
 lavender: overlay: Switch to config_screenBrightnessSettingMinimumFloat
