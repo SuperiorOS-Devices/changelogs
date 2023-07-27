@@ -2,11 +2,11 @@ Device: Realme C3/Narzo 10A
 Device code name : RMX2020 
 Device maintainer: WillyS69
 
-Date - 10/07/2023
+Date - 27/07/2023
 =================
 
-- Fix brightness issues
-- Disable fingerprint hal on non-fp devices
+- Added Poweroff alarm service 
+- Other misc changes 
 
 Notes:
 - CTS passes by default
