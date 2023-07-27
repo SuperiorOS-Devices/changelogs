@@ -1,0 +1,10 @@
+Device: Redmi Note 10 
+Device Codename : mojito 
+Device maintainer: Rom Bdr. Gharti
+
+DATE - 27/07/2023
+=================
+- Initial and User build
+- Sync latest miui cam. sources
+- Adjust cpu frequency change rate limitting
+- Other changes and improvements
