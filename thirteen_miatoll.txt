@@ -30,5 +30,43 @@ Date - 20/04/2023
 Date - 29/06/2023
 =================
 
-- QPR3 Chnages
+- QPR3 Changes
 - Nuke unwanted audio packages
+
+Date - 27/07/2023
+=================
+
+- Fix NFC
+- Drop QTI camera device usage
+- Build some more camera libs
+- Inbuilt MiuiCamera support
+- Remove misoundfx
+- Remove XiaomiDoze
+- Update IMS Radio HAL v1.7
+- Update IMS RCS package
+- Update QtiRadio HAL v2.6
+- Update Qti factory HAL v2.3
+- Update LPA interface v1.2
+- Add custom boost extension for scroll handling
+- Add custom mode extension for handling app launch
+- Bump max interactive duration 5 sec
+- Move Xiaomi light to AIDL
+- Move Xiaomi fingerprint to HIDL
+- Build QTI vibrator from source
+- Build new AIDL power HAL
+- Update DPM Blobs
+- Add diag HAL interface
+- Fix init.qcom.usb.sh avc denials
+- Import speed profiles for WiFi
+- Flatten APEXs for performance
+- Update codecs from V13.0.2.0.SJZMIXM
+- Force device to treat 170M as sRGB in SF
+- Compact cached app heaps in the background
+- set internal screen recorder to 60fps
+- Set Brightness slider curve Implementation
+- Do not balance msm_drm and kgsl-3d0 IRQs
+- Import more surface flinger flags
+- Optimized RAM management
+- Update battery info every second when charging
+- Use RSA4096 keys for recovery and vbmeta_system
+- Import legacy audio HAL support
