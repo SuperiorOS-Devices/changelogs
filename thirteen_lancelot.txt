@@ -63,3 +63,9 @@ Date - 29/06/2023
 - Liella+ Kernel 4.14.320 (with Clang 17)
 - Revert ro.hwui.render_ahead 
 - Fixed Status Bar Which might be weirder for some people 
+
+Date - 26/07/2023
+- Import Android Go performance tuning
+- Optimize ART props
+- Optimize everything on preopt
+- Disable dalvik minidebuginfo generation
