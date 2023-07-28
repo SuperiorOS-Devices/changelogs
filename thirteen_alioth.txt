@@ -1,17 +1,14 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
-Device maintainer: Ashutosh Chettri
+Device maintainer: Chaitanya
 
-Date - 10/07/2023
+Date - 28/07/2023
 =================
 
-- Initial QPR3 release
-- Added dirac logo
-- Disable GMS components for better WiFi speeds
-- Use HintManager for HWUI
-- Import OzoAudio Engine prebuilts
-- Import Neural Networks category libs
+- Rebased Dt Clean flash needed
+- Added Basic Call Recorder
+- tune powerhint
+- tune powerprofiles
 
 Notes:
 - CTS passes by default
-- Clean flash must
 - Face any bugs? Report with logs
