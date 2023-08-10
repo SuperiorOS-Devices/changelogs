@@ -1,29 +1,26 @@
-<h1 align="center">Date - 25/07/2023</h1>
+<h1 align="center">Date - 10/08/2023</h1>
 
-<img src="https://github.com/SuperiorOS-Devices/changelogs/assets/66232233/88ee6bf1-d227-476a-a0e6-511569684985" align="right">
+<img src="https://github.com/SuperiorOS-Devices/changelogs/assets/66232233/ff598480-87f1-4aac-9a8a-9ef7ee57fc5b" align="right">
 
 
 # General Changes
 
-- Removed Game & G photo spoof toggles 
-- Removed Smart Space (Lockscreen & Launcher)
-- Optimized notification scaling/rendering
-- Refactored PixelPropUtils
-- Removed unnecessary HashMap instantiation 
-- Improvements to refresh rate tile
-- Disabled Quick QS pull down by default 
-- Added status bar battery customisations
-- Added lockscreen charging info stuffs
-- Updated GApps from redfin
+- Merged August security patch
+- Updated AppLock API (To allow hiding apps in launcher even if app not protected)
+- Restored elevation to QS footer (To fix dead QS bottom shotcuts on landscape mode)
+- Added QS Header Image customisations
+- Added string to inform user when face unlock detection is running
+- Made QS clock, date & battery clickable again
+- Expanded header font compatibility
+- Added support for DP audio
+- Added toggle to disable back gesture haptic feedback
+- Added toggle for secure tiles on keyguard
+- Added toggle to disable qs on secure lockscreen
+- Introducing Superior wallpaper stub (Dropped prebuilt wallpaper app)
 
 # Bug Fixes
 
-- Fixed keyguard affordance colour in light theme
-- Fixed QS app notification size
-- Fixed FB marketspace blank issue
-- Fixed Invisible player issue on Fifa game
-- Fixed some NPEs
-- Fixed some logspams
-- Fixed Snap Chat app bug
-- Fixed clipboard delay
-- Fixed GBoard copy paste delay
+- Fixed hidden apps reset after reboot
+- Fixed the occasional interaction hint spam
+- Fixed opengl swap failure logspam
+- Fixed Battery-meter view for some IconPacks
