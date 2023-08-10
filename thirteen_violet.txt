@@ -1,12 +1,17 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 26/07/2023
+Date - 10/08/2023
 =================
 
-- Disabled adsprpcd
-- Updated brightness curve from MIUI
-- Increased minimum brightness float value
-- Updated CarrierConfig from LA.QSSI.13.0.r1-10000.02-qssi.0
-- Fixed low volume mic for some social apps like snapchat , telegram, instagram etc
+- Switched audio hal to v7.1
+- Removed dynamic aps from audio configs
+- Removed references to a2dp module
+- Removed redundant hwui render_ahead property 
+- Fixed low mic gain on camera and snapchat like apps
+- Tuned audio output
+- Unpinned all RenderScript libs
+- Updated clang version to 17.0.3 
+- Switched to QCOM implementation for audio effects
+- Enabled apk fs-verity
 - See kernel changes here: https://github.com/Joker-V2/kernel_xiaomi_violet/commits/thirteen
