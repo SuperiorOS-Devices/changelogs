@@ -1,13 +1,13 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Chaitanya
 
-Date - 28/07/2023
+Date - 10/08/2023
 =================
 
-- Rebased Dt Clean flash needed
-- Added Basic Call Recorder
-- tune powerhint
-- tune powerprofiles
+- updated to N0 kernel 15.1.4
+- kernel compiled with neutron clang 17
+- removed wake to check phone
+- removed fastcharge impl
 
 Notes:
 - CTS passes by default
