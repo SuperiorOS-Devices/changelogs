@@ -1,24 +1,26 @@
 ```
 Device name: Redmi Note 7/7S
 Device codename: Lavender
-Device maintainer: Ahmed Hridoy | Apex_Not_Legend
+Device maintainer: Prashant
 ```
 
 # Method:
 
-1. Flash the rom 
-2. Format Data
-5. Flash the firmware
-6. Reboot to System
+First installation of Retrofit Dynamic Partitions ROMs:
+1. Flash recovery with Retrofit Dynamic Partitions support (open twrp.img in recovery and select recovery partition from list, scroll down if you can't find recovery partition)
+2. Enter the newly flashed recovery
+3. Wipe system, vendor, cache & metadata partition
+4. Flash the ROM (Ignore system mount error)
+5. For Vanilla build (Reboot to recovery and then flash GApps)(skip this step for GAPPS build)
+6. Factory Reset (Format data is recommended)
+7. Reboot and Enjoy
 
 # Downloads:
 
 * ROM: [Download](https://www.pling.com/p/1908484)
-* Recovery: [Download](https://orangefox.download/device/lavender)
+* Recovery: [Download](https://sourceforge.net/projects/lc-dev/files/lavender/TWRP-recovery-erofs-dynamic-partitions-230713.img/download)
 * Firmware: [Download](https://xiaomifirmwareupdater.com/firmware/lavender/)
 
 ## Note:
 
-* Always clean flash/ wipe data if you are coming from any other ROM or if you are coming from stock.
-* Flash your region's latest firmware.
-* Check the changelog before flashing.
+* Kindly follow the flashing steps, i am not responsible for anything if you not followed steps.
