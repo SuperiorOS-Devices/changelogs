@@ -2,9 +2,14 @@ Device: Redmi Note 10
 Device Codename : mojito 
 Device maintainer: Rom Bdr. Gharti
 
-DATE - 27/07/2023
+DATE - 12/08/2023
 =================
-- Initial and User build
-- Sync latest miui cam. sources
-- Adjust cpu frequency change rate limitting
+- Update to mojito 12 MIUI V14.0.3.0.SKGMIXM release-keys
+- Upstream Kernel to 4.14.321
+- Fix flickers in Video Record with EIS
+- Updated clang version to 17.0.3
+- Cleanup init.qcom.post_boot.sh
+- Adjust status bar padding again
+- Compact cached app heaps in the background
+- Audio: Fix low mic volume on voip
 - Other changes and improvements
