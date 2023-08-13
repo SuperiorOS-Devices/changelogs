@@ -70,3 +70,13 @@ Date - 27/07/2023
 - Update battery info every second when charging
 - Use RSA4096 keys for recovery and vbmeta_system
 - Import legacy audio HAL support
+
+Date - 13/08/2023
+=================
+
+- Fix DT2W
+- Stock MiuiCamera support [Non modified edition]
+- Dolby Atmos sound improvement
+- Remove Leica Cam
+- Remove MiuiScanner
+- Others under-the-hood fixes
