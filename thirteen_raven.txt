@@ -1,0 +1,7 @@
+Device: Google Pixel 6 Pro
+Device maintainer: PrabhatProxy
+
+Date - 13/08/2023
+=================
+* First Official Build (August Security patch)
+
