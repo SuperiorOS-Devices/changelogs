@@ -2,6 +2,20 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
+DATE - 14/08/2023
+=================
+
+Add HBM
+Upstream Kernel into 4.14.322
+Dolby, Leica and Viper Added
+August Patch Security
+
+Credit :
+Thanks Arian, Adarsh, Aryan999 for sorce device tree
+Vatoman for based kernel vantom
+Sevting's for leica
+BMW shifu
+Ankit Verna
 
 DATE - 11/07/2023
 =================
