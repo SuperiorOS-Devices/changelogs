@@ -2,10 +2,10 @@ Device: Realme C3/Narzo 10A
 Device code name : RMX2020 
 Device maintainer: WillyS69
 
-Date - 27/07/2023
+Date - 15/08/2023
 =================
 
-- Added Poweroff alarm service 
+- Added erofs support in GApps build
 - Other misc changes 
 
 Notes:
