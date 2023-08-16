@@ -1,28 +1,19 @@
 Device: Xiaomi 11 Lite NE 5G
 Device maintainer: Saikiran
 
-Date - 09/07/2023
+Date - 16/08/2023
 =================
 
- General source Changes
+Device Side Changes (16/08/2023)
  ========================
- 
-- Merged July security patch (android-13.0.0_r61
-- Updated pixelproputils fingerprints to July 2023 release
-- Added back AppLock
-- Redesigned volume panel
-- Added support for unlinked ringer streams on volume panel
-- Added refresh rate, Cellular, Wifi, Prefered network, AOD, Nfc, Power share, Cast, Data switch, VPN, Reboot, Heads-up, Sound, Sync, Usb tethering and caffeine Quick settings tiles
-- Added toggle to disable ripple effect on fingerprint unlock
-- Miscellaneous changes & some bug fixes
-
-Device Side Changes (09/07/2023)
- ========================
-- Switched to pixel libperfmgr powerhal
-- Disabled SF composition prediction model 
-- Properly disabled phantom process killing
-- Enabled AOSP surfaceflinger
-- Addressed sepolicy denials
+- Updated Display, Time service, power-off alarm blobs from LA.UM.9.14.1.r1-09400-QCM6490.QSSI13.0
+- Updated wfd blobs from star MIUI V14.0.6.0.TKACNXM
+- Updated telephony blobs from star MIUI V14.0.6.0.TKACNXM
+- Updated IMS blobs from lisa miui_LISAGlobal_V14.0.4.0.TKOMIXM
+- Upstreamed kernel to 5.4.251
+- Merged latest CLO tag LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0 in kernel
+- Adjusted AOD brightness
+- Increased swappiness to 60
 - Miscellaneous Improvements
 
 Note:- 
