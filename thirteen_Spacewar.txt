@@ -2,48 +2,45 @@ Device: Nothing phone1
 Device code name : Spacewar
 Device maintainer: Vikas Yaduvanshi
 
-Date -(09/07/2023)
+Date -(16/08/2023)
 =================
 
  General source Changes
  ========================
  
-- Merged July security patch (android-13.0.0_r61
-- Updated pixelproputils fingerprints to July 2023 release
-- Added back AppLock
-- Redesigned volume panel
-- Added support for unlinked ringer streams on volume panel
-- Added refresh rate, Cellular, Wifi, Prefered network, AOD, Nfc, Power share, Cast, Data switch, VPN, Reboot, Heads-up, Sound, Sync, Usb tethering and caffeine Quick settings tiles
-- Added toggle to disable ripple effect on fingerprint unlock
-- Miscellaneous changes & some bug fixes
+General Changes
+- Merged August security patch
+- Updated AppLock API (To allow hiding apps in launcher even if app not protected)
+- Restored elevation to QS footer (To fix dead QS bottom shotcuts on landscape mode)
+- Added QS Header Image customisations
+- Added string to inform user when face unlock detection is running
+- Made QS clock, date & battery clickable again
+- Expanded header font compatibility
+- Added support for DP audio
+- Added toggle to disable back gesture haptic feedback
+- Added toggle for secure tiles on keyguard
+- Added toggle to disable qs on secure lockscreen
+- Introducing Superior wallpaper stub (Dropped prebuilt wallpaper app)
+
+=========
+Bug Fixes
+=========
+
+- Fixed hidden apps reset after reboot
+- Fixed the occasional interaction hint spam
+- Fixed opengl swap failure logspam
+- Fixed Battery-meter view for some IconPacks
 
 
-
-Device Side Changes (09/07/2023)
+Device Side Changes (16/08/2023)
  ========================
- 
  
 * Added Richtap vibration effects
 * Fixed excessive battery drain in some scenarios
+* Switch to pixy kernel thanks to brother aswin 
+* Updated libs from nos v1.5.6 
+* Enabled secure NFC support
 * Fixed low speaker volume
-* Added support for network signal guru
-* Glyph animations now respect DND mode
-* Added reverse charging glyph animation
-* sepolicy: Remove duplicate wakeup sysfs nodes 
-* Add back dirac soundfx 
-* misc ui/ux improvements
-* Glyph : added a seperate qs tile
-* Glyph : Customisable notification and call patterns
-* Glyph : Added music visualizer
-* Glyph : show battery level in motion detedcted events
-* Enabled predicted load boosting
-* Enabled ulps
-* Improved haptics
-* Automatically disables glyph animations when device is facing up
-* Updated libs from nos 1.5.5
-* Updated NOS camera app from nos 1.5.5
-
-** CLEAN FLASH recommended**
 
 • Notes
 - CTS passes by default 
