@@ -12,6 +12,15 @@ Notes:
 - Leica Micam build in
 - No Heating issues were found in testing 
 
+Date - 19/08/2023
+=================
+
+- Added Interaction Boost
+- Added Vendor-Defined Colors back along side AOSP ones (Vivid, p3, sRGB)
+- Smartspace is dropped in this update so 'At A Glance Widget' won't be there (Source Side)
+- Under the hood changes
+- Used Immensity-X Kernel (Ksu Suported)
+
 Date - 13/07/2023 (Hotfix)
 =================
 
