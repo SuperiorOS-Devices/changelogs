@@ -1,6 +1,13 @@
 Device: Google Pixel 6
 Device maintainer: PrabhatProxy
 
+Date - 20/08/2023
+=================
+* Implement PixelParts
+* Implement FaceUnlock
+* Fix dual battery percentage option
+* Fix LiveTranscribe not working on gboard
+
 Date - 13/08/2023
 =================
 * First Official Build (August Security patch)
