@@ -2,15 +2,14 @@ Device: Google pixel 7a
 Device code name : lynx
 Device maintainer: Vikas Yaduvanshi 
 
-Date - 30/06/2023
+Date - 20/08/2023
 =================
 
-- first official A13 release build
-- based on Google pixel QPR3 changes
-- pixel functions added(more on the way) in futr builds
-- Added screen refresh  overlays support
--  Updated blobs from June update
-- Added dynamic spacing for lockscreen clock
-- Added local installation support for OTA Updater
-- High Touch Sensitivity options
-- UDFPS Animations
+ * Rebased over qpr3 (August security patches)
+ * Added face unlock support. 
+ * Fixup old sepolicy denials .
+ * Updated device blobs and gapps from august firmware.
+ * Added screen refresh  overlays support.
+ * More features have been added.
+ * Updated kernel based  google August release .
+ * Added UDFPS Animation Support.
