@@ -3,10 +3,10 @@ Device maintainer: Chaitanya
 
 Date - 11/08/2023
 =================
-- updated to N0 kernel 15.1.4
+- updated to N0 kernel 15.1.6
 - kernel compiled with neutron clang 17
-- removed wake to check phone
-- removed fastcharge implementation
+- Tuned Powerhint
+- parts: Use S theme in thermal and refresh rate settings
 
 Notes:
 - CTS passes by default
