@@ -6,15 +6,11 @@ Device maintainer: PrabhatProxy | prabhat_proxy
 
 # Method:
 
-1. Download the build and corresponding recovery files of the month.
-2. Reboot to bootloader.
-3. Unzip the recovery files and execute the following files
-* fastboot flash boot boot.img
-* fastboot flash dtbo dtbo.img
-* fastboot flash vendor_boot vendor_boot.img
-4. Reboot to recovery and factory reset the device.
-5. adb sideload {zip_name}
-6. Reboot
+1. Download the Rom zip from the updateimage folder
+2. Reboot to Fastboot
+3. fastboot -w
+4. fastboot update rom.zip
+5. reboot
 
 # Downloads:
 
