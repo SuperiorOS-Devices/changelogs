@@ -6,7 +6,7 @@ Device maintainer: PrabhatProxy | prabhat_proxy
 
 # Method:
 
-1. Download the Rom zip from the updateimage folder
+1. Download the Rom zip
 2. Reboot to Fastboot
 3. fastboot -w
 4. fastboot update rom.zip
