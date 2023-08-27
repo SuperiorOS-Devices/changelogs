@@ -2,6 +2,16 @@ Device: Google pixel 7a
 Device code name : lynx
 Device maintainer: Vikas Yaduvanshi 
 
+
+Date - 27/08/2023
+=================
+
+ * Fixup cts failed .
+ * fixup apps crashing .
+ * fixup few sepolicy denials .
+ * Mic fixes and some improvemnts done .
+
+
 Date - 20/08/2023
 =================
 
