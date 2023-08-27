@@ -1,6 +1,12 @@
 Device: Google Pixel 6 Pro
 Device maintainer: PrabhatProxy
 
+Date - 27/08/2023
+=================
+* Fix CarrierSettings crash
+* Fix Chromium based browser crash
+* Add RefreshRate Settings
+
 Date - 20/08/2023
 =================
 * Update vendor blobs from august ota
