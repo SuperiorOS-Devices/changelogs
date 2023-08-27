@@ -1,6 +1,11 @@
 Device: Google Pixel 6
 Device maintainer: PrabhatProxy
 
+Date - 27/08/2023
+=================
+* Fix Chromium based browser crash
+* Add RefreshRate Settings
+
 Date - 20/08/2023
 =================
 * Implement PixelParts
