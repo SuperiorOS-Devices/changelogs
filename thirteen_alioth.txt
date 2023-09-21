@@ -1,12 +1,12 @@
 Device: Poco F3/ Mi 11x/ Redmi K40
 Device maintainer: Chaitanya
 
-Date - 11/08/2023
+Date - 21/09/2023
 =================
-- updated to N0 kernel 15.1.6
-- kernel compiled with neutron clang 17
-- Tuned Powerhint
-- parts: Use S theme in thermal and refresh rate settings
+- updated to N0 kernel 15.2.1
+- kernel compiled with aosp clang 17
+- Improved Dolby
+- Added more colour calibrations
 
 Notes:
 - CTS passes by default
