@@ -2,14 +2,15 @@ Device: Redmi Note 10
 Device Codename : mojito 
 Device maintainer: Rom Bdr. Gharti
 
-DATE - 12/08/2023
+DATE - 21/09/2023
 =================
-- Update to mojito 12 MIUI V14.0.3.0.SKGMIXM release-keys
-- Upstream Kernel to 4.14.321
-- Fix flickers in Video Record with EIS
-- Updated clang version to 17.0.3
-- Cleanup init.qcom.post_boot.sh
-- Adjust status bar padding again
-- Compact cached app heaps in the background
-- Audio: Fix low mic volume on voip
+- Upstream Kernel to 4.14.325 stable 
+- Enable Extra dim & Color balance
+- Enable Blur support
+- Fixes partially some time black screen when background running app open
+- Disable dexpreopt minidebuginfo
+- Add LMKD props & Remove LMK props
+- Disable per-cgroup PSI accounting
+- Props: Clean up useless log spams
+- Overlay: Set config_screenBrightnessSettingMinimum to 1
 - Other changes and improvements
