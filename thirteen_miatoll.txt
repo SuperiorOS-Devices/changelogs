@@ -80,3 +80,17 @@ Date - 13/08/2023
 - Remove Leica Cam
 - Remove MiuiScanner
 - Others under-the-hood fixes
+
+Date - 21/09/2023
+=================
+
+- Fixed Vulkan was crashing
+- Enabed Spatial Audio for Speaker
+- Audio effects is now more immersive
+- Fixed Audio HAL related stuff (v7.0)
+- Powered by RedCherry+ Kernel
+- Upsteam Kernel v4.14.325
+- Update Audio Kernel of LA.UM.9.1.r1-13900-SMxxx0.QSSI13.0
+- Update Tree Wide of LA.UM.9.1.r1-13900-SMxxx0.QSSI13.0
+- Update Firmware API of LA.UM.9.1.r1-13900-SMxxx0.QSSI13.0
+- Included KernelSU support
