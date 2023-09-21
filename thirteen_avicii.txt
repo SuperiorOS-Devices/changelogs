@@ -1,10 +1,11 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 23/04/2023
+Date - 21/09/2023
 =================
-- Added suppoer for Pocket lock
-- Charging info updates
+- Update blobs from AC2003_11_F.21
+- Update kernel to 4.19.288
+- Added Dot Gallery as default Gallery app
 
 Note:- 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
