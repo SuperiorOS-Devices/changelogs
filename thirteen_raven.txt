@@ -1,6 +1,10 @@
 Device: Google Pixel 6 Pro
 Device maintainer: PrabhatProxy
 
+Date - 22/09/2023
+=================
+* September Security patch
+
 Date - 27/08/2023
 =================
 * Fix CarrierSettings crash
