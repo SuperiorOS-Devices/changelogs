@@ -2,6 +2,21 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
+DATE - 23/09/2023
+=================
+
+Update Adreno to Moto G84 (bangkk)
+switched into pref kernel
+Added Leica camera
+Added Dolby Atmos
+Added Viper4android
+
+credit : thanks
+
+aryan source tree
+Shashank source kernel
+Sevtinge for leica
+
 DATE - 14/08/2023
 =================
 
