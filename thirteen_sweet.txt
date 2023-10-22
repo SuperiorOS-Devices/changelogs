@@ -2,6 +2,18 @@ Device: Redmi Note 10 pro
 Device Codename : sweet, sweetin
 Device maintainer: Unsatifsed27
 
+DATE - 21/10/2023
+=================
+
+Fix Nfc broken
+Drop Dolby Atmos
+Upstream Kernel into 4.14.326
+Build kernel with Banana Clang
+
+aryan source tree
+Shashank source kernel
+Sevtinge for leica
+
 DATE - 23/09/2023
 =================
 
