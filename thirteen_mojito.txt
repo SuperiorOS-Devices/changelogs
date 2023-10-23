@@ -4,14 +4,5 @@ Device maintainer: Rom Bdr. Gharti
 
 DATE - 21/09/2023
 =================
-- Upstream Kernel to 4.14.325 stable 
-- Remove Kprofile & Display Feature
-- Enable Extra dim & Color balance
-- Enable Blur support
-- Fixes partially some time black screen when background running app open
-- Disable dexpreopt minidebuginfo
-- Add LMKD props & Remove LMK props
-- Disable per-cgroup PSI accounting
-- Props: Clean up useless log spams
-- Overlay: Set config_screenBrightnessSettingMinimum to 1
+- Upstream Kernel to 4.14.327 stable 
 - Other changes and improvements
