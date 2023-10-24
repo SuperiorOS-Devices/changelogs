@@ -1,7 +1,8 @@
 Device: Motorola One Fusion+
 Device maintainer: Dhinesh (@cool585)
 
-Date - 08/07/2023
+Date - 24/10/2023
 =================
 
-**initial release**
+*updated trees with latest changes from pe 
+*final EOL release
