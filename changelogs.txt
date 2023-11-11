@@ -1,8 +1,7 @@
-Date - 19/10/2023
+Date - 11/11/2023
 =================
 
 # General Changes
 
-- Merged October Security Patch
+- Merged November Security Patch
 - Merged translations from crowdin
-- Fixed double tap to sleep on QQS
