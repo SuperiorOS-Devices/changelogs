@@ -3,6 +3,34 @@ Device code name : enchilada
 Device maintainer: Vikas Yaduvanshi 
 
 
+Date - 20/11/2023
+=================
+# General Changes
+
+- Merged November Security Patch
+- Merged translations from crowdin
+
+Date - 20/11/2023
+=================
+Device-Side  Changes
+
+-Primus kernel Added wireguard support.
+-Primus kernel sync with latest gcc toolchain.
+-Primus kernel build with V17 CLANG.
+-Sync props with OOS11.
+-fix MT SMS sent during power off.
+-AB_OTA_UPDATER is BoardConfig variable.
+-Remove dead libdpmframework.so patch .
+
+
+NOTE-::
+
+For KsU SUPPORT
+- flash primus kernel sideload zip   Download From Here  https://t.me/primuskernelupdates
+- Fixup Ksu module support primus kernel sideload zip  
+
+
+
 Date - 02/07/2023
 =================
 General Changes
