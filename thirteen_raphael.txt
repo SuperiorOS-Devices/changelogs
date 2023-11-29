@@ -1,6 +1,32 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 29/11/2023
+=================
+
+• Nuked obsolete configs 
+• Updated uclamp interfaces
+• Increased 5GHz Network Signal tolerance
+• Updated MIUI camera to Leica-5.0
+• Enabled freeform window management
+• Enabled Adb during bootup
+• Disabled serial console notification
+• Dropped QCOM Perf Components
+• Updated Adreno blobs from Moto G84
+• Silenced OpenGL logspam
+• Cleaned up useless logspams
+• Disabled phantom process monitoring
+• Updated KProfiles to 6.0.0
+• Shipped with BoolX Kernel 4.14.300 & latest KernelSU 0.7.1 (11366)
+
+Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
+       2. Use latest FBEV1 recovery
+       3. Clean flash recommended
+       4. You can flash magisk over ksu, if you wish. Ksu won't cause any probl>
+       4. Bugs : Please report with proper logs
+As always, Enjoy!!
+
+
 Date - 13/07/2023
 =================
 
