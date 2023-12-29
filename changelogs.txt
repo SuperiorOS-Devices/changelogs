@@ -1,7 +1,6 @@
-Date - 11/11/2023
+Date - 30/12/2023
 =================
 
-# General Changes
-
-- Merged November Security Patch
-- Merged translations from crowdin
+- Initial A14 Release
+- Merged December security patch. 
+- Some basic features. TRY YOURSELF
