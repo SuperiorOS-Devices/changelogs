@@ -8,8 +8,9 @@ Device maintainer: Sipun Ku Mahanta | Darkstar085
 
 1. Download the ROM.
 2. Boot into Recovery.
-3. Flash ROM.
-4. Reboot.
+3. Wipe data, cache and dalvik.
+4. Flash ROM.
+5. Reboot.
 
 # Downloads:
 
@@ -18,7 +19,7 @@ Device maintainer: Sipun Ku Mahanta | Darkstar085
 
 ## Note:
 
-* If you flashing 4.19 rom first time then read [this](https://telegra.ph/How-to-flash-dynamic-partition-rom-first-time-07-26)
+* If you are flashing 4.19 kernel based ROM for first time then read [this](https://telegra.ph/How-to-flash-dynamic-partition-rom-first-time-07-26)
 * Only Use 4.19 Dynamic Recovery only.
 * Always clean flash/ wipe data if you are coming from any other ROM or if you are coming from stock.
 * Check the changelog before flashing.
