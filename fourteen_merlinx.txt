@@ -52,3 +52,11 @@ Date - 11/02/2023
 Date - 27/03/2023
 - Clear Flash!!!
 - Mirror Upadet
+
+Date - 31/12/2023-01/01/2024
+- Inital Build
+- MyGO-Kernel 4.14.334
+- Happpy New Year/あけましておめでとう
+- TY for Projects Corruption-Succubus,LOS MT6768 Team,
+Realme MT6785, Six-labs For Help
+- Same As LAncelot
