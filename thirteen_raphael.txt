@@ -1,10 +1,27 @@
 Device: Xiaomi Redmi K20 Pro
 Device maintainer: Anirban (@SageOfD6Path)
 
+Date - 31/12/2023
+=================
+
+• Android 13 EoL build. Enjoy!!!
+• Brought back 32bit apps support
+• Disabled sf tracing transaction
+• Switch to zstd for zram
+• Adapted to latest uclamp tunings from boolx
+• Shipped with BoolX kernel 4.14.334
+
+Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
+       2. Use latest FBEV1 recovery
+       3. Clean flash recommended
+       4. You can flash magisk over ksu, if you wish. Ksu won't cause any problem
+  
+
 Date - 29/11/2023
 =================
 
 • Nuked obsolete configs 
+• Nuked 32bit apps support
 • Updated uclamp interfaces
 • Increased 5GHz Network Signal tolerance
 • Updated MIUI camera to Leica-5.0
@@ -23,7 +40,7 @@ Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
        2. Use latest FBEV1 recovery
        3. Clean flash recommended
        4. You can flash magisk over ksu, if you wish. Ksu won't cause any probl>
-       4. Bugs : Please report with proper logs
+       5. Bugs : Please report with proper logs
 As always, Enjoy!!
 
 
@@ -61,7 +78,7 @@ Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
        2. Use latest FBEV1 recovery
        3. Clean flash recommended
        4. You can flash magisk over ksu, if you wish. Ksu won't cause any probl>
-       4. Bugs : Please report with proper logs
+       5. Bugs : Please report with proper logs
 As always, Enjoy!!
 
 
@@ -112,7 +129,7 @@ Note : 1. Rom is decrypted by default, flash EFE is you want encryption.
        2. Use latest FBEV1 recovery
        3. Dirty flash is okay!!
        4. You can flash magisk over ksu, if you wish. Ksu won't cause any problem (But be sure to use only one root manager app at a time) 
-       4. Bugs : Please report with proper logs
+       5. Bugs : Please report with proper logs
 As always, Enjoy!!
 
 
