@@ -1,0 +1,12 @@
+Device: Motorola One Fusion+
+Device maintainer: Dhinesh (@cool585)
+
+Date - 31/12/2023
+=================
+
+*intial release
+*all new cybertron kernel
+*added wakelock blocker
+(block wakelock for better idle drain)
+
+****🎉🎆Happy New-Year🎆🎉****
