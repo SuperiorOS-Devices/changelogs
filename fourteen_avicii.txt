@@ -1,11 +1,9 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 21/09/2023
+Date - 31/12/2023
 =================
-- Update blobs from AC2003_11_F.21
-- Update kernel to 4.19.288
-- Added Dot Gallery as default Gallery app
+- Inital Build
 
 Note:- 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
