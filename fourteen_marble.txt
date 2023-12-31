@@ -1,0 +1,9 @@
+Device: Poco F5 / Redmi Note 12T
+Device maintainer: CHAITANYA
+
+Date - 31/12/2023
+=================
+- Inital Build
+
+Note:- 
+- If u r not receiving OTP or sms after booting rom, Toggle sim off and on once and reboot.Needed after first boot only
