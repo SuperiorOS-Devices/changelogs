@@ -6,13 +6,11 @@ Device maintainer: Vikas Yaduvanshi
 
 # Method: 
 
-1. Flash twrp recovery img on your device. 
-2. Flash OOS 11(V 11.1.2.2) Stable.
-3. Flash Rom. 
-4. Flash Finalize.zip.
-5. Flash TWRP-3.6.2_12-fajita.zip.
-6. Do Factory reset and Format Data YES.
-7. Reboot to System.
+1. Reboot into twrp recovery 
+2. Flash superior rom zip
+3. Reboot to recovery ( it's booted in its own superior recovery)
+4. Format ( via superior recovery)
+5. Reboot to system
 
 # Downloads:
 
