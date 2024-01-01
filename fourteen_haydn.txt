@@ -1,0 +1,9 @@
+Device: Mi 11x Pro / Redmi K40 Pro
+Device maintainer: Ashray Singh
+
+Date - 1/12/2024
+=================
+- Inital Build
+
+Note:- 
+* check changelogs before flashing this Rom
