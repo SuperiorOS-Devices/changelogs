@@ -1,0 +1,7 @@
+Device: Poco M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite
+Device code name : miatoll
+Device maintainer: clarencelol
+
+Date - 2/1/2024
+=================
+- Inital Build

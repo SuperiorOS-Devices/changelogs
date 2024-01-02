@@ -1,7 +1,7 @@
 ```
-Device name: Redmi Note 9S/Redmi 9 Pro/Redmi Note 9 Pro Max/Redmi Note 10 Lite/Poco M2 Pro
+Device name: Poco M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite
 Device codename: miatoll
-Device maintainer: ARINDAM BHATTACHARJEE | CRUECY
+Device maintainer: clarencelol
 ```
 
 # Method:
@@ -10,7 +10,7 @@ Device maintainer: ARINDAM BHATTACHARJEE | CRUECY
 2. Boot into Recovery.
 3. Go to Apply Update.
 4. Sideload the ROM.
-5. Format Data
+5. Wipe cache/ dalvik and Format Data
 6. Reboot.
 
 # Downloads:
@@ -20,6 +20,8 @@ Device maintainer: ARINDAM BHATTACHARJEE | CRUECY
 
 ## Note:
 
+* Flash latest firmware from MIUI14 but not necessary
 * Always clean flash/ wipe data if you are coming from any other ROM or if you are coming from stock. 
-* FBEv1 Encryption
+* FBEv2 based Encryption
 * Check the changelog before flashing.
+* Any bugs report please do message in the support group
