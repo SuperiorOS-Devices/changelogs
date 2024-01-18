@@ -1,9 +1,17 @@
 Device: Poco F5 / Redmi Note 12T
 Device maintainer: CHAITANYA
 
-Date - 31/12/2023
+Date - 18/01/2024
 =================
-- Inital Build
+- marble: parts: Relay display orientation to touchpanel
+- marble: Import xiaomi touchfeature HAL service
+- marble: Switch to sysfs node for handling DT2W
+- marble: parts: Update and polish vector drawables
+- marble: Build and enable AvoidAppsInCutoutOverlay
+- marble: parts: Fix thermal profile screen state handling
+- marble: perf: Disable LPM sleep in performance mode
+- marble: Do not balance msm_drm and kgsl_3d0 IRQs
+- marble: Selectively import xiaomi changes in gps.conf
 
 Note:- 
 - If u r not receiving OTP or sms after booting rom, Toggle sim off and on once and reboot.Needed after first boot only
