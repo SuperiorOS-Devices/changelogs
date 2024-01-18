@@ -1,9 +1,9 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 31/12/2023
+Date - 18/01/2023
 =================
-- Inital Build
+- No changes from dt side
 
 Note:- 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
