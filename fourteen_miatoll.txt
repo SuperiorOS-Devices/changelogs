@@ -2,6 +2,15 @@ Device: Poco M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / 
 Device code name : miatoll
 Device maintainer: clarencelol
 
+Date - 18/01/2024
+=================
+- Added Moto Dolby
+- Enabled ZRAM writeback
+- Enabled blurs by default
+
 Date - 2/1/2024
 =================
 - Inital Build
+
+Note:-
+- Faced any issues / bugs please do report them in Telegram support group
