@@ -1,7 +1,7 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 23/09/2023
+Date - 19/01/2024
 =================
 
-- Reverted previous auto brightness related changes
+- Initial build

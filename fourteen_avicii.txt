@@ -3,7 +3,7 @@ Device maintainer: Sipun Ku Mahanta
 
 Date - 18/01/2023
 =================
-- No changes from dt side
+- Enabled Blur
 
 Note:- 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
