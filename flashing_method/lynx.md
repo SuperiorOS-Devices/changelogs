@@ -13,6 +13,13 @@ Device maintainer: Vikas Yaduvanshi
 
 ---
 
+
+# Downloads:
+
+* Recovery: [Download](https://sourceforge.net/projects/superioros/files/lynx/recovery/)
+* ROM : [Download](https://sourceforge.net/projects/superioros/files/lynx/gapps/)
+
+
 # Method: #1 
 
 ```
@@ -39,37 +46,6 @@ Update installation:
 5.Reboot
 
 ```
-
-
-NOTE: If all the flashing process succeeds the terminal output will stop at 47% and report adb: failed to read command: Success. In some cases it will report adb: failed to read command: No error which is also fine. Also gapps are included by default with the rom.
-```
-
- 
-
-```
-
-# Fastboot zip Flashing  Method: #2
-```
-
-
-
-Note : 
----
-*Only Use This Method For Fastboot Flashing Zip*  : [Download](https://sourceforge.net/projects/superioros/files/lynx/images/)
-
----
-Instructions for Clean flashing/Fresh installation 
-1. Reboot to bootloader and proceed with following commands 
-2. fastboot -w ( if you are coming from stock os  any other rom / Superioros  too old )
-3. fastboot update SuperiorOS*.zip
-4. Wait for the device to automatically reboot to fastbootd then to system 
-
----
-Note : 
----
-1. Backup all your important data as the clean installation will wipe your internal storage 
-2.Make sure you have latest platform tools  [Download](https://developer.android.com/studio/releases/platform-tools) 
-3.drivers installed ( not minimal official ones from google )
 
 ## Note:
 
