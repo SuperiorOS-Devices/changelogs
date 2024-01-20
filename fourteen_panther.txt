@@ -1,0 +1,6 @@
+Device: Google Pixel 7
+Device maintainer: Jayant Deshmukh
+
+Date - 20/01/2024
+=================
+* Initial Release for Android 14
