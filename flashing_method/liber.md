@@ -17,7 +17,7 @@ Device maintainer: Dhinesh | cool585
 
 # using twrp
 
-1. Download the ROM and twrp.
+1. Download the ROM and official twrp or orangefox.
 2. Reboot to bootloader
 3. Fastboot boot twrp*.img
 4. It will boot to twrp
