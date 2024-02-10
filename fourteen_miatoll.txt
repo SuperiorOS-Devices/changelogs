@@ -2,6 +2,19 @@ Device: Poco M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / 
 Device code name : miatoll
 Device maintainer: clarencelol
 
+Date - 10/02/2024
+=================
+- Added back MiuiCamera (Fixed all the mentioned issues)
+- Downgraded adreno blobs to make MiuiCamera happy
+- Downgraded FCM to Level 4, while maintaining Kernel level 5
+- Increase media steps to 25
+- Minor tweaks to audio configs
+- Updated WFD blobs from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+- Disabled memtrack
+- Cleanup scripts
+- Import sunfish power_profile
+- Update powerhint to improve power consumption / blurs usage
+
 Date - 18/01/2024
 =================
 - Added Moto Dolby
