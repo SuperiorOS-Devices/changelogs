@@ -1,0 +1,39 @@
+Device: OnePlus 6
+Device code name : enchilada
+Device maintainer: Vikas Yaduvanshi 
+
+
+
+
+Device /source Specific Changes:
+=====================================
+10 February 2024,
+====================================
+- Update  kernel based on lineage  latest changes
+- Added Lineage Health  Charge control
+- Added BatteryStatsViewer under Battery section 
+- Added BLUR Support
+
+
+Source Specific Changes:
+=====================================
+10 February 2024,
+====================================
+- Merged February ASB (android-14.0.0_r25)
+- Removed colored charging bolt indicator
+- Turned on VoLTE/VoWiFi icon by default
+- Added CM lockscreen settings
+- Configurable 0, 90, 180 and 270 degree rotation support
+- Added adaptive playback support
+- Added QS tile layout settings
+- Disabled rotation on lockscreen
+- Added option for haptic feedback for QS tiles
+- Added Ambiant display and AOD QS tiles
+- Added Optional haptic feedback on back gesture support
+- Added navigation mode/ extended gestures for navigation bar
+- Added Phonelink support [Optional]
+- Added detailed batterystats option in Battery page
+- Dropped Metro, Handwriting and waether clocks
+- Updated prebuilts
+- Merged translations from crowdin
+- Misc improvement and fixes
