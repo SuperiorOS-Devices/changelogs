@@ -1,9 +1,10 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 18/01/2023
+Date - 10/02/2023
 =================
-- Enabled Blur
+- Rebased trees over Akshay's Trees [Clean Flash needed]
+- Upstreamed kernel to 4.19.300
 
 Note:- 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
