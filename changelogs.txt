@@ -1,21 +1,21 @@
-Date - 18/01/2024
+Date - 10/02/2024
 =================
 
-- Merged January ASB (android-14.0.0_r20)
-- Fixed some devices stuck at animation after reboot
-- Improved PixelPropUtils
-- Added support for Alert slider
-- Added Black theme
-- Added option to hide gesture bar
-- Added Lineage Health (Charging control)
-- Added a toggle to enable/disable unlimited photo storage
-- Added Ambient music ticker
-- Add capability to allow tethering to use VPN upstreams
-- Added option to skip music using volume button while screen is off
-- Add less boaring heads-up
-- Added support to suppress notification sound while screen is ON
-- Added Lockscreen Media art customisation
-- Added Lockscreen weather
+- Merged February ASB (android-14.0.0_r25)
+- Removed colored charging bolt indicator
+- Turned on VoLTE/VoWiFi icon by default
+- Added CM lockscreen settings
+- Configurable 0, 90, 180 and 270 degree rotation support
+- Added adaptive playback support
+- Added QS tile layout settings
+- Disabled rotation on lockscreen
+- Added option for haptic feedback for QS tiles
+- Added Ambiant display and AOD QS tiles
+- Added Optional haptic feedback on back gesture support
+- Added navigation mode/ extended gestures for navigation bar
+- Added Phonelink support [Optional]
+- Added detailed batterystats option in Battery page
+- Dropped Metro, Handwriting and waether clocks
 - Updated prebuilts
-- Improved Clone apps
+- Merged translations from crowdin
 - Misc improvement and fixes
