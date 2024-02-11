@@ -1,19 +1,20 @@
 Device: Mi 11x Pro / Redmi K40 Pro
 Device maintainer: Ashray Singh
 
-Date - 18/01/2024
+Date - 11/02/2024
 =================
-- updated vendor blobs to haydn V14.0.7.0.TKKMIXM
-- Add fling velocities props for better touch responsiveness and smoothness
-- Added dynamic thermal profile implementation
-- Localise NTP to improve GPS TTFF
-- Update Perf stack to LA.UM.9.14.r1-21000-LAHAINA.QSSI12.0
-- Update Graphics stack to LA.UM.9.14.r1-21000-LAHAINA.QSSI…
-- kernel improvements
-
-Date - 1/12/2024
-=================
-- Inital Build
+- Disable logging sensors-hal events
+- parts: Increase BootCompletedReceiver priority
+- parts: Use directBootAware
+- parts: Add per app maximum refresh rate
+- parts: Update clear speaker drawable
+- Update Dolby Permissions for A14
+- dolby: Allow some apps to open DaxUI as eq
+- Import OzoAudio Engine prebuilts
+- Drop some more prebuilt packages (DotGallery ViaBrowser DuckDuckGo)
+- Increase CPU Boost duration from 120ms to 200ms
+- Move background cpuset to CPU0-1
+- Configure schedutil up/down rate limit
 
 Note:- 
 * check changelogs before flashing this Rom
