@@ -8,16 +8,28 @@ Device maintainer: Ashray Singh
 
 
 # Method:
-Clean Flash:
+Clean Flash Gapps Build:
 1. Download and boot into Ofox img using
      fastboot boot recovery.img
 2. Flash Ofox/Twrp zip 
 3. Reboot Recovery 
 4. Wipe Data, Metadata, Cache, Dalvik-Cache
-4. Copy ROM to Internal Storage and Flash ROM & Recovery (Twrp recommended for A14 ROMs) OR Sideload ROM
-5. Reboot Recovery 
-6. Format Data
-6. Boot to system
+5. Copy ROM to Internal Storage and Flash ROM & Recovery (Twrp recommended for A14 ROMs) OR Sideload ROM
+6. Reboot Recovery 
+7. Format Data
+8. Boot to system
+
+Clean Flash Vanilla Build:
+1. Download and boot into Ofox img using
+     fastboot boot recovery.img
+2. Flash Ofox/Twrp zip 
+3. Reboot Recovery 
+4. Wipe Data, Metadata, Cache, Dalvik-Cache
+5. Copy ROM to Internal Storage and Flash ROM & Recovery (Twrp recommended for A14 ROMs) OR Sideload ROM
+6. Reboot Recovery 
+7. Flash Nikgapps or any other gapps
+8. Format Data
+9. Boot to system
 
 Dirty Flash:
 1. Reboot Recovery 
