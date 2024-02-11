@@ -1,0 +1,7 @@
+Device: Pocophone F1
+Device maintainer: Akshat
+
+Date - 11/02/2024
+=================
+
+- Initial A14 build
