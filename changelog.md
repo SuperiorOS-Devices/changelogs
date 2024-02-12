@@ -18,9 +18,10 @@
 - Added Ambiant display and AOD QS tiles
 - Added Optional haptic feedback on back gesture support
 - Added navigation mode/ extended gestures for navigation bar
-- Added Phonelink support [Optional]
+- Added Phonelink support
 - Added detailed batterystats option in Battery page
-- Dropped Metro, Handwriting and waether clocks
+- Dropped Metro, Handwriting and weather clocks
 - Updated prebuilts
+- Fixed Updater
 - Merged translations from crowdin
 - Misc improvement and fixes
