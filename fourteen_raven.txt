@@ -1,3 +1,7 @@
 Date - 21/02/2024
 =================
 * First Fourteen Official Build (February Security patch)
+
+Date - 28/02/2024
+=================
+* DocumentsUI hotfix
