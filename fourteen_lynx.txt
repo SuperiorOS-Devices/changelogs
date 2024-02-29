@@ -2,8 +2,20 @@ Device: Google pixel 7a
 Device code name : lynx
 Device maintainer: Vikas Yaduvanshi 
 
-Note :This update Required Clean Flash 
+==============================
+source Side changes  29/02/2024
+==============================
+* Gapps Fixup DocumentsUI 
 
+=============================
+Device Side Changes  29/02/2024
+==============================
+* Update IWLAN config with IMS changes
+* Enable Osaifu-Keitai on non-Japanese SKUs
+* Revert - fix padding in status bar"
+Reason for revert: Not working properly.
+* Added BLUR Support
+* Updated Pixelparts 
 
 ==============================
 source Side changes 16/02/2024
