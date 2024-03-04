@@ -1,20 +1,13 @@
 Device: Mi 11x Pro / Redmi K40 Pro
 Device maintainer: Ashray Singh
 
-Date - 11/02/2024
+Date - 04/03/2024
 =================
-- Disable logging sensors-hal events
-- parts: Increase BootCompletedReceiver priority
-- parts: Use directBootAware
-- parts: Add per app maximum refresh rate
-- parts: Update clear speaker drawable
-- Update Dolby Permissions for A14
-- dolby: Allow some apps to open DaxUI as eq
-- Import OzoAudio Engine prebuilts
-- Drop some more prebuilt packages (DotGallery ViaBrowser DuckDuckGo)
-- Increase CPU Boost duration from 120ms to 200ms
-- Move background cpuset to CPU0-1
-- Configure schedutil up/down rate limit
+- Disable Blur by default
+- Copy statusbar and corner config from aospa/alioth
+- Import Vibration pattern overlay from Redwood
+- Improve Ultrasound Proximity Sensor
+- Upstream kernel to Linux 5.4.268
 
 Note:- 
 * check changelogs before flashing this Rom
