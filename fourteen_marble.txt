@@ -1,25 +1,33 @@
 Device: Poco F5 / Redmi Note 12T
 Device maintainer: CHAITANYA
 
-Date - 13/02/2024
+Date - 05/03/2024
 =================
-- marble: extract-files: fix-up patch
-- marble: update build fingerprint
-- marble: Switch to armv9-a
-- marble: update to hyper os 1.0.2.0.UMRMIXM
-- marble: Set config_displayLightSensorType to xiaomi.sensor.ambientlight.raw
-- marble: Cleanup 32bit libs
-- marble: Switch to 64-bit only builds
-- marble: rootdir: Update performance tuning
-- marble: perf: Bump CPU input boost durations
-- marble: overlay: Sync CarrierConfig with component
-- marble: sepolicy: Address IFAA and soter service denials
-- marble: Enable Pelt8 during boot
-- marble: Add default affinity bootarg for Waipio
-- marble: Silence some spammy logging
-- marble: parts/keyhandler: Guard debug logging
-
+- marble: thermal: Nuke qti thermal
+- marble: thermal: Import qcom-caf thermal HAL
+- marble: init: Set minimum scaling frequency of silver cluster to 300MHz
+- marble: rro-overlay: Don't use proximity sensor for DozeSensors
+- marbe: config: Enable Advanced SF Phase Offsets
+- marble: overlay: Make the UI smoother
+- marble: Debloat Some Apps
+- marble: overlay: Add config_wallpaperMaxScale overlay
+- marble: Fixup-Enable FUSE Passthrough
+- marble: rootdir: Fix the battery drain due to statsd...?
+- marble: Kang libqcrilNrSmsModule.so from OOS 11.C.51
+- Revert "[PATCH] marble: Import oriole cpuctl tuning"
+- marble: BoardConfig: set HWUI_COMPILE_FOR_PERF to "true"
+- marble: Import Powerhint from stock
+- marble: props: Remove Force triple frame buffers
+- marble: Sync some of the refresh rate properties with Pixel
+- marble: Optimise dex flags
+- marble: overlay: improve signal reception
+- marble: configs: wifi: Disable FW TWT
+- marble: Move to PreferenceFragmentCompat
+- marble: sepolicy: qti: Address qcom perf hal denials
+- fixup! marble: Enable VoNR Calls support
+- marble: overlay: Don't require long press for lockscreen shortcuts
+- marble: Enable GL comp backpressure
 
 Note:- 
-- If u r not receiving OTP or sms after booting rom, Toggle sim off and on once and reboot.Needed after first boot only
+- Give rom 1 day to settle
 - READ FLASHING STEPS
