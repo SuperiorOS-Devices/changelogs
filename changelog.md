@@ -1,24 +1,11 @@
-<h1 align="center">Date - 04/03/2024</h1>
+<h1 align="center">Date - 11/05/2024</h1>
 
-<img src="https://github.com/SuperiorOS-Devices/changelogs/assets/29405483/386d8bce-cc46-4a64-9bc8-35165561bbd8" align="right">
+<img src="https://github.com/SuperiorOS-Devices/changelogs/assets/66232233/06aaf4e6-52b7-4f1d-8f82-e6b92826ad00" align="right">
 
 &nbsp;  
 &nbsp;  
 
+- Rebased source over QPR2 release
+- Merged May security patch
 
-- Changed VoLTE/VoWiFi implementaions and icons
-- Added face unlock support
-- Turned on VoLTE/VoWiFi icon by default
-- Fixed lockscreen pattern bug
-- Fixed clear all on recent app screen bug
-- Dropped Phonelink support
-- Fixed some apps login issues
-- Fixed RAM calculation for some devices
-- Switched to Full gapps for gapps builds
-- Switched to glimpse gallery for vanilla builds
-- Launcher3: Fixed uninstalling apps bugs
-- Updated prebuilts
-- Merged translations from crowdin
-- Misc improvement and fixes
-
-**Note: For gapps we suggest to do clean flash..**
+**Note: Clean flash is recommended.**

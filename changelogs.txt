@@ -1,19 +1,7 @@
-Date - 04/03/2024
+Date - 11/05/2024
 =================
 
-- Changed VoLTE/VoWiFi implementaions and icons
-- Added face unlock support
-- Turned on VoLTE/VoWiFi icon by default
-- Fixed lockscreen pattern bug
-- Fixed clear all on recent app screen bug
-- Dropped Phonelink support
-- Fixed some apps login issues
-- Fixed RAM calculation for some devices
-- Switched to Full gapps for gapps builds
-- Switched to glimpse gallery for vanilla builds
-- Launcher3: Fixed uninstalling apps bugs
-- Updated prebuilts
-- Merged translations from crowdin
-- Misc improvement and fixes
+- Rebased source over QPR2 release
+- Merged May security patch
 
-Note: For gapps we suggest to do clean flash..
+Note: Clean flash is recommended.
