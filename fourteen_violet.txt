@@ -1,7 +1,10 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 19/01/2024
+Date - 11/05/2024
 =================
 
-- Initial build
+- Switched to retrofit dynamic partition
+- Switched to AIDL IR service 
+- Added stable MiuiCamera
+- Updated system blobs to LA.QSSI.14.0.r1-13500-qssi.0 
