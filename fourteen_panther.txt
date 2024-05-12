@@ -1,7 +1,6 @@
 Device: Google Pixel 7
 Device maintainer: Jayant Deshmukh
 
-Date - 16/02/2024
+Date - 12/05/2024
 =================
-* Switched to new GAPPS (full gapps with assistant typing)
-* Requries clean flash
+* May platform security patches QPR2 update
