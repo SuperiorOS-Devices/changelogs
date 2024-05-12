@@ -1,10 +1,11 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 10/02/2023
+Date - 12/05/2024
 =================
-- Rebased trees over Akshay's Trees [Clean Flash needed]
-- Upstreamed kernel to 4.19.300
+- Update WiFi blobs from OOS 14.0.0.81(EX01)
+- Update blobs from OOS F_23
+- Adapt to A14 QPR2
 
 Note:- 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
