@@ -1,8 +1,10 @@
 Device: Xiaomi Redmi Note 5 Pro
 Device maintainer: Sipun Ku Mahanta
 
-Date - 12/05/2024
+Date - 30/05/2024
 =================
 
-- Fixed network issue after reboot
-- doze: Adapt for A14 QPR2
+- Fixed FP option missing
+- USB preference is partially fixed ( Go to devloper option and chanhe from there)
+
+Note: Clean flash needed due to signed with private keys
