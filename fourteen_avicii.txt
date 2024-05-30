@@ -1,12 +1,12 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 12/05/2024
+Date - 30/05/2024
 =================
-- Update WiFi blobs from OOS 14.0.0.81(EX01)
-- Update blobs from OOS F_23
-- Adapt to A14 QPR2
+- Fixed fingerprint icon not showing while setup
 
 Note:- 
+- Due to signed using private keys clean flash needed.
+
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
 - You may see some bugs, report them to me on telegram
