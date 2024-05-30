@@ -9,7 +9,7 @@
 - Signed with private keys
 - Added CM security features
 - Show Daily data usage in QS footer
-- Added option for Allowing to suppress notifications sound/vibration if screen>
+- Added option for Allowing to suppress notifications sound/vibration if screen is ON
 - Added less boring headsup option
 - Added various back gesture custs
 - Added extended navigation gestures
