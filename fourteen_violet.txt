@@ -1,10 +1,9 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 11/05/2024
+Date - 07/06/2024
 =================
 
-- Switched to retrofit dynamic partition
-- Switched to AIDL IR service 
-- Added stable MiuiCamera
-- Updated system blobs to LA.QSSI.14.0.r1-13500-qssi.0 
+- Corrected property to keep latch-unsignaled off by default
+- Switched to android.hardware.usb@1.3-service.dual_role_usb
+- Disabled "Enable GL comp backpressure" property
