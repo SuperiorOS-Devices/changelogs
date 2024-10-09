@@ -1,9 +1,9 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 30/05/2024
+Date - 09/10/2024
 =================
-- Fixed fingerprint icon not showing while setup
+- Initial build after QPR3
 
 Note:- 
 - Due to signed using private keys clean flash needed.
