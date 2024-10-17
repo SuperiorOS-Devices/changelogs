@@ -1,14 +1,29 @@
-<h1 align="center">Date - 23/09/2024</h1>
+<h1 align="center">Date - 17/10/2024</h1>
 
-<img src="https://github.com/SuperiorOS-Devices/changelogs/assets/66232233/06aaf4e6-52b7-4f1d-8f82-e6b92826ad00" align="right">
+<img src="https://github.com/SuperiorOS-Devices/changelogs/assets/66232233/e3d80293-2cb0-4049-9a8f-d2b277866dee" align="right">
 
 &nbsp;  
-&nbsp;  
+&nbsp;
 
-- Merged September security patch (android-14.0.0_r67)
-- Improvements to OmniJaws
-- Added rewuired patches for MiuiCamera
-- Updated build fingerprints
-- Added less boring heads up option
-- Added toggle to suppress notifications sound/vibration if screen is ON
+- Merged October security patch (android-security-14.0.0_r13)
+- Improvements to Battery info
+- Added Alert slider UI
+- Disabled rotation on lockscreen
+- Added volume panel location option(Config based)
+- Added Gamespace and improved UI
+- Added pocket lock
+- Fixed potential memory leaks
+- Added navbar layout inversion tuning
+- Switched to mkrbin for copying crash logs
+- Introduce Depth Wallpaper feature
+- Added QS Header Image customization
+- Added FPS and Refresh rate tiles
+- Added data usage indicator to QS panel footer
+- Added hotspot toggle in QS internet dialog
+- Added Haptic Feedback to tiles
+- Allow disabling qs on secure lockscreen
+- Allow disabling ripple effect on unlock
+- Fingerprint authentication vibration enable/disable option
+- Merged tranlation from crowdin
+- Updated prebuilts
 - Minor fixes and improvements
