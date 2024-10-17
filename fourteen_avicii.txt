@@ -1,12 +1,13 @@
 Device: Oneplus Nord
 Device maintainer: Sipun Ku Mahanta
 
-Date - 09/10/2024
+Date - 17/10/2024
 =================
-- Initial build after QPR3
+- Fixed Battery Info page crash
+- Added Refresh Rate tile
 
 Note:- 
-- Due to signed using private keys clean flash needed.
+- If using september build then you can dirty flash or update from updater otherwise clean flash needed.
 
 - If you are coming from OOS 11 or OOS 11 based ROM, you need flash OOS 12 first
 - You may see some bugs, report them to me on telegram
