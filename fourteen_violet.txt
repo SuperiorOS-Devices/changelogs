@@ -1,7 +1,13 @@
 Device: Xiaomi Redmi Note 7 Pro
 Device maintainer: Nipin NA (Joker-V2)
 
-Date - 23/09/2024
+Date - 18/10/2024
 =================
 
-- Updated Graphics blobs
+- Reverted back to old Graphic blobs (Fixed video mode issues related to Miui Camera)
+- Switched to QTI Memtrack AIDL HAL
+- Updated Media Configs from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+- Removed software omx codec references (Blobs & Configs)
+- Moved to common Xiaomi light AIDL
+- Updated gps blobs to LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
+
